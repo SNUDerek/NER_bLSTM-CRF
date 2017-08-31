@@ -23,6 +23,8 @@ see: `preprocessing.ipynb`
 
 ## model and training
 
+see: `keras_training.py`
+
 model inputs: text and pos-tag integer-indexed sequences (padded)
 model output: named entity tag integer-indexed sequences (padded)
 
