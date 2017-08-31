@@ -50,7 +50,7 @@ model:
 ```
 MAX_LENGTH = 30			# max sent length supported (words)
 MAX_VOCAB = 25000 		# out of 29341
-EMBEDDING_SIZE = 100	# gensim word2vec embedding size
+EMBEDDING_SIZE = 100	  # gensim word2vec embedding size
 HIDDEN_SIZE = 200		# LSTM feature size
 BATCH_SIZE = 64
 DROPOUTRATE = 0.2
