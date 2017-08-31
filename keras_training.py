@@ -13,8 +13,6 @@ from embedding import create_embeddings, load_vocab, tokenize
 # params
 MAX_LENGTH = 30
 MAX_VOCAB = 25000    # see preprocessing.ipynb
-TAG_VOCAB = 42
-NER_VOCAB = 17
 EMBEDDING_SIZE = 100 # from default gensim model, see preprocessing.ipynb
 HIDDEN_SIZE = 200       # LSTM Nodes/Features/Dimension
 BATCH_SIZE = 64
