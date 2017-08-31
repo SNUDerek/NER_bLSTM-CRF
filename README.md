@@ -2,6 +2,23 @@
 
 this is a proof of concept for using LSTM-CRF for named entity recognition.
 
+## requirements
+```
+gensim
+keras
+keras-contrib
+tensorflow
+numpy
+pandas
+```
+
+## to run
+
+1. add /embeddings and /model to directory
+2. run `preprocessing.ipynb` to generate data
+3. run `keras_training.py` to train and save model
+4. run `decoding.ipynb` to load saved model and decode test sentences
+
 ## data
 
 trained on the ConLL-2002 English NER dataset:
@@ -46,6 +63,7 @@ optimizer='adam'
 ```
 
 result:
+
 `Accuracy: 97.62% `
 
 ## decoding
