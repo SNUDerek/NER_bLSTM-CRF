@@ -35,8 +35,9 @@ see: `preprocessing.ipynb`
 2. word, POS-tag and named entity lists are created by sentence
 3. a vocabulary for each input/output type is created
 4. sentence words, POS-tags and NE's are integer-indexed as lists
-5. data is split into train and test sets
-6. all necessary information is saved as numpy binaries
+5. data is filtered for only sentences with at least one NE tag
+6. data is split into train and test sets
+7. all necessary information is saved as numpy binaries
 
 ## model and training
 
