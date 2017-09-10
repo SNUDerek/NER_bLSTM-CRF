@@ -1,79 +1,68 @@
-# bi-LSTM-CRF for Named Entity Recognition
-
-this is a proof of concept for using LSTM-CRF for named entity recognition.
+# bLSTM-CRF for metaphor detection
 
 ## requirements
 ```
 gensim
 keras
 keras-contrib
-tensorflow
+matplotlib
 numpy
 pandas
+tensorflow
 ```
 
-## to run
+## data, inputs, outputs
 
-1. add /embeddings and /model to directory
-2. run `preprocessing.ipynb` to generate data
-3. run `keras_training.py` to train and save model
-4. run `decoding.ipynb` to load saved model and decode test sentences
+data is from the 000 corpus (*todo: add corpus name)
 
-## data
+data are text sentences, power-cased and stripped of metaphor labels ('@'). each word is integer-indexed according to frequency.
 
-trained on the ConLL-2002 English NER dataset:
+labels are 0/1 sequences, with 1 indicating a metaphor.
 
-https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus
+## to run:
 
-**NB: convert to utf-8 first, converted csv is in repository**
+1. run `preprocessing.ipynb` to generate network-readable data in `npy` format
+2. run training scripts (`keras_training-lstm.py` and `keras_training-crf.py`)
+3. run `decoding.ipynb` to analyse results
 
-## preprocessing
+## model/training notes
 
-see: `preprocessing.ipynb`
+- different word embedding sizes were not thoroughly explored; paper (citation needed) recommends 100-size embeddings as smallest informative size
+- setting Embedding layer as `trainable=True` significantly affected bi-LSTM-CRF accuracy (~5%+)
+- non-CRF LSTM model was not tweaked; it is direct copy of bi-LSTM-CRF network with modified final layers
 
-1. csv is read
-2. word, POS-tag and named entity lists are created by sentence
-3. a vocabulary for each input/output type is created
-4. sentence words, POS-tags and NE's are integer-indexed as lists
-5. data is filtered for only sentences with at least one NE tag
-6. data is split into train and test sets
-7. all necessary information is saved as numpy binaries
+## results:
 
-## model and training
+the bidirectional LSTM network does not identify metaphors well; while raw accuracy is high, in truth the network learns to label all words as non-metaphor (over-generalization). see `sample_results_lstm.csv`:
 
-see: `keras_training.py`
-
-model inputs: text and pos-tag integer-indexed sequences (padded)
-
-model output: named entity tag integer-indexed sequences (padded)
-
-model:
 ```
-MAX_LENGTH = 30			# max sent length supported (words)
-MAX_VOCAB = 25000 		# out of 29341
-EMBEDDING_SIZE = 100	  # gensim word2vec embedding size
-HIDDEN_SIZE = 200		# LSTM feature size
-BATCH_SIZE = 64
-DROPOUTRATE = 0.2
-MAX_EPOCHS = 4
+on withheld test sentences:
 
-text layers   : dense embedding > dropout > bi-LSTM
-pos layers    : dense embedding > dropout > bi-LSTM
-merged layers : concatenate text and pos outputs > bi-LSTM > bi-LSTM > CRF
+             precision    recall  f1-score   support
 
-optimizer='adam'
+        0.0       0.88      1.00      0.94      4968
+        1.0       0.00      0.00      0.00       662
+
+avg / total       0.78      0.88      0.83      5630
 ```
 
-result:
+the bi-LSTM-CRF network does significantly better at identifying metaphors; see `sample_results_crf.csv`:
 
-`Accuracy: 97.62% `
+```
+on withheld test sentences:
 
-## decoding
+             precision    recall  f1-score   support
 
-see: `decoding.ipynb` for code, `test_decode_sample.csv` for sample decode
+        0.0       0.94      0.95      0.95      4968
+        1.0       0.63      0.58      0.60       662
 
-this file decodes test set results into human-readable format.
+avg / total       0.91      0.91      0.91      5630
 
-adjust the number of outputs to see in the following line:
+metaphor-positive label info
+true positives : 384
+false positives: 229
+false negatives: 278
+rcll (tp/tp+fn): 58.00604229607251
+prec (tp/tp+fp): 62.64274061990212
+```
 
-`for sent_idx in range(len(X_test_sents[:500])):` << adjust 500 up or down

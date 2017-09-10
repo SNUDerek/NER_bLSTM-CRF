@@ -75,7 +75,7 @@ def get_vocab(sents, maxvocab, stoplist=[], testing=0):
     vocab_dict['UNK'] = maxvocab-1
     vocab_dict['PAD'] = 0
     inv_vocab_dict = {v: k for k, v in vocab_dict.items()}
-    return vocab_dict, inv_vocab_dict
+    return sorted_vocab, vocab_dict, inv_vocab_dict
 
 
 # function to convert sents to vectors
