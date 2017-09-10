@@ -15,7 +15,7 @@ tensorflow
 
 data is from the 000 corpus (*todo: add corpus name)
 
-data are text sentences, power-cased and stripped of metaphor labels ('@'). each word is integer-indexed according to frequency.
+data are text sentences, lower-cased and stripped of metaphor labels ('@'). each word is integer-indexed according to frequency.
 
 labels are 0/1 sequences, with 1 indicating a metaphor.
 
