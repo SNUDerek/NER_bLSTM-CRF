@@ -1,0 +1,2501 @@
+,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+word,the,u.s.,military,says,the,chinook,aircraft,went,down,early,sunday,in,zabul,province,shortly,after
+pos,DT,NNP,NN,VBZ,DT,NNP,NN,VBD,RB,RB,NNP,IN,NNP,NN,RB,IN
+true,O,B-geo,O,O,O,O,O,O,O,O,B-tim,O,B-geo,O,O,O
+pred,O,B-geo,O,O,O,O,O,O,O,O,B-tim,O,B-geo,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,hospital,is,to,issue,a,statement,later,thursday,,,,,,,
+pos,DT,NN,VBZ,TO,VB,DT,NN,RB,NNP,,,,,,,
+true,O,O,O,O,O,O,O,B-tim,I-tim,,,,,,,
+pred,O,O,O,O,O,O,O,B-tim,I-tim,,,,,,,
+skip, , , , , , , , , ,,,,,,,
+word,the,seventh,round,of,peace,talks,for,sudan,'s,troubled,darfur,region,have,been,postponed,","
+pos,DT,JJ,NN,IN,NN,NNS,IN,NNP,POS,JJ,NNP,NN,VBP,VBN,VBN,","
+true,O,O,O,O,O,O,O,B-gpe,O,O,B-geo,O,O,O,O,O
+pred,O,O,O,O,O,O,O,B-geo,O,O,B-tim,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,at,21,years,old,",",alonso,would,become,the,youngest,series,champion,ever,,,
+pos,IN,CD,NNS,JJ,",",NNP,MD,VB,DT,JJS,NN,NN,RB,,,
+true,O,O,O,O,O,B-per,O,O,O,O,O,O,O,,,
+pred,O,B-tim,O,O,O,B-per,O,O,O,O,O,O,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,after,his,visit,with,the,president,",",mr.,schroeder,is,scheduled,to,speak,to,the,u.s.
+pos,IN,PRP$,NN,IN,DT,NN,",",NNP,NNP,VBZ,VBN,TO,VB,TO,DT,NNP
+true,O,O,O,O,O,O,O,B-per,I-per,O,O,O,O,O,O,B-org
+pred,O,O,O,O,O,O,O,B-per,I-per,O,O,O,O,O,O,B-gpe
+skip, , , , , , , , , , , , , , , , 
+word,peruvian,lawmakers,have,rejected,votes,of,no,confidence,against,the,country,'s,prime,and,transport,ministers
+pos,JJ,NNS,VBP,VBN,NNS,IN,DT,NN,IN,DT,NN,POS,JJ,CC,NN,NNS
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,B-per,O,O,O
+pred,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,rising,nationalism,throughout,the,19th,century,led,to,a,1905,referendum,granting,norway,independence,,
+pos,VBG,NN,IN,DT,JJ,NN,VBD,TO,DT,CD,NN,VBG,NNP,NN,,
+true,O,O,O,O,B-tim,O,O,O,O,B-tim,O,O,B-org,O,,
+pred,O,O,O,O,B-tim,I-tim,O,O,O,B-tim,O,O,B-geo,O,,
+skip, , , , , , , , , , , , , , ,,
+word,austrian,foreign,minister,ursula,plassnik,says,the,three-day,"""",islam,in,a,pluralistic,world,"""",is
+pos,JJ,JJ,NN,NNP,NNP,VBZ,DT,JJ,``,NNP,IN,DT,JJ,NN,``,VBZ
+true,B-gpe,O,O,B-per,I-per,O,O,B-tim,I-tim,B-geo,O,O,O,O,O,O
+pred,B-gpe,O,B-per,I-per,I-per,O,O,B-tim,O,B-per,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,in,an,interview,with,voa,in,washington,wednesday,",",mr.,garang,said,his,sudan,people,liberation
+pos,IN,DT,NN,IN,NNP,IN,NNP,NNP,",",NNP,NNP,VBD,PRP$,NNP,NNS,NNP
+true,O,O,O,O,B-org,O,B-geo,B-tim,O,B-per,I-per,O,O,B-org,I-org,I-org
+pred,O,O,O,O,B-org,O,B-geo,B-tim,O,B-per,I-per,O,O,B-org,I-org,I-org
+skip, , , , , , , , , , , , , , , , 
+word,per,capita,income,has,declined,by,15,%,since,1999,",",but,registered,a,slight,improvement
+pos,IN,NN,NN,VBZ,VBN,IN,CD,NN,IN,CD,",",CC,VBD,DT,JJ,NN
+true,O,O,O,O,O,O,O,O,B-tim,I-tim,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,B-tim,I-tim,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,an,artist,&,repertoire,executive,for,sony,bmg,in,britain,",",he,runs,his,own,production
+pos,DT,NNP,CC,NNP,NN,IN,NNP,NNP,IN,NNP,",",PRP,VBZ,PRP$,JJ,NN
+true,O,B-org,I-org,I-org,O,O,B-org,I-org,O,B-geo,O,O,O,O,O,O
+pred,O,B-org,I-org,I-org,O,O,B-org,I-org,O,B-geo,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,company,had,said,in,october,that,it,would,not,buy,milk,from,a,farm,owned
+pos,DT,NN,VBD,VBN,IN,NNP,IN,PRP,MD,RB,VB,NN,IN,DT,NN,VBN
+true,O,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,children,were,rescued,the,next,day,during,a,police,raid,on,an,apartment,in,the
+pos,DT,NNS,VBD,VBN,DT,JJ,NN,IN,DT,NN,NN,IN,DT,NN,IN,DT
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,iraqi,officials,say,two,suicide,bombers,killed,at,least,four,people,and,wounded,17,in,an
+pos,JJ,NNS,VBP,CD,NN,NNS,VBD,IN,JJS,CD,NNS,CC,VBD,CD,IN,DT
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,various,islamist,groups,have,taken,control,over,much,of,the,country,in,recent,months,",",leaving
+pos,JJ,NN,NNS,VBP,VBN,NN,IN,NN,IN,DT,NN,IN,JJ,NNS,",",VBG
+true,O,O,O,O,O,O,O,O,O,O,O,O,B-tim,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,B-tim,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,lindsay,lohan,has,reportedly,checked,into,a,utah,rehabilitation,center,,,,,,
+pos,NNP,NNP,VBZ,RB,VBN,IN,DT,NNP,NN,NN,,,,,,
+true,B-per,I-per,O,O,O,O,O,B-geo,O,O,,,,,,
+pred,B-per,I-per,O,O,O,O,O,B-art,O,O,,,,,,
+skip, , , , , , , , , , ,,,,,,
+word,iraqi,officials,have,increased,security,in,the,holy,city,of,karbala,where,tens,of,thousands,of
+pos,JJ,NNS,VBP,VBN,NN,IN,DT,JJ,NN,IN,NNP,WRB,NNS,IN,NNS,IN
+true,B-gpe,O,O,O,O,O,O,O,O,O,B-geo,O,O,O,O,O
+pred,B-gpe,O,O,O,O,O,O,O,O,O,B-geo,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,u.n.,secretary-general,also,notes,that,international,donors,have,only,provided,a,fraction,of,the,money
+pos,DT,NNP,NN,RB,VBZ,IN,JJ,NNS,VBP,RB,VBN,DT,NN,IN,DT,NN
+true,O,B-org,I-org,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,canadian,authorities,said,monday,the,duck,did,not,have,the,same,bird,flu,strain,that,has
+pos,JJ,NNS,VBD,NNP,DT,NN,VBD,RB,VB,DT,JJ,NN,NN,NN,WDT,VBZ
+true,B-gpe,O,O,B-tim,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-gpe,O,O,B-tim,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,a,suicide,bomber,walked,into,a,local,government,office,in,southern,afghanistan,monday,and,blew,himself
+pos,DT,NN,NN,VBD,IN,DT,JJ,NN,NN,IN,JJ,NNP,NNP,CC,VBD,PRP
+true,O,O,O,O,O,O,O,O,O,O,O,B-geo,B-tim,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,B-geo,B-tim,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,indonesia,'s,health,ministry,says,it,is,investigating,whether,a,neighbor,of,the,victim,is,also
+pos,NNP,POS,NN,NN,VBZ,PRP,VBZ,VBG,IN,DT,NN,IN,DT,NN,VBZ,RB
+true,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,british,UNK,richard,UNK,met,in,gaza,tuesday,with,mr.,haniyeh,",",of,the,islamic,militant
+pos,JJ,NN,NNP,NNP,VBD,IN,NNP,NNP,IN,NNP,NNP,",",IN,DT,NNP,JJ
+true,B-gpe,O,B-per,I-per,O,O,B-tim,I-tim,O,B-per,I-per,O,O,O,B-org,I-org
+pred,B-gpe,O,B-per,I-per,O,O,B-tim,I-tim,O,B-per,B-org,O,O,O,B-org,O
+skip, , , , , , , , , , , , , , , , 
+word,the,report,said,the,announcement,would,bolster,iraq,'s,interim,government,and,undermine,insurgents,in,that
+pos,DT,NN,VBD,DT,NN,MD,VB,NNP,POS,JJ,NN,CC,VB,NNS,IN,DT
+true,O,O,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,world,health,organization,says,china,could,have,10,million,people,infected,by,2010,,
+pos,DT,NNP,NNP,NNP,VBZ,NNP,MD,VB,CD,CD,NNS,VBN,IN,CD,,
+true,O,B-org,I-org,I-org,O,B-geo,O,O,O,O,O,O,O,B-tim,,
+pred,O,B-org,I-org,I-org,O,B-geo,O,O,O,O,O,O,O,B-tim,,
+skip, , , , , , , , , , , , , , ,,
+word,independent,from,france,in,1960,",",mauritania,annexed,the,southern,third,of,the,former,spanish,sahara
+pos,NNP,IN,NNP,IN,CD,",",NNP,VBD,DT,JJ,NN,IN,DT,JJ,JJ,NNP
+true,O,O,B-geo,O,B-tim,O,B-geo,O,O,O,O,O,O,O,B-gpe,B-per
+pred,O,O,B-geo,O,B-tim,O,B-geo,O,O,O,O,O,O,O,B-gpe,I-gpe
+skip, , , , , , , , , , , , , , , , 
+word,officials,say,the,rocket,struck,a,military,vehicle,tuesday,",",in,kandahar,province,,,
+pos,NNS,VBP,DT,NN,VBD,DT,JJ,NN,NNP,",",IN,NNP,NN,,,
+true,O,O,O,O,O,O,O,O,B-tim,O,O,B-geo,O,,,
+pred,O,O,O,O,O,O,O,O,B-tim,O,O,B-geo,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,bird,flu,has,killed,more,than,90,people,since,2003,in,asia,,,,
+pos,NN,NN,VBZ,VBN,JJR,IN,CD,NNS,IN,CD,IN,NNP,,,,
+true,O,O,O,O,O,O,O,O,O,B-tim,O,B-geo,,,,
+pred,O,O,O,O,O,O,O,O,O,B-tim,O,B-geo,,,,
+skip, , , , , , , , , , , , ,,,,
+word,hamas,leader,and,palestinian,prime,minister-designate,ismail,haniyeh,said,sunday,his,militant,group,is,ready,to
+pos,NNP,NN,CC,JJ,NNP,NNP,NNP,NNP,VBD,NNP,PRP$,JJ,NN,VBZ,JJ,TO
+true,B-org,O,O,B-gpe,B-per,O,B-per,I-per,O,B-tim,O,O,O,O,O,O
+pred,B-org,O,O,B-gpe,B-per,I-per,I-per,I-per,O,B-tim,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,ukraine,has,denied,reports,there,are,secret,prisons,run,by,the,u.s.,central,intelligence,agency,on
+pos,NNP,VBZ,VBN,NNS,EX,VBP,JJ,NNS,VBN,IN,DT,NNP,NNP,NNP,NNP,IN
+true,B-org,O,O,O,O,O,O,O,O,O,O,B-org,I-org,I-org,I-org,O
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,B-org,I-org,I-org,I-org,O
+skip, , , , , , , , , , , , , , , , 
+word,a,report,from,the,international,energy,agency,",",iaea,",",wednesday,says,oil,costs,will,continue
+pos,DT,NN,IN,DT,NNP,NNP,NNP,",",NNP,",",NNP,VBZ,NN,NNS,MD,VB
+true,O,O,O,O,B-org,I-org,I-org,O,B-org,O,B-tim,O,O,O,O,O
+pred,O,O,O,O,B-org,I-org,I-org,O,B-org,O,B-tim,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,human,rights,watch,has,expressed,concerns,that,iraq,'s,war,crimes,tribunals,will,be,flawed,","
+pos,NNP,NNP,NNP,VBZ,VBN,NNS,IN,NNP,POS,NN,NNS,NNS,MD,VB,VBN,","
+true,B-org,I-org,I-org,O,O,O,O,B-geo,O,O,O,O,O,O,O,O
+pred,B-org,I-org,I-org,O,O,O,O,B-geo,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,videotape,",",dated,january,21,",",apparently,shows,the,two,canadians,",",one,briton,and
+pos,DT,NN,",",VBN,NNP,CD,",",RB,VBZ,DT,CD,NNS,",",CD,NN,CC
+true,O,O,O,O,B-tim,I-tim,O,O,O,O,O,B-gpe,O,O,B-gpe,O
+pred,O,O,O,O,B-tim,I-tim,O,O,O,O,O,B-gpe,O,O,B-gpe,O
+skip, , , , , , , , , , , , , , , , 
+word,a,north,korean,official,says,the,country,has,built,nuclear,weapons,to,cope,with,what,it
+pos,DT,JJ,JJ,NN,VBZ,DT,NN,VBZ,VBN,JJ,NNS,TO,VB,IN,WP,PRP
+true,O,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,cuba,'s,state-run,media,says,the,first,meeting,took,place,after,mr.,chavez,arrived,friday,night
+pos,NNP,POS,JJ,NNS,VBZ,DT,JJ,NN,VBD,NN,IN,NNP,NNP,VBD,NNP,NN
+true,B-geo,O,O,O,O,O,O,O,O,O,O,B-per,I-per,O,B-tim,I-tim
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,B-per,I-per,O,B-tim,I-tim
+skip, , , , , , , , , , , , , , , , 
+word,sunday,",",mr.,asefi,characterized,the,president,'s,comments,as,psychological,warfare,,,,
+pos,NNP,",",NNP,NNP,VBD,DT,NN,POS,NNS,IN,JJ,NN,,,,
+true,B-tim,O,B-per,I-per,O,O,O,O,O,O,O,O,,,,
+pred,B-tim,O,B-per,I-per,O,O,O,O,O,O,O,O,,,,
+skip, , , , , , , , , , , , ,,,,
+word,u.s.,army,doctors,say,they,expect,to,see,people,with,broken,bones,",",UNK,injuries,and
+pos,NNP,NNP,NNS,VBP,PRP,VBP,TO,VB,NNS,IN,JJ,NNS,",",NN,NNS,CC
+true,B-org,I-org,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-org,I-org,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,kidnappers,-,ethnic,ijaw,militants,-,are,demanding,$,20,million,in,ransom,from,shell
+pos,DT,NNS,IN,JJ,NNP,NNS,:,VBP,VBG,$,CD,CD,IN,NN,IN,NNP
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,the,group,planned,to,lead,thousands,of,activists,into,the,al-aqsa,mosque,compound,sunday,,
+pos,DT,NN,VBD,TO,VB,NNS,IN,NNS,IN,DT,NNP,NNP,NN,NNP,,
+true,O,O,O,O,O,O,O,O,O,O,B-org,I-org,I-org,B-tim,,
+pred,O,O,O,O,O,O,O,O,O,O,B-org,I-org,O,B-tim,,
+skip, , , , , , , , , , , , , , ,,
+word,new,elections,in,august,2009,brought,ali,ben,bongo,",",son,of,the,former,president,","
+pos,JJ,NNS,IN,NNP,CD,VBD,NNP,NNP,NNP,",",NN,IN,DT,JJ,NN,","
+true,O,O,O,B-tim,I-tim,O,B-per,I-per,I-per,O,O,O,O,O,O,O
+pred,O,O,O,B-tim,I-tim,O,B-per,I-per,I-per,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,new,fighting,in,somalia,'s,capital,has,killed,at,least,three,people,and,wounded,at,least
+pos,JJ,NN,IN,NNP,POS,NN,VBZ,VBN,IN,JJS,CD,NNS,CC,VBN,IN,JJS
+true,O,O,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,B-geo,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,vatican,officials,say,pope,john,paul,ii,is,getting,nutrition,through,a,UNK,tube,to,boost
+pos,NNP,NNS,VBP,NNP,NNP,NNP,NNP,VBZ,VBG,NN,IN,DT,JJ,NN,TO,VB
+true,O,O,O,O,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,international,maritime,bureau,says,the,number,of,piracy,incidents,off,somalia,jumped,to,35,last
+pos,DT,NNP,NNP,NNP,VBZ,DT,NN,IN,NN,NNS,IN,NNP,VBD,TO,CD,JJ
+true,O,B-org,I-org,I-org,O,O,O,O,O,O,O,B-geo,O,O,O,O
+pred,O,B-org,I-org,I-org,O,O,O,O,O,O,O,B-geo,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,long,lines,are,reported,at,heathrow,airport,",",with,many,flights,being,canceled,,,
+pos,JJ,NNS,VBP,VBN,IN,NNP,NNP,",",IN,JJ,NNS,VBG,VBN,,,
+true,O,O,O,O,O,B-geo,I-geo,O,O,O,O,O,O,,,
+pred,O,O,O,O,O,B-geo,I-geo,O,O,O,O,O,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,two,major,u.s.,airlines,have,won,approval,to,merge,,,,,,,
+pos,CD,JJ,NNP,NNS,VBP,VBN,NN,TO,VB,,,,,,,
+true,O,O,B-geo,O,O,O,O,O,O,,,,,,,
+pred,O,O,B-geo,O,O,O,O,O,O,,,,,,,
+skip, , , , , , , , , ,,,,,,,
+word,al-zarqawi,-,iraq,'s,most,wanted,man,-,is,believed,to,have,fled,his,base,in
+pos,NNP,IN,NNP,POS,RBS,JJ,NN,:,VBZ,VBN,TO,VB,VBN,PRP$,NN,IN
+true,B-per,O,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-per,O,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,eu,force,says,hijackers,seized,the,mv,rim,wednesday,in,the,gulf,of,aden,","
+pos,DT,NNP,NN,VBZ,NNS,VBD,DT,NNP,NNP,NNP,IN,DT,NNP,IN,NNP,","
+true,O,B-org,O,O,O,O,O,O,O,B-tim,O,B-geo,I-geo,I-geo,I-geo,O
+pred,O,B-org,O,O,O,O,O,B-org,I-org,B-tim,O,B-geo,I-geo,I-geo,I-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,president,bush,is,to,discuss,the,situation,in,iraq,wednesday,",",during,a,speech,to,national
+pos,NNP,NNP,VBZ,TO,VB,DT,NN,IN,NNP,NNP,",",IN,DT,NN,TO,NNP
+true,B-per,I-per,O,O,O,O,O,O,B-geo,B-tim,O,O,O,O,O,B-org
+pred,B-per,I-per,O,O,O,O,O,O,B-geo,B-tim,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,zahar,met,with,egyptian,authorities,in,cairo,earlier,this,month,to,discuss,ways,to,restore,control
+pos,NNP,VBD,IN,JJ,NNS,IN,NNP,RBR,DT,NN,TO,VB,NNS,TO,VB,NN
+true,B-per,O,O,B-gpe,O,O,B-geo,O,O,O,O,O,O,O,O,O
+pred,B-per,O,O,B-gpe,O,O,B-geo,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,israel,usually,posts,sizable,trade,deficits,",",which,are,covered,by,large,transfer,payments,from,abroad
+pos,NNP,RB,VBZ,JJ,NN,NNS,",",WDT,VBP,VBN,IN,JJ,NN,NNS,IN,RB
+true,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,united,states,and,the,european,union,have,imposed,economic,sanctions,on,burma,to,protests,human
+pos,DT,NNP,NNPS,CC,DT,NNP,NNP,VBP,VBN,JJ,NNS,IN,NNP,TO,NNS,JJ
+true,O,B-geo,I-geo,O,O,B-org,I-org,O,O,O,O,O,B-geo,O,O,O
+pred,O,B-geo,I-geo,O,O,B-org,I-org,O,O,O,O,O,B-geo,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,broker,faces,two,years,,,,,,,,,,,
+pos,DT,NN,VBZ,CD,NNS,,,,,,,,,,,
+true,O,O,O,B-tim,O,,,,,,,,,,,
+pred,O,O,O,B-tim,O,,,,,,,,,,,
+skip, , , , , ,,,,,,,,,,,
+word,the,international,atomic,energy,agency,will,meet,tuesday,to,discuss,iran,,,,,
+pos,DT,NNP,NNP,NNP,NNP,MD,VB,NNP,TO,VB,NNP,,,,,
+true,O,B-org,I-org,I-org,I-org,O,O,B-tim,O,O,B-geo,,,,,
+pred,O,B-org,I-org,I-org,I-org,O,O,B-tim,O,O,B-geo,,,,,
+skip, , , , , , , , , , , ,,,,,
+word,the,croatian,then,survived,a,scare,from,vliegen,by,rallying,from,UNK,and,02-may,deficits,in
+pos,DT,NN,RB,VBD,DT,NN,IN,NNP,IN,VBG,IN,CD,CC,CD,NNS,IN
+true,O,B-gpe,O,O,O,O,O,B-per,O,O,O,O,O,O,O,O
+pred,O,B-gpe,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,u.s.,state,department,has,issued,a,series,of,travel,warnings,in,the,past,year,","
+pos,DT,NNP,NNP,NNP,VBZ,VBN,DT,NN,IN,NN,NNS,IN,DT,JJ,NN,","
+true,O,B-org,I-org,I-org,O,O,O,O,O,O,O,O,O,B-tim,O,O
+pred,O,B-org,I-org,I-org,O,O,O,O,O,O,O,O,O,B-tim,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,action,comes,one,day,after,u.n.,peacekeepers,stormed,a,stronghold,of,mr.,aristide,'s,supporters
+pos,DT,NN,VBZ,CD,NN,IN,NNP,NNS,VBD,DT,NN,IN,NNP,NNP,POS,NNS
+true,O,O,O,O,O,O,B-geo,O,O,O,O,O,B-per,I-per,O,O
+pred,O,O,O,O,O,O,B-geo,O,O,O,O,O,B-per,I-per,O,O
+skip, , , , , , , , , , , , , , , , 
+word,afghan,authorities,say,nato,and,afghan,troops,have,retrieved,the,flight,recorder,from,the,wreckage,of
+pos,JJ,NNS,VBP,NNP,CC,JJ,NNS,VBP,VBN,DT,NN,NN,IN,DT,NN,IN
+true,B-gpe,O,O,B-org,O,B-gpe,O,O,O,O,O,O,O,O,O,O
+pred,B-gpe,O,O,B-org,O,B-gpe,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,jury,reportedly,contains,eight,whites,",",three,hispanics,",",one,asian,",",and,no,african-americans
+pos,DT,NN,RB,VBZ,CD,NNS,",",CD,NNS,",",CD,NN,",",CC,DT,NNS
+true,O,O,O,O,O,O,O,O,O,O,O,B-gpe,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,u.s.-backed,coalition,forces,began,investigating,in,april,two,cases,in,which,civilians,and,afghan,security,forces
+pos,JJ,NN,NNS,VBD,VBG,IN,NNP,CD,NNS,IN,WDT,NNS,CC,JJ,NN,NNS
+true,O,O,O,O,O,O,B-tim,O,O,O,O,O,O,B-gpe,O,O
+pred,O,O,O,O,O,O,B-tim,I-tim,O,O,O,O,O,B-gpe,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,ministry,tuesday,said,russian,state,agencies,will,now,consider,the,network,unwelcome,after,last,week
+pos,DT,NN,NNP,VBD,JJ,NN,NNS,MD,RB,VB,DT,NN,JJ,IN,JJ,NN
+true,O,O,B-tim,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,B-tim,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,this,year,ramadan,begins,amid,scorching,temperatures,in,the,middle,east,and,elsewhere,",",with,the
+pos,DT,NN,NNP,VBZ,IN,VBG,NNS,IN,DT,NNP,NNP,CC,RB,",",IN,DT
+true,O,O,B-tim,O,O,O,O,O,O,B-geo,I-geo,O,O,O,O,O
+pred,O,O,B-tim,O,O,O,O,O,B-geo,I-geo,I-geo,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,cuba,says,it,has,restored,formal,relations,with,spain,",",a,year,after,the,european,union
+pos,NNP,VBZ,PRP,VBZ,VBN,JJ,NNS,IN,NNP,",",DT,NN,IN,DT,NNP,NNP
+true,B-geo,O,O,O,O,O,O,O,B-gpe,O,O,O,O,O,B-org,I-org
+pred,B-geo,O,O,O,O,O,O,O,B-gpe,O,O,O,O,O,B-org,I-org
+skip, , , , , , , , , , , , , , , , 
+word,wasim,jaffer,led,the,way,friday,with,an,aggressive,192,not,out,as,he,aims,for
+pos,NNP,NNP,VBD,DT,NN,NNP,IN,DT,JJ,CD,RB,RP,IN,PRP,VBZ,IN
+true,B-org,I-org,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O
+pred,B-org,I-org,O,O,O,B-tim,O,O,O,B-tim,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,seselj,is,on,trial,for,war,crimes,in,the,hague,,,,,,
+pos,NNP,VBZ,IN,NN,IN,NN,NNS,IN,DT,NNP,,,,,,
+true,B-per,O,O,O,O,O,O,O,O,B-geo,,,,,,
+pred,B-per,O,O,O,O,O,O,O,B-geo,I-geo,,,,,,
+skip, , , , , , , , , , ,,,,,,
+word,the,militant,group,",",al,aqsa,martyrs,brigades,",",has,claimed,responsibility,for,the,attack,
+pos,DT,JJ,NN,",",NNP,NNP,NNP,NNP,",",VBZ,VBN,NN,IN,DT,NN,
+true,O,O,O,O,B-org,I-org,I-org,I-org,O,O,O,O,O,O,O,
+pred,O,O,O,O,B-org,I-org,I-org,I-org,O,O,O,O,O,O,O,
+skip, , , , , , , , , , , , , , , ,
+word,but,so,far,there,is,no,evidence,of,an,assassination,plot,against,president,fox,,
+pos,CC,RB,RB,EX,VBZ,DT,NN,IN,DT,NN,NN,IN,NNP,NNP,,
+true,O,O,O,O,O,O,O,O,O,O,O,O,B-per,I-per,,
+pred,O,O,O,O,O,O,O,O,O,O,O,O,B-per,I-per,,
+skip, , , , , , , , , , , , , , ,,
+word,power,cuts,caused,by,a,UNK,failure,in,early,2010,slowed,economic,activity,,,
+pos,NN,NNS,VBN,IN,DT,NN,NN,IN,JJ,CD,VBD,JJ,NN,,,
+true,O,O,O,O,O,O,O,O,O,B-tim,O,O,O,,,
+pred,O,O,O,O,O,O,O,O,O,B-tim,O,O,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,a,central,asian,country,of,incredible,natural,beauty,and,proud,UNK,traditions,",",most,of,kyrgyzstan
+pos,DT,JJ,JJ,NN,IN,JJ,JJ,NN,CC,JJ,JJ,NNS,",",JJS,IN,NNP
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-gpe
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-gpe
+skip, , , , , , , , , , , , , , , , 
+word,the,fighting,",",in,the,eastern,muslim,town,of,muttur,in,trincomalee,province,",",was,described
+pos,DT,NN,",",IN,DT,JJ,NNP,NN,IN,NNP,IN,NNP,NN,",",VBD,VBN
+true,O,O,O,O,O,O,B-geo,O,O,B-org,O,B-geo,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,B-geo,O,B-geo,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,unanimous,vote,came,thursday,during,an,emergency,meeting,of,the,15-member,council,",",on,which
+pos,DT,JJ,NN,VBD,NNP,IN,DT,NN,NN,IN,DT,JJ,NN,",",IN,WDT
+true,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,they,were,charged,in,absentia,with,plotting,to,overthrow,the,ethiopian,government,,,,
+pos,PRP,VBD,VBN,IN,NN,IN,VBG,TO,VB,DT,JJ,NN,,,,
+true,O,O,O,O,O,O,O,O,O,O,B-gpe,O,,,,
+pred,O,O,O,O,O,O,O,O,O,O,B-gpe,O,,,,
+skip, , , , , , , , , , , , ,,,,
+word,deputy,foreign,minister,camilo,reyes,said,tuesday,his,government,has,received,a,protest,note,from,ecuador
+pos,NNP,NNP,NNP,NNP,NNP,VBD,NNP,PRP$,NN,VBZ,VBN,DT,NN,NN,IN,NNP
+true,O,O,B-per,I-per,I-per,O,B-tim,O,O,O,O,O,O,O,O,B-geo
+pred,O,O,B-per,I-per,I-per,O,B-tim,O,O,O,O,O,O,O,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,a,presidential,spokesman,jawed,UNK,told,a,news,briefing,in,kabul,tuesday,that,general,abdul,rashid
+pos,DT,JJ,NN,NNP,NNP,VBD,DT,NN,NN,IN,NNP,NNP,IN,NNP,NNP,NNP
+true,O,O,O,B-per,I-per,O,O,O,O,O,B-geo,B-tim,O,B-per,I-per,I-per
+pred,O,O,O,B-per,I-per,O,O,O,O,O,B-geo,B-tim,O,B-org,I-org,I-org
+skip, , , , , , , , , , , , , , , , 
+word,opposition,candidate,viktor,yushchenko,has,warned,that,his,supporters,will,stage,massive,demonstrations,if,electoral,fraud
+pos,NN,NN,NNP,NNP,VBZ,VBN,IN,PRP$,NNS,MD,VB,JJ,NNS,IN,JJ,NN
+true,O,O,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,a,media,rights,group,in,nepal,",",save,independent,radio,movement,",",says,other,stations,interpreted
+pos,DT,NNS,NNS,NN,IN,NNP,",",NNP,NNP,NNP,NNP,",",VBZ,JJ,NNS,VBD
+true,O,O,O,O,O,B-gpe,O,B-org,I-org,I-org,I-org,O,O,O,O,O
+pred,O,O,O,O,O,B-gpe,O,B-org,I-org,I-org,I-org,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,thousands,of,students,in,several,egyptian,cities,have,protested,the,israeli,army,'s,killing,of,three
+pos,NNS,IN,NNS,IN,JJ,JJ,NNS,VBP,VBN,DT,JJ,NN,POS,NN,IN,CD
+true,O,O,O,O,O,B-gpe,O,O,O,O,B-gpe,O,O,O,O,O
+pred,O,O,O,O,O,B-gpe,O,O,O,O,B-gpe,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,a,scottish,court,has,denied,bail,to,a,libyan,man,with,terminal,cancer,who,was,convicted
+pos,DT,JJ,NN,VBZ,VBN,NN,TO,DT,JJ,NN,IN,NN,NN,WP,VBD,VBN
+true,O,B-gpe,O,O,O,O,O,O,B-gpe,O,O,O,O,O,O,O
+pred,O,B-gpe,O,O,O,O,O,O,B-gpe,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,last,month,",",the,u.s.,house,of,representatives,passed,a,measure,calling,for,the,construction,of
+pos,JJ,NN,",",DT,NNP,NNP,IN,NNPS,VBD,DT,NN,VBG,IN,DT,NN,IN
+true,O,O,O,O,B-org,I-org,I-org,I-org,O,O,O,O,O,O,O,O
+pred,O,O,O,O,B-org,I-org,I-org,I-org,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,he,says,the,hijacking,occurred,about,UNK,kilometers,off,the,coast,of,kismayo,",",between,kenya
+pos,PRP,VBZ,DT,NN,VBD,IN,CD,NNS,IN,DT,NN,IN,NNP,",",IN,NNP
+true,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O,O,B-geo
+pred,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,mughani,is,close,with,the,fatah-led,palestinian,government,in,the,west,bank,",",which,is,headed
+pos,NNP,VBZ,RB,IN,DT,JJ,JJ,NN,IN,DT,NNP,NNP,",",WDT,VBZ,VBN
+true,B-per,O,O,O,O,O,B-gpe,O,O,O,B-org,I-org,O,O,O,O
+pred,B-per,O,O,O,O,O,B-gpe,O,O,O,B-org,I-org,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,but,russian,officials,have,downplayed,the,possibility,",",noting,that,the,changes,would,not,apply,to
+pos,CC,JJ,NNS,VBP,VBN,DT,NN,",",VBG,IN,DT,NNS,MD,RB,VB,TO
+true,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,kremlin,has,denied,the,charge,,,,,,,,,,
+pos,DT,NNP,VBZ,VBN,DT,NN,,,,,,,,,,
+true,O,B-org,O,O,O,O,,,,,,,,,,
+pred,O,B-org,O,O,O,O,,,,,,,,,,
+skip, , , , , , ,,,,,,,,,,
+word,last,tuesday,",",political,parties,organized,street,protests,to,pressure,the,king,to,restore,democracy,in
+pos,JJ,NNP,",",JJ,NNS,VBN,NN,NNS,TO,VB,DT,NN,TO,VB,NN,IN
+true,O,B-tim,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-tim,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,tens,of,thousands,of,people,have,been,killed,in,the,western,sudan,region,while,nearly,two
+pos,NNS,IN,NNS,IN,NNS,VBP,VBN,VBN,IN,DT,JJ,NNP,NN,IN,RB,CD
+true,O,O,O,O,O,O,O,O,O,O,O,B-gpe,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,B-org,I-org,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,tensions,have,risen,between,the,two,nations,since,sudanese,rebels,attacked,the,chadian,town,of,adre
+pos,NNS,VBP,VBN,IN,DT,CD,NNS,IN,JJ,NNS,VBD,DT,JJ,NN,IN,NNP
+true,O,O,O,O,O,O,O,O,B-gpe,O,O,O,B-gpe,O,O,B-geo
+pred,O,O,O,O,O,O,O,O,B-gpe,O,O,O,B-gpe,O,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,british,airport,authorities,say,service,should,be,back,to,normal,friday,after,strict,new,security,measures
+pos,JJ,NN,NNS,VBP,NN,MD,VB,RB,TO,JJ,NNP,IN,JJ,JJ,NN,NNS
+true,B-gpe,O,O,O,O,O,O,O,O,O,B-tim,O,O,O,O,O
+pred,B-gpe,O,O,O,O,O,O,O,O,O,B-tim,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,diplomats,say,this,week,'s,discussions,may,be,the,last,chance,to,secure,the,broad,outlines
+pos,NNS,VBP,DT,NN,POS,NNS,MD,VB,DT,JJ,NN,TO,VB,DT,JJ,NNS
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,ankara,currently,has,diplomatic,ties,only,with,the,turkish-dominated,part,of,the,divided,island,,
+pos,NNP,RB,VBZ,JJ,NNS,RB,IN,DT,JJ,NN,IN,DT,VBN,NN,,
+true,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O,,
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,,
+skip, , , , , , , , , , , , , , ,,
+word,they,say,there,is,also,information,the,man,took,part,in,an,armed,attack,targeting,police
+pos,PRP,VBP,EX,VBZ,RB,NN,DT,NN,VBD,NN,IN,DT,JJ,NN,VBG,NN
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,incoming,president,is,returning,to,power,16,years,after,he,was,voted,out,of,office
+pos,DT,JJ,NN,VBZ,VBG,TO,NN,CD,NNS,IN,PRP,VBD,VBN,IN,IN,NN
+true,O,O,O,O,O,O,O,B-tim,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,B-tim,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,but,an,embassy,spokeswoman,told,the,associated,press,that,the,idea,is,ridiculous,,,
+pos,CC,DT,JJ,NN,VBD,DT,NNP,NNP,IN,DT,NN,VBZ,JJ,,,
+true,O,O,O,O,O,O,B-org,I-org,O,O,O,O,O,,,
+pred,O,O,O,O,O,O,B-org,I-org,O,O,O,O,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,the,head,of,india,'s,ruling,congress,party,",",sonia,gandhi,",",arrived,in,the,town
+pos,DT,NN,IN,NNP,POS,VBG,NNP,NNP,",",NNP,NNP,",",VBD,IN,DT,NN
+true,O,O,O,B-geo,O,O,B-org,I-org,O,B-per,I-per,O,O,O,O,O
+pred,O,O,O,B-geo,O,O,B-org,I-org,O,B-per,I-per,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,state-run,herald,newspaper,says,mr.,mugabe,'s,85th,birthday,will,be,celebrated,in,the,town
+pos,DT,JJ,NNP,NN,VBZ,NNP,NNP,POS,JJ,NN,MD,VB,VBN,IN,DT,NN
+true,O,O,B-org,O,O,B-per,I-per,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,B-per,I-per,O,B-tim,I-tim,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,cleanup,and,recovery,efforts,in,new,orleans,are,showing,signs,of,progress,,,,
+pos,NN,CC,NN,NNS,IN,NNP,NNP,VBP,VBG,NNS,IN,NN,,,,
+true,O,O,O,O,O,B-geo,I-geo,O,O,O,O,O,,,,
+pred,O,O,O,O,O,B-geo,I-geo,O,O,O,O,O,,,,
+skip, , , , , , , , , , , , ,,,,
+word,but,the,u.s.,report,has,harsh,words,for,zimbabwe,",",saying,the,mugabe,government,continues,""""
+pos,CC,DT,NNP,NN,VBZ,JJ,NNS,IN,NNP,",",VBG,DT,NNP,NN,VBZ,``
+true,O,O,B-geo,O,O,O,O,O,B-geo,O,O,O,B-per,O,O,O
+pred,O,O,B-geo,O,O,O,O,O,B-geo,O,O,O,B-per,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,columbus,day,became,a,u.s.,holiday,in,1971,,,,,,,,
+pos,NNP,NNP,VBD,DT,NNP,NN,IN,CD,,,,,,,,
+true,B-per,B-tim,O,O,B-geo,O,O,B-tim,,,,,,,,
+pred,B-tim,I-tim,O,O,B-geo,B-tim,I-tim,I-tim,,,,,,,,
+skip, , , , , , , , ,,,,,,,,
+word,congolese,president,joseph,kabila,has,suspended,mining,in,a,volatile,region,of,the,eastern,democratic,republic
+pos,JJ,NNP,NNP,NNP,VBZ,VBN,NN,IN,DT,JJ,NN,IN,DT,JJ,JJ,NNP
+true,B-gpe,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O,O,B-geo,I-geo
+pred,B-gpe,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O,O,B-geo,I-geo
+skip, , , , , , , , , , , , , , , , 
+word,the,attacks,were,seen,as,a,factor,in,president,george,bush,'s,2004,victory,,
+pos,DT,NNS,VBD,VBN,IN,DT,NN,IN,NNP,NNP,NNP,POS,CD,NN,,
+true,O,O,O,O,O,O,O,O,B-per,I-per,I-per,O,B-tim,O,,
+pred,O,O,O,O,O,O,O,O,B-per,I-per,I-per,O,B-tim,I-tim,,
+skip, , , , , , , , , , , , , , ,,
+word,voa,'s,larry,london,met,with,ryan,tedder,when,he,toured,the,washington,area,,
+pos,NNP,POS,NNP,NNP,VBD,IN,NNP,NNP,WRB,PRP,VBD,DT,NNP,NN,,
+true,B-org,O,B-per,B-geo,O,O,B-per,I-per,O,O,O,O,B-geo,O,,
+pred,B-org,O,B-per,I-per,O,O,B-per,I-per,O,O,O,O,B-geo,O,,
+skip, , , , , , , , , , , , , , ,,
+word,the,mayan,indian,village,was,buried,in,a,mudslide,triggered,by,stan,'s,torrential,rains,
+pos,DT,JJ,JJ,NN,VBD,VBN,IN,DT,NN,VBN,IN,NNP,POS,JJ,NNS,
+true,O,O,B-gpe,O,O,O,O,O,O,O,O,B-per,O,O,O,
+pred,O,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,
+skip, , , , , , , , , , , , , , , ,
+word,the,pakistani,leader,insists,he,was,misquoted,and,was,only,expressing,a,commonly,held,opinion,in
+pos,DT,JJ,NN,VBZ,PRP,VBD,VBN,CC,VBD,RB,VBG,DT,RB,VBN,NN,IN
+true,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,six,days,later,the,island,was,invaded,by,us,forces,and,those,of,six,other,caribbean
+pos,CD,NNS,RB,DT,NN,VBD,VBN,IN,NNP,NNS,CC,DT,IN,CD,JJ,JJ
+true,B-tim,O,B-tim,O,O,O,O,O,B-org,O,O,O,O,O,O,B-geo
+pred,B-tim,O,B-tim,O,O,O,O,O,B-org,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,united,states,imposed,economic,sanctions,on,iran,in,1987,",",but,this,new,report,from
+pos,DT,NNP,NNPS,VBD,JJ,NNS,IN,NNP,IN,CD,",",CC,DT,JJ,NN,IN
+true,O,B-geo,I-geo,O,O,O,O,B-geo,O,B-tim,O,O,O,O,O,O
+pred,O,B-geo,I-geo,O,O,O,O,B-geo,O,B-tim,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,issue,has,gained,attention,since,president,bush,'s,recent,admission,he,authorized,u.s.,intelligence,agencies
+pos,DT,NN,VBZ,VBN,NN,IN,NNP,NNP,POS,JJ,NN,PRP,VBD,NNP,NN,NNS
+true,O,O,O,O,O,O,B-per,I-per,O,O,O,O,O,B-geo,O,O
+pred,O,O,O,O,O,O,B-per,I-per,O,O,O,O,O,B-geo,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,philippines,and,haiti,",",among,other,countries,",",have,been,hard-hit,,,,
+pos,DT,NNPS,CC,NNP,",",IN,JJ,NNS,",",VBP,VBN,JJ,,,,
+true,O,B-org,I-org,I-org,O,O,O,O,O,O,O,O,,,,
+pred,O,B-org,I-org,I-org,O,O,O,O,O,O,O,O,,,,
+skip, , , , , , , , , , , , ,,,,
+word,it,is,aimed,at,preventing,outbreaks,of,sectarian,fighting,over,the,saddam,verdict,,,
+pos,PRP,VBZ,VBN,IN,VBG,NNS,IN,JJ,NN,IN,DT,NNP,NN,,,
+true,O,O,O,O,O,O,O,O,O,O,O,B-per,O,,,
+pred,O,O,O,O,O,O,O,O,O,O,O,B-per,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,earlier,today,",",u.s.,and,iraqi,forces,pounded,insurgent,positions,in,fallujah,",",in,an,effort
+pos,RBR,NN,",",NNP,CC,JJ,NNS,VBD,JJ,NNS,IN,NNP,",",IN,DT,NN
+true,O,B-tim,O,B-geo,O,B-gpe,O,O,O,O,O,B-geo,O,O,O,O
+pred,O,B-tim,O,B-geo,O,B-gpe,O,O,O,O,O,B-geo,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,islands,have,been,connected,politically,to,denmark,since,the,14th,century,,,,
+pos,DT,NNS,VBP,VBN,VBN,RB,TO,NNP,IN,DT,JJ,NN,,,,
+true,O,O,O,O,O,O,O,B-geo,O,O,B-tim,I-tim,,,,
+pred,O,O,O,O,O,O,O,B-geo,O,O,B-tim,I-tim,,,,
+skip, , , , , , , , , , , , ,,,,
+word,he,is,accused,of,spreading,via,the,internet,a,series,of,audio,and,video,messages,from
+pos,PRP,VBZ,VBN,IN,VBG,IN,DT,NNP,DT,NN,IN,NN,CC,NN,NNS,IN
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,mr.,putin,spoke,sunday,",",in,the,black,sea,resort,of,sochi,",",after,talks,with
+pos,NNP,NNP,VBD,NNP,",",IN,DT,NNP,NNP,NN,IN,NNP,",",IN,NNS,IN
+true,B-per,I-per,O,B-tim,O,O,O,B-org,I-org,I-org,I-org,I-org,O,O,O,O
+pred,B-per,I-per,O,B-tim,O,O,O,B-org,I-org,O,O,B-geo,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,landlocked,paraguay,has,a,market,economy,UNK,by,a,large,informal,sector,",",featuring,re-export,of
+pos,JJ,NNP,VBZ,DT,NN,NN,VBN,IN,DT,JJ,JJ,NN,",",VBG,NN,IN
+true,O,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,new,report,",",the,second,of,three,to,be,issued,by,the,volcker,commission,this
+pos,DT,JJ,NN,",",DT,NN,IN,CD,TO,VB,VBN,IN,DT,NNP,NN,DT
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,B-per,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,B-org,I-org,O
+skip, , , , , , , , , , , , , , , , 
+word,solomon,passy,",",the,foreign,minister,of,bulgaria,",",is,expected,to,propose,reforms,within,the
+pos,NNP,NNP,",",DT,JJ,NN,IN,NNP,",",VBZ,VBN,TO,VB,NNS,IN,DT
+true,B-per,I-per,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,O
+pred,B-per,I-per,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,pakistani,officials,said,military,fighter,jets,and,helicopter,gunships,pounded,tribal,areas,in,northwestern,pakistan,on
+pos,JJ,NNS,VBD,JJ,NN,NNS,CC,NN,NNS,VBD,JJ,NNS,IN,JJ,NNP,IN
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O
+pred,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,heinonen,said,his,team,took,samples,at,the,al,UNK,complex,in,northeastern,syria,that,washington
+pos,NNP,VBD,PRP$,NN,VBD,NNS,IN,DT,NNP,NNP,NN,IN,JJ,NNP,IN,NNP
+true,B-per,O,O,O,O,O,O,O,B-org,I-org,O,O,O,B-geo,O,B-geo
+pred,B-per,O,O,O,O,O,O,O,B-org,I-org,O,O,O,B-geo,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,u.s.,government,regulators,have,approved,a,new,partial,artificial,heart,designed,to,help,some,patients,as
+pos,NNP,NN,NNS,VBP,VBN,DT,JJ,JJ,JJ,NN,VBN,TO,VB,DT,NNS,IN
+true,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,china,notified,hong,kong,wednesday,that,it,has,culled,more,than,13000,geese,at,a,farm
+pos,NNP,VBD,NNP,NNP,NNP,IN,PRP,VBZ,VBN,JJR,IN,CD,NNS,IN,DT,NN
+true,B-geo,O,B-geo,I-geo,B-tim,O,O,O,O,O,O,O,O,O,O,O
+pred,B-geo,O,B-geo,I-geo,B-tim,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,u.s.,ambassador,gregory,schulte,told,iaea,diplomats,meeting,in,vienna,that,the,time,has,come,to
+pos,NNP,NNP,NNP,NNP,VBD,NNP,NNS,NN,IN,NNP,IN,DT,NN,VBZ,VBN,TO
+true,B-org,I-org,B-per,I-per,O,B-org,O,O,O,B-geo,O,O,O,O,O,O
+pred,B-org,O,B-per,I-per,O,B-org,O,O,O,B-geo,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,a,u.n.,development,plan,for,somalia,calls,for,writing,and,holding,a,referendum,on,a,new
+pos,DT,NNP,NN,NN,IN,NNP,VBZ,IN,NN,CC,VBG,DT,NN,IN,DT,JJ
+true,O,B-geo,O,O,O,B-geo,O,O,O,O,O,O,O,O,O,O
+pred,O,B-org,O,O,O,B-geo,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,hong,kong,'s,interim,leader,says,he,will,ask,china,to,interpret,the,section,of,the
+pos,NNP,NNP,POS,JJ,NN,VBZ,PRP,MD,VB,NNP,TO,VB,DT,NN,IN,DT
+true,B-geo,I-geo,O,O,O,O,O,O,O,B-geo,O,O,O,O,O,O
+pred,B-geo,I-geo,O,O,O,O,O,O,O,B-geo,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,on,14,january,2011,",",the,same,day,ben,ali,dismissed,the,government,",",he,fled
+pos,IN,CD,NNP,CD,",",DT,JJ,NN,NNP,NNP,VBD,DT,NN,",",PRP,VBD
+true,O,B-tim,I-tim,I-tim,O,O,O,O,B-per,I-per,O,O,O,O,O,O
+pred,O,B-tim,I-tim,I-tim,O,O,O,O,B-per,I-per,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,report,did,note,efforts,to,make,legal,reforms,in,the,past,year,",",but,those
+pos,DT,NN,VBD,VB,NNS,TO,VB,JJ,NNS,IN,DT,JJ,NN,",",CC,DT
+true,O,O,O,O,O,O,O,O,O,O,O,B-tim,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,B-tim,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,correspondent,colombant,says,authorities,are,probably,directing,them,",",although,it,is,difficult,to,determine,who
+pos,NNP,NNP,VBZ,NNS,VBP,RB,VBG,PRP,",",IN,PRP,VBZ,JJ,TO,VB,WP
+true,O,B-per,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,cuban,president,raul,castro,is,visiting,venezuela,on,his,first,international,trip,as,leader,of,the
+pos,JJ,NNP,NNP,NNP,VBZ,VBG,NNP,IN,PRP$,JJ,JJ,NN,IN,NN,IN,DT
+true,B-gpe,B-per,I-per,I-per,O,O,B-geo,O,O,O,O,O,O,O,O,O
+pred,B-gpe,B-per,I-per,I-per,O,O,B-geo,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,indian,police,say,a,bus,and,van,collision,has,killed,34,people,",",including,the,bus
+pos,JJ,NNS,VBP,DT,NN,CC,NN,NN,VBZ,VBN,CD,NNS,",",VBG,DT,NN
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,local,officials,say,two,dutch,soldiers,were,wounded,,,,,,,,
+pos,JJ,NNS,VBP,CD,JJ,NNS,VBD,VBN,,,,,,,,
+true,O,O,O,O,B-gpe,O,O,O,,,,,,,,
+pred,O,O,O,O,B-gpe,O,O,O,,,,,,,,
+skip, , , , , , , , ,,,,,,,,
+word,russian,president,dmitri,medvedev,has,sent,a,new,nuclear,arms,reduction,treaty,with,the,united,states
+pos,JJ,NNP,NNP,NNP,VBZ,VBN,DT,JJ,JJ,NNS,NN,NN,IN,DT,NNP,NNPS
+true,B-gpe,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O,O,B-geo,I-geo
+pred,B-gpe,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O,O,B-geo,I-geo
+skip, , , , , , , , , , , , , , , , 
+word,the,u.s.,house,of,representatives,approved,a,measure,earlier,this,month,to,construct,security,fencing,along
+pos,DT,NNP,NNP,IN,NNP,VBD,DT,NN,RBR,DT,NN,TO,VB,NN,VBG,IN
+true,O,B-org,I-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-org,I-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,some,critics,say,the,constitution,could,cost,french,jobs,and,destroy,the,country,'s,social,welfare
+pos,DT,NNS,VBP,DT,NN,MD,VB,JJ,NNS,CC,VB,DT,NN,POS,JJ,NN
+true,O,O,O,O,O,O,O,B-gpe,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,B-gpe,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,many,taliban,and,al-qaida,militants,fled,to,pakistan,from,neighboring,afghanistan,after,the,u.s.-led,invasion,in
+pos,JJ,NNP,CC,NNP,NNS,VBD,TO,NNP,IN,VBG,NNP,IN,DT,JJ,NN,IN
+true,O,B-org,O,B-org,O,O,O,B-geo,O,O,B-gpe,O,O,O,O,O
+pred,O,B-org,O,B-org,O,O,O,B-geo,O,O,B-geo,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,president,said,he,plans,to,meet,next,week,with,the,presidents,of,pakistan,and,afghanistan
+pos,DT,NN,VBD,PRP,VBZ,TO,VB,JJ,NN,IN,DT,NNS,IN,NNP,CC,NNP
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O,B-geo
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O,B-gpe
+skip, , , , , , , , , , , , , , , , 
+word,a,separate,study,earlier,this,year,found,that,a,vaccine,developed,by,british,firm,",",glaxosmithkline
+pos,DT,JJ,NN,RBR,DT,NN,VBD,IN,DT,NN,VBN,IN,JJ,NN,",",NNP
+true,O,O,O,O,O,O,O,O,O,O,O,O,B-gpe,O,O,B-org
+pred,O,O,O,O,O,O,O,O,O,O,O,O,B-gpe,O,O,B-org
+skip, , , , , , , , , , , , , , , , 
+word,two,japanese,students,were,attacked,in,a,shanghai,restaurant,sunday,",",and,on,saturday,",",protesters
+pos,CD,JJ,NNS,VBD,VBN,IN,DT,NNP,NN,NNP,",",CC,IN,NNP,",",NNS
+true,O,B-gpe,O,O,O,O,O,B-geo,I-geo,B-tim,O,O,O,B-tim,O,O
+pred,O,B-gpe,O,O,O,O,O,B-geo,O,B-tim,O,O,O,B-tim,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,letter,from,house,minority,leader,nancy,pelosi,",",dated,october,2001,",",asked,general,michael
+pos,DT,NN,IN,NNP,NNP,NNP,NNP,NNP,",",JJ,NNP,CD,",",VBD,NNP,NNP
+true,O,O,O,B-org,I-org,I-org,B-per,I-per,O,O,B-tim,I-tim,O,O,B-per,I-per
+pred,O,O,O,B-org,I-org,I-org,I-org,I-org,O,O,B-tim,I-tim,O,O,B-org,I-org
+skip, , , , , , , , , , , , , , , , 
+word,the,dead,chicken,was,purchased,by,a,hong,kong,villager,in,mainland,china,,,
+pos,DT,JJ,NN,VBD,VBN,IN,DT,NNP,NNP,NN,IN,JJ,NNP,,,
+true,O,O,O,O,O,O,O,B-geo,I-geo,O,O,O,B-geo,,,
+pred,O,O,O,O,O,O,O,B-geo,I-geo,O,O,O,B-geo,,,
+skip, , , , , , , , , , , , , ,,,
+word,the,british,public,had,contributed,about,$,115,million,by,saturday,-,nearly,$,20,million
+pos,DT,JJ,NN,VBD,VBN,IN,$,CD,CD,IN,NNP,:,RB,$,CD,CD
+true,O,B-gpe,O,O,O,O,O,B-tim,O,O,B-tim,O,O,O,O,O
+pred,O,B-gpe,O,O,O,O,O,O,O,O,B-tim,I-tim,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,on,tuesday,",",president,bush,and,european,union,leaders,met,in,slovenia,and,warned,of,additional
+pos,IN,NNP,",",NNP,NNP,CC,NNP,NNP,NNS,VBD,IN,NNP,CC,VBD,IN,JJ
+true,O,B-tim,O,B-per,I-per,O,B-org,I-org,O,O,O,B-geo,O,O,O,O
+pred,O,B-tim,O,B-per,I-per,O,B-org,I-org,O,O,O,B-geo,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,in,recent,weeks,",",4000,u.s.,marines,",",along,with,british,and,afghan,troops,",",have
+pos,IN,JJ,NNS,",",CD,NNP,NNPS,",",IN,IN,JJ,CC,JJ,NNS,",",VBP
+true,O,O,O,O,O,B-geo,I-geo,O,O,O,B-gpe,O,B-gpe,O,O,O
+pred,O,B-tim,O,O,O,B-org,I-org,O,O,O,B-gpe,O,B-gpe,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,burmese,officials,have,ordered,about,80,hiv,patients,and,staff,to,leave,a,care,home,in
+pos,JJ,NNS,VBP,VBN,IN,CD,NNP,NNS,CC,NN,TO,VB,DT,NN,NN,IN
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,international,olympic,committee,(,ioc,),has,UNK,its,suspension,of,iraq,",",allowing,the
+pos,DT,NNP,NNP,NNP,LRB,NNP,RRB,VBZ,VBN,PRP$,NN,IN,NNP,",",VBG,DT
+true,O,O,O,B-org,O,B-org,O,O,O,O,O,O,B-geo,O,O,O
+pred,O,O,O,B-org,O,B-org,O,O,O,O,O,O,B-geo,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,eastern,turkmenistan,for,centuries,formed,part,of,the,persian,province,of,khurasan,;,in,medieval,times
+pos,NNP,NNP,IN,NNS,VBN,NN,IN,DT,NNP,NN,IN,NNP,;,IN,JJ,NNS
+true,B-geo,I-geo,O,O,O,O,O,O,B-geo,O,O,B-geo,O,O,O,O
+pred,B-geo,I-geo,O,O,O,O,O,O,B-geo,O,O,B-geo,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,united,states,and,britain,have,said,the,elections,were,not,free,or,fair,,
+pos,DT,NNP,NNPS,CC,NNP,VBP,VBN,DT,NNS,VBD,RB,JJ,CC,JJ,,
+true,O,B-geo,I-geo,O,B-geo,O,O,O,O,O,O,O,O,O,,
+pred,O,B-geo,I-geo,O,B-geo,O,O,O,O,O,O,O,O,O,,
+skip, , , , , , , , , , , , , , ,,
+word,ingushetia,also,borders,chechnya,",",where,separatists,have,fought,pro-moscow,forces,for,more,than,five,years
+pos,NNP,RB,NNS,NNP,",",WRB,NNS,VBP,VBN,JJ,NNS,IN,JJR,IN,CD,NNS
+true,B-geo,O,O,B-geo,O,O,O,O,O,O,O,O,O,O,B-tim,O
+pred,B-geo,O,O,B-geo,O,O,O,O,O,O,O,O,O,O,B-tim,O
+skip, , , , , , , , , , , , , , , , 
+word,nearly,20,centimeters,of,snow,fell,in,some,high-altitude,areas,and,up,to,32,UNK,of
+pos,RB,CD,NNS,IN,NN,VBD,IN,DT,JJ,NNS,CC,IN,TO,CD,NNS,IN
+true,B-tim,I-tim,I-tim,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,ukraine,'s,campaign,to,win,nato,membership,has,been,strongly,opposed,by,moscow,",",which,says
+pos,NNP,POS,NN,TO,VB,NNP,NN,VBZ,VBN,RB,VBN,IN,NNP,",",WDT,VBZ
+true,B-geo,O,O,O,O,B-org,O,O,O,O,O,O,B-org,O,O,O
+pred,B-geo,O,O,O,O,B-org,O,O,O,O,O,O,B-geo,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,officials,in,beirut,today,monday,say,the,latest,withdrawal,brings,the,syrian,military,presence,down,to
+pos,NNS,IN,NNP,NN,NNP,VBP,DT,JJS,NN,VBZ,DT,JJ,JJ,NN,IN,TO
+true,O,O,B-geo,B-tim,I-tim,O,O,O,O,O,O,B-gpe,O,O,O,O
+pred,O,O,B-geo,B-tim,I-tim,O,O,O,O,O,O,B-gpe,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,bodies,of,the,young,migrant,workers,were,found,saturday,in,pattani,province,",",one,of
+pos,DT,NNS,IN,DT,JJ,JJ,NNS,VBD,VBN,NNP,IN,NNP,NN,",",CD,IN
+true,O,O,O,O,O,O,O,O,O,B-tim,O,B-geo,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,B-tim,O,B-geo,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,officials,say,the,attacks,fit,into,al-qaida,'s,pattern,of,conducting,multiple,bombings,against,civilian
+pos,DT,NNS,VBP,DT,NNS,VBP,IN,NNP,POS,NN,IN,VBG,JJ,NNS,IN,JJ
+true,O,O,O,O,O,O,O,B-org,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,B-org,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,russia,has,blasted,the,u.s.,plan,as,a,threat,to,russian,security,,,,
+pos,NNP,VBZ,VBN,DT,NNP,NN,IN,DT,NN,TO,JJ,NN,,,,
+true,B-geo,O,O,O,B-geo,O,O,O,O,O,B-gpe,O,,,,
+pred,B-geo,O,O,O,B-geo,O,O,O,O,O,B-gpe,O,,,,
+skip, , , , , , , , , , , , ,,,,
+word,a,car,bomb,explosion,in,iraq,has,killed,five,people,",",including,four,police,officers,who
+pos,DT,NN,NN,NN,IN,NNP,VBZ,VBN,CD,NNS,",",VBG,CD,NNS,NNS,WP
+true,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,25-year-old,center,has,played,in,266,regular-season,games,since,joining,the,rockets,in,2002,
+pos,DT,JJ,NN,VBZ,VBN,IN,CD,JJ,NNS,IN,VBG,DT,NNS,IN,CD,
+true,O,O,O,O,O,O,O,O,O,O,O,O,B-org,O,B-tim,
+pred,O,O,O,O,O,O,B-tim,I-tim,O,O,O,O,O,O,B-tim,
+skip, , , , , , , , , , , , , , , ,
+word,lithuania,regained,its,independence,following,world,war,i,but,was,annexed,by,the,ussr,in,1940
+pos,NNP,VBD,PRP$,NN,VBG,NNP,NNP,NNP,CC,VBD,VBN,IN,DT,NNP,IN,CD
+true,B-org,O,O,O,O,B-eve,I-eve,I-eve,O,O,O,O,O,B-org,O,B-tim
+pred,B-geo,O,O,O,O,B-eve,I-eve,I-eve,O,O,O,O,O,B-org,O,B-tim
+skip, , , , , , , , , , , , , , , , 
+word,a,full,senate,vote,is,expected,thursday,,,,,,,,,
+pos,DT,JJ,NNP,NN,VBZ,VBN,NNP,,,,,,,,,
+true,O,O,B-org,O,O,O,B-tim,,,,,,,,,
+pred,O,O,B-org,O,O,O,B-tim,,,,,,,,,
+skip, , , , , , , ,,,,,,,,,
+word,the,ambassador,presented,his,diplomatic,credentials,to,iraqi,president,jalal,talabani,and,foreign,minister,hoshyar,zebari
+pos,DT,NN,VBD,PRP$,JJ,NNS,TO,JJ,NNP,NNP,NNP,CC,NNP,NNP,NNP,NNP
+true,O,O,O,O,O,O,O,B-gpe,B-per,I-per,I-per,O,B-per,I-per,I-per,I-per
+pred,O,O,O,O,O,O,O,B-gpe,B-per,I-per,I-per,O,O,B-per,I-per,I-per
+skip, , , , , , , , , , , , , , , , 
+word,elections,are,set,for,june,12,,,,,,,,,,
+pos,NNS,VBP,VBN,IN,NNP,CD,,,,,,,,,,
+true,O,O,O,O,B-tim,I-tim,,,,,,,,,,
+pred,O,O,O,O,B-tim,I-tim,,,,,,,,,,
+skip, , , , , , ,,,,,,,,,,
+word,macedonian,government,officials,say,the,u.n.,war,crimes,tribunal,has,indicted,former,interior,minister,ljube,boskovski
+pos,JJ,NN,NNS,VBP,DT,NNP,NN,NNS,JJ,VBZ,VBN,JJ,NNP,NNP,NNP,NNP
+true,B-gpe,O,O,O,O,B-geo,O,O,O,O,O,O,O,O,B-per,I-per
+pred,B-gpe,O,O,O,O,B-geo,O,O,O,O,O,O,O,B-per,I-per,I-per
+skip, , , , , , , , , , , , , , , , 
+word,pakistani,police,reported,more,deaths,saturday,from,poisoned,UNK,liquor,in,the,port,city,of,karachi
+pos,JJ,NN,VBD,JJR,NNS,NNP,IN,VBN,NN,NN,IN,DT,JJ,NN,IN,NNP
+true,B-gpe,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,B-geo
+pred,B-gpe,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,meanwhile,",",australia,had,to,rally,from,one,goal,down,to,tie,benin,",",01-jan,","
+pos,RB,",",NNP,VBD,TO,VB,IN,CD,NN,IN,TO,VB,NNP,",",CD,","
+true,O,O,B-org,O,O,O,O,O,O,O,O,O,B-org,O,O,O
+pred,O,O,B-geo,O,O,O,O,O,O,O,O,O,B-geo,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,canadian,food,inspection,agency,says,the,suspected,new,case,involves,a,10-year-old,dairy,cow,","
+pos,DT,JJ,NNP,NNP,NNP,VBZ,DT,JJ,JJ,NN,VBZ,DT,JJ,NN,NN,","
+true,O,B-gpe,B-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-gpe,B-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,prime,minister,stanishev,acknowledged,what,he,called,"""",serious,problems,"""",in,many,bulgarian,institutions,
+pos,NNP,NNP,NNP,VBD,WP,PRP,VBD,``,JJ,NNS,``,IN,JJ,JJ,NNS,
+true,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O,O,B-gpe,O,
+pred,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O,O,B-gpe,O,
+skip, , , , , , , , , , , , , , , ,
+word,india,reaffirmed,it,'s,commitment,to,the,project,saturday,during,indian,foreign,minister,natwar,singh,'s
+pos,NNP,VBD,PRP,VBZ,NN,TO,DT,NN,NNP,IN,JJ,NNP,NNP,NNP,NNP,POS
+true,B-geo,O,O,O,O,O,O,O,B-tim,O,B-gpe,O,B-per,I-per,I-per,O
+pred,B-geo,O,O,O,O,O,O,O,B-tim,O,B-gpe,O,B-per,I-per,I-per,O
+skip, , , , , , , , , , , , , , , , 
+word,union,members,voted,late,thursday,to,authorize,the,strike,by,more,than,18000,workers,who,manufacture
+pos,NNP,NNS,VBD,JJ,NNP,TO,VB,DT,NN,IN,JJR,IN,CD,NNS,WP,VBP
+true,B-org,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,two,sides,will,also,play,five,one-day,international,matches,,,,,,
+pos,DT,CD,NNS,MD,RB,VB,CD,JJ,JJ,NNS,,,,,,
+true,O,O,O,O,O,O,O,B-tim,O,O,,,,,,
+pred,O,O,O,O,O,O,B-tim,I-tim,I-tim,I-tim,,,,,,
+skip, , , , , , , , , , ,,,,,,
+word,outside,catalonia,and,the,separatist,basque,region,to,the,west,",",juan,carlos,remains,extremely,popular
+pos,JJ,NNP,CC,DT,NNP,NNP,NN,TO,DT,NN,",",NNP,NNP,VBZ,RB,JJ
+true,O,B-gpe,O,O,B-org,I-org,O,O,O,O,O,B-per,I-per,O,O,O
+pred,O,B-geo,O,O,B-org,I-org,O,O,O,O,O,B-per,I-per,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,u.s.,has,responded,to,the,taliban,'s,threats,with,occasional,missile,strikes,in,pakistan,'s
+pos,DT,NNP,VBZ,VBN,TO,DT,NNP,POS,NNS,IN,JJ,NN,NNS,IN,NNP,POS
+true,O,B-geo,O,O,O,O,B-org,O,O,O,O,O,O,O,B-geo,O
+pred,O,B-geo,O,O,O,O,B-org,O,O,O,O,O,O,O,B-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,afghan,authorities,have,discovered,the,bodies,of,two,intelligence,agents,kidnapped,by,suspected,taleban,militants,earlier
+pos,JJ,NNS,VBP,VBN,DT,NNS,IN,CD,NN,NNS,VBN,IN,JJ,NNP,NNS,RBR
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,B-org,O,O
+pred,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,B-org,O,O
+skip, , , , , , , , , , , , , , , , 
+word,a,group,calling,itself,the,holy,jihad,brigades,said,it,is,holding,the,two,journalists,
+pos,DT,NN,VBG,PRP,DT,NNP,NNP,NNP,VBD,PRP,VBZ,VBG,DT,CD,NNS,
+true,O,O,O,O,O,B-org,I-org,I-org,O,O,O,O,O,O,O,
+pred,O,O,O,O,O,B-org,I-org,I-org,O,O,O,O,O,O,O,
+skip, , , , , , , , , , , , , , , ,
+word,it,also,gives,the,russian,president,the,authorization,to,order,a,UNK,operation,outside,russian,territory
+pos,PRP,RB,VBZ,DT,JJ,NN,DT,NN,TO,VB,DT,NN,NN,IN,JJ,NN
+true,O,O,O,O,B-gpe,O,O,O,O,O,O,O,O,O,B-gpe,O
+pred,O,O,O,O,B-gpe,O,O,O,O,O,O,O,O,O,B-gpe,O
+skip, , , , , , , , , , , , , , , , 
+word,army,spokesman,major,general,waheed,arshad,says,10,militants,were,killed,sunday,in,fighting,with,security
+pos,NN,NN,NNP,NNP,NNP,NNP,VBZ,CD,NNS,VBD,VBN,NNP,IN,VBG,IN,NN
+true,O,O,B-org,I-org,I-org,I-org,O,O,O,O,O,B-tim,O,O,O,O
+pred,O,O,O,B-per,I-per,I-per,O,O,O,O,O,B-tim,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,afghan,officials,say,suspected,taleban,gunmen,have,killed,six,policemen,during,a,raid,on,a,police
+pos,JJ,NNS,VBP,VBN,NNP,NNS,VBP,VBN,CD,NNS,IN,DT,NN,IN,DT,NN
+true,B-gpe,O,O,O,B-org,O,O,O,O,O,O,O,O,O,O,O
+pred,B-gpe,O,O,O,B-org,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,wednesday,in,geneva,",",the,world,bank,said,it,plans,to,provide,$,1,billion,to
+pos,NNP,IN,NNP,",",DT,NNP,NNP,VBD,PRP,VBZ,TO,VB,$,CD,CD,TO
+true,B-tim,I-tim,I-tim,O,O,B-org,I-org,O,O,O,O,O,O,O,O,O
+pred,B-tim,O,B-geo,O,O,B-org,I-org,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,washington,accuses,tehran,of,secretly,pursuing,nuclear,weapons,",",a,charge,tehran,denies,,,
+pos,NNP,VBZ,NNP,IN,RB,VBG,JJ,NNS,",",DT,NN,NNP,VBZ,,,
+true,B-geo,O,B-geo,O,O,O,O,O,O,O,O,B-org,O,,,
+pred,B-geo,O,B-geo,O,O,O,O,O,O,O,O,B-org,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,an,expected,leveling,off,in,diamond,mining,production,within,the,next,two,decades,overshadows,long-term,prospects
+pos,DT,VBN,NN,RB,IN,NN,NN,NN,IN,DT,JJ,CD,NNS,VBZ,JJ,NNS
+true,O,O,O,O,O,O,O,O,O,O,O,B-tim,I-tim,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,B-tim,I-tim,I-tim,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,footage,was,shown,to,the,court,and,later,included,in,a,documentary,called,death,in
+pos,DT,NN,VBD,VBN,TO,DT,NN,CC,RB,VBN,IN,DT,NN,VBN,NNP,IN
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-org,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,syria,was,the,main,power,broker,in,lebanon,until,april,",",when,it,withdrew,its,remaining
+pos,NNP,VBD,DT,JJ,NN,NN,IN,NNP,IN,NNP,",",WRB,PRP,VBD,PRP$,VBG
+true,B-geo,O,O,O,O,O,O,B-geo,B-tim,I-tim,O,O,O,O,O,O
+pred,B-geo,O,O,O,O,O,O,B-geo,O,B-tim,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,al-jazeera,television,reports,al-qaida,'s,north,african,branch,has,claimed,responsibility,for,the,bombing,,
+pos,NNP,NN,VBZ,NNP,POS,JJ,JJ,NN,VBZ,VBN,NN,IN,DT,NN,,
+true,B-geo,O,O,B-org,O,B-geo,B-gpe,O,O,O,O,O,O,O,,
+pred,B-org,O,O,B-org,O,B-geo,B-gpe,O,O,O,O,O,O,O,,
+skip, , , , , , , , , , , , , , ,,
+word,the,united,states,and,its,western,allies,suspect,iran,is,working,to,develop,nuclear,weapons,","
+pos,DT,NNP,NNPS,CC,PRP$,JJ,NNS,VBP,NNP,VBZ,VBG,TO,VB,JJ,NNS,","
+true,O,B-geo,I-geo,O,O,O,O,O,B-geo,O,O,O,O,O,O,O
+pred,O,B-geo,I-geo,O,O,O,O,O,B-geo,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,structure,is,designed,to,stop,gaza-based,militants,from,swimming,to,the,israeli,coast,once,israel
+pos,DT,NN,VBZ,VBN,TO,VB,JJ,NNS,IN,NN,TO,DT,JJ,NN,RB,NNP
+true,O,O,O,O,O,O,O,O,O,O,O,O,B-gpe,O,O,B-geo
+pred,O,O,O,O,O,O,O,O,O,O,O,O,B-gpe,O,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,the,35-year-old,beckham,arrived,at,the,team,'s,facility,east,of,london,on,monday,,
+pos,DT,JJ,NNP,VBD,IN,DT,NN,POS,NN,NN,IN,NNP,IN,NNP,,
+true,O,O,B-per,O,O,O,O,O,O,O,O,B-geo,O,B-tim,,
+pred,O,O,B-per,O,O,O,O,O,O,O,O,B-geo,O,B-tim,,
+skip, , , , , , , , , , , , , , ,,
+word,three,candidates,were,killed,by,suspected,muslim,separatists,during,the,election,campaign,,,,
+pos,CD,NNS,VBD,VBN,IN,JJ,NNP,NNS,IN,DT,NN,NN,,,,
+true,O,O,O,O,O,O,B-org,O,O,O,O,O,,,,
+pred,O,O,O,O,O,O,O,O,O,O,O,O,,,,
+skip, , , , , , , , , , , , ,,,,
+word,last,month,",",germany,",",france,and,spain,expressed,concern,that,peacekeeping,operations,and,offensive,operations
+pos,JJ,NN,",",NNP,",",NNP,CC,NNP,VBD,NN,IN,VBG,NNS,CC,JJ,NNS
+true,O,O,O,B-geo,O,B-geo,O,B-geo,O,O,O,O,O,O,O,O
+pred,O,O,O,B-geo,O,B-geo,O,B-geo,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,u.s.,secretary,of,state,condoleezza,rice,has,met,the,editors,and,the,son,of,slain,russian
+pos,NNP,NNP,IN,NNP,NNP,NNP,VBZ,VBN,DT,NNS,CC,DT,NN,IN,NN,JJ
+true,B-org,O,O,B-org,B-per,I-per,O,O,O,O,O,O,O,O,O,B-gpe
+pred,B-org,O,O,B-org,B-per,I-per,O,O,O,O,O,O,O,O,O,B-gpe
+skip, , , , , , , , , , , , , , , , 
+word,the,united,nations,envoy,to,the,middle,east,has,urged,israel,to,accept,a,new,syrian
+pos,DT,NNP,NNPS,NN,TO,DT,NNP,NNP,VBZ,VBN,NNP,TO,VB,DT,JJ,JJ
+true,O,B-org,I-org,O,O,O,B-geo,I-geo,O,O,B-geo,O,O,O,O,B-gpe
+pred,O,B-org,I-org,O,O,O,B-geo,I-geo,O,O,B-geo,O,O,O,O,B-gpe
+skip, , , , , , , , , , , , , , , , 
+word,among,those,freed,earlier,this,week,were,well-known,dissident,writer,and,poet,raul,UNK,",",opposition
+pos,IN,DT,VBN,RBR,DT,NN,VBD,JJ,JJ,NN,CC,NN,NNP,NNP,",",NN
+true,O,O,O,O,O,O,O,O,O,O,O,O,B-per,I-per,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,B-per,I-per,O,O
+skip, , , , , , , , , , , , , , , , 
+word,in,jeddah,",",long,considered,one,of,the,country,'s,most,liberal,cities,",",voters,also
+pos,IN,NNP,",",RB,VBN,CD,IN,DT,NN,POS,RBS,JJ,NNS,",",NNS,RB
+true,O,B-tim,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,chinese,president,hu,jintao,said,promoting,openness,in,international,trade,and,curbing,protectionism,would,help,revive
+pos,JJ,NNP,NNP,NNP,VBD,VBG,NN,IN,JJ,NN,CC,VBG,NN,MD,VB,VB
+true,B-gpe,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-gpe,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,ethnic,uzbeks,form,a,substantial,minority,in,tajikistan,,,,,,,,
+pos,JJ,NNS,VBP,DT,JJ,NN,IN,NNP,,,,,,,,
+true,O,B-gpe,O,O,O,O,O,B-geo,,,,,,,,
+pred,O,B-gpe,O,O,O,O,O,B-geo,,,,,,,,
+skip, , , , , , , , ,,,,,,,,
+word,earlier,this,week,",",venezuelan,vice,president,jose,rangel,said,his,country,is,buying,the,weapons
+pos,RBR,DT,NN,",",JJ,NNP,NNP,NNP,NNP,VBD,PRP$,NN,VBZ,VBG,DT,NNS
+true,O,O,O,O,B-gpe,B-per,I-per,I-per,I-per,O,O,O,O,O,O,O
+pred,O,O,O,O,B-gpe,O,B-per,I-per,I-per,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,summit,",",which,opened,in,the,military-ruled,southeast,asian,nation,on,thursday,",",attracted,controversy
+pos,DT,NN,",",WDT,VBD,IN,DT,JJ,JJ,JJ,NN,IN,NNP,",",VBD,NN
+true,O,O,O,O,O,O,O,O,O,O,O,O,B-tim,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,B-tim,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,in,june,2005,",",president,idriss,deby,held,a,referendum,successfully,removing,constitutional,term,limits,and
+pos,IN,NNP,CD,",",NNP,NNP,NNP,VBD,DT,NN,RB,VBG,JJ,NN,NNS,CC
+true,O,B-tim,I-tim,O,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O
+pred,O,B-tim,I-tim,O,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,president,bush,has,used,his,weekly,radio,address,to,urge,congress,to,do,more,to,ease
+pos,NNP,NNP,VBZ,VBN,PRP$,JJ,NN,NN,TO,VB,NNP,TO,VB,JJR,TO,VB
+true,B-per,I-per,O,O,O,O,O,O,O,O,B-org,O,O,O,O,O
+pred,B-per,I-per,O,O,O,O,O,O,O,O,B-org,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,polar,vortices,found,on,earth,",",mars,",",venus,and,jupiter,are,significantly,colder,than,their
+pos,NNP,NNS,VBD,IN,NNP,",",NNP,",",NNP,CC,NNP,VBP,RB,JJR,IN,PRP$
+true,O,O,O,O,B-geo,O,B-geo,O,B-per,O,B-per,O,O,O,O,O
+pred,B-org,O,O,O,B-geo,O,B-geo,O,B-geo,O,B-geo,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,this,week,'s,fighting,has,taken,place,near,the,interim,government,'s,headquarters,in,baidoa,
+pos,DT,NN,POS,NN,VBZ,VBN,NN,IN,DT,JJ,NN,POS,NN,IN,NNP,
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,
+skip, , , , , , , , , , , , , , , ,
+word,a,child,related,to,the,woman,is,being,treated,in,a,jakarta,hospital,after,testing,positive
+pos,DT,NN,VBN,TO,DT,NN,VBZ,VBG,VBN,IN,DT,NNP,NN,IN,VBG,JJ
+true,O,O,O,O,O,O,O,O,O,O,O,B-geo,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,B-geo,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,u.s.,military,in,afghanistan,says,a,bomb,explosion,has,killed,four,american,service,members,
+pos,DT,NNP,NN,IN,NNP,VBZ,DT,NN,NN,VBZ,VBN,CD,JJ,NN,NNS,
+true,O,B-geo,O,O,B-geo,O,O,O,O,O,O,O,B-gpe,O,O,
+pred,O,B-geo,O,O,B-geo,O,O,O,O,O,O,O,B-gpe,O,O,
+skip, , , , , , , , , , , , , , , ,
+word,in,1965,",",the,united,states,led,an,intervention,in,the,midst,of,a,civil,war
+pos,IN,CD,",",DT,NNP,NNPS,VBD,DT,NN,IN,DT,NN,IN,DT,JJ,NN
+true,O,B-tim,O,O,B-geo,I-geo,O,O,O,O,O,O,O,O,O,O
+pred,O,B-tim,O,O,B-geo,I-geo,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,al-qaida,'s,north,african,branch,has,claimed,responsibility,for,several,recent,attacks,in,algeria,,
+pos,NNP,POS,JJ,JJ,NN,VBZ,VBN,NN,IN,JJ,JJ,NNS,IN,NNP,,
+true,B-org,O,B-geo,B-gpe,O,O,O,O,O,O,O,O,O,B-geo,,
+pred,B-org,O,B-geo,B-gpe,O,O,O,O,O,O,O,O,O,B-geo,,
+skip, , , , , , , , , , , , , , ,,
+word,the,statement,says,that,since,the,beginning,of,the,year,",",he,has,been,denied,visits
+pos,DT,NN,VBZ,IN,IN,DT,NN,IN,DT,NN,",",PRP,VBZ,VBN,VBN,NNS
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,B-tim,I-tim,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,one,of,the,world,'s,largest,petroleum,refineries,is,at,saint,croix,,,,
+pos,CD,IN,DT,NN,POS,JJS,NN,NNS,VBZ,IN,NNP,NNP,,,,
+true,O,O,O,O,O,O,O,O,O,O,B-geo,I-geo,,,,
+pred,O,O,O,O,O,O,O,O,O,O,B-org,I-org,,,,
+skip, , , , , , , , , , , , ,,,,
+word,the,report,predicts,a,modest,economic,recovery,in,2010,for,most,nations,,,,
+pos,DT,NN,VBZ,DT,JJ,JJ,NN,IN,CD,IN,JJS,NNS,,,,
+true,O,O,O,O,O,O,O,O,B-tim,O,O,O,,,,
+pred,O,O,O,O,O,O,O,O,B-tim,O,O,O,,,,
+skip, , , , , , , , , , , , ,,,,
+word,in,2005,",",haiti,paid,its,arrears,to,the,world,bank,",",paving,the,way,for
+pos,IN,CD,",",NNP,VBD,PRP$,NNS,TO,DT,NNP,NNP,",",VBG,DT,NN,IN
+true,O,B-tim,O,B-geo,O,O,O,O,O,B-org,I-org,O,O,O,O,O
+pred,O,B-tim,O,B-geo,O,O,O,O,O,B-org,I-org,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,in,kirkuk,",",at,least,three,people,were,killed,in,a,drive-by,shooting,",",and,in
+pos,IN,NNP,",",IN,JJS,CD,NNS,VBD,VBN,IN,DT,JJ,NN,",",CC,IN
+true,O,B-tim,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,meanwhile,",",in,violence,monday,",",bombings,killed,two,people,in,baghdad,,,,
+pos,RB,",",IN,NN,NNP,",",NNS,VBD,CD,NNS,IN,NNP,,,,
+true,O,O,O,O,B-tim,O,O,O,O,O,O,B-geo,,,,
+pred,O,O,O,O,B-tim,O,O,O,O,O,O,B-geo,,,,
+skip, , , , , , , , , , , , ,,,,
+word,ioc,president,jacques,rogge,has,already,said,none,of,the,cities,broke,rules,designed,to,stamp
+pos,NNP,NN,NNP,NNP,VBZ,RB,VBN,NN,IN,DT,NNS,VBD,NNS,VBN,TO,VB
+true,B-org,O,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-org,O,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,mr.,mwanawasa,was,flown,to,france,tuesday,after,suffering,a,stroke,sunday,while,in,egypt,for
+pos,NNP,NNP,VBD,VBN,IN,NNP,NNP,IN,VBG,DT,NN,NNP,IN,IN,NNP,IN
+true,B-per,I-per,O,O,O,B-geo,B-tim,O,O,O,O,B-tim,O,O,B-geo,O
+pred,B-per,I-per,O,O,O,B-geo,B-tim,O,O,O,O,B-tim,O,O,B-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,ratners,group,plc,",",a,fast-growing,",",acquisition-minded,london-based,jeweler,",",raised,its,price,for,UNK
+pos,NNP,NNP,NNP,",",DT,JJ,",",JJ,JJ,NN,",",VBD,PRP$,NN,IN,JJ
+true,B-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,all,proceeds,will,be,donated,to,the,tsunami,solidarity,fund,set,up,by,fifa,and,the
+pos,DT,NNS,MD,VB,VBN,TO,DT,NNP,NNP,NNP,VBN,RP,IN,NNP,CC,DT
+true,O,O,O,O,O,O,O,B-org,I-org,I-org,O,O,O,B-org,O,O
+pred,O,O,O,O,O,O,O,B-org,I-org,I-org,O,O,O,B-org,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,taliban,said,the,attack,wednesday,was,the,first,step,of,a,plan,aimed,at,disrupting
+pos,DT,NNP,VBD,DT,NN,NNP,VBD,DT,JJ,NN,IN,DT,NN,VBN,IN,VBG
+true,O,B-org,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O
+pred,O,B-org,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,commuters,were,angered,tuesday,morning,when,service,was,interrupted,because,of,technical,problems,,,
+pos,NNS,VBD,VBN,NNP,NN,WRB,NN,VBD,VBN,IN,IN,JJ,NNS,,,
+true,O,O,O,B-tim,I-tim,O,O,O,O,O,O,O,O,,,
+pred,O,O,O,B-tim,I-tim,O,O,O,O,O,O,O,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,a,military,tribunal,has,charged,dr.,besigye,with,terrorism,and,illegal,firearms,possession,,,
+pos,DT,JJ,NN,VBZ,VBN,NNP,NNP,IN,NN,CC,JJ,NNS,NN,,,
+true,O,O,O,O,O,B-per,I-per,O,O,O,O,O,O,,,
+pred,O,O,O,O,O,B-per,I-per,O,O,O,O,O,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,since,2000,",",the,united,states,has,provided,colombia,with,about,three,million,dollars,in,mostly
+pos,IN,CD,",",DT,NNP,NNPS,VBZ,VBN,NNP,IN,IN,CD,CD,NNS,IN,RB
+true,B-tim,I-tim,O,O,B-geo,I-geo,O,O,B-geo,O,O,O,O,O,O,O
+pred,B-tim,I-tim,O,O,B-geo,I-geo,O,O,B-geo,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,court,said,in,its,decision,wednesday,that,the,principle,of,universal,jurisdiction,takes,precedence,over
+pos,DT,NN,VBD,IN,PRP$,NN,NNP,IN,DT,NN,IN,JJ,NN,VBZ,NN,IN
+true,O,O,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,they,include,a,memorandum,of,understanding,against,trafficking,",",signed,last,month,by,cambodia,",",china
+pos,PRP,VBP,DT,NN,IN,NN,IN,NN,",",VBN,JJ,NN,IN,NNP,",",NNP
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O,B-geo
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,kenyan,police,have,opened,fire,at,hundreds,of,people,demonstrating,against,cartoons,depicting,the,prophet,muhammad
+pos,JJ,NNS,VBP,VBN,NN,IN,NNS,IN,NNS,VBG,IN,NNS,VBG,DT,NNP,NNP
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,B-per,I-per
+pred,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,B-org,I-org
+skip, , , , , , , , , , , , , , , , 
+word,in,budapest,monday,",",the,hungarian,parliament,voted,overwhelmingly,to,approve,the,pact,",",which,aims
+pos,IN,NNP,NNP,",",DT,JJ,NN,VBD,RB,TO,VB,DT,NN,",",WDT,VBZ
+true,O,B-tim,I-tim,O,O,B-gpe,O,O,O,O,O,O,O,O,O,O
+pred,O,B-tim,I-tim,O,O,B-gpe,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,u.s.,senate,is,to,begin,debate,wednesday,on,one,of,president,bush,'s,judicial,nominees
+pos,DT,NNP,NNP,VBZ,TO,VB,NN,NNP,IN,CD,IN,NNP,NNP,POS,JJ,NNS
+true,O,B-org,I-org,O,O,O,O,B-tim,O,O,O,B-per,I-per,O,O,O
+pred,O,B-org,I-org,O,O,O,O,B-tim,O,O,O,B-per,I-per,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,military,says,abu,ahmed,was,the,deputy,of,abu,talha,",",commander,of,a,zarqawi
+pos,DT,JJ,VBZ,NNP,NNP,VBD,DT,NN,IN,NNP,NNP,",",NN,IN,DT,NNP
+true,O,O,O,B-per,I-per,O,O,O,O,B-per,I-per,O,O,O,O,B-geo
+pred,O,O,O,B-per,I-per,O,O,O,O,B-org,I-org,O,O,O,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,earlier,",",the,agriculture,ministry,reported,an,outbreak,in,a,flock,of,ducks,",",also,in
+pos,RB,",",DT,NNP,NNP,VBD,DT,NN,IN,DT,NN,IN,NNS,",",RB,IN
+true,O,O,O,B-org,I-org,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,B-org,I-org,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,mr.,hariri,was,killed,february,14,in,a,beirut,bombing,that,stunned,lebanon,and,UNK,in
+pos,NNP,NNP,VBD,VBN,NNP,CD,IN,DT,NNP,NN,WDT,VBD,NNP,CC,VBN,IN
+true,B-per,I-per,O,O,B-tim,I-tim,O,O,B-geo,O,O,O,B-geo,O,O,O
+pred,B-per,I-per,O,O,B-tim,I-tim,O,O,B-geo,O,O,O,B-geo,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,iran,'s,press,tv,says,tehran,'s,air,quality,control,company,has,found,the,amount,of
+pos,NNP,POS,NNP,NNP,VBZ,NNP,POS,NNP,NNP,NNP,NNP,VBZ,VBN,DT,NN,IN
+true,B-gpe,O,B-org,I-org,O,B-geo,O,B-org,I-org,I-org,I-org,O,O,O,O,O
+pred,B-geo,O,B-org,I-org,O,B-org,I-org,I-org,I-org,I-org,I-org,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,syrian,officials,claim,he,is,unreliable,,,,,,,,,,
+pos,JJ,NNS,VBP,PRP,VBZ,JJ,,,,,,,,,,
+true,B-gpe,O,O,O,O,O,,,,,,,,,,
+pred,B-gpe,O,O,O,O,O,,,,,,,,,,
+skip, , , , , , ,,,,,,,,,,
+word,britain,'s,new,code,of,practice,forbids,employers,working,with,the,nhs,from,recruiting,from,developing
+pos,NNP,POS,JJ,NN,IN,NN,NNS,NNS,VBG,IN,DT,NNP,IN,VBG,IN,VBG
+true,B-geo,O,O,O,O,O,O,O,O,O,O,B-org,O,O,O,O
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,B-org,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,however,protesters,in,iran,friday,threw,bricks,and,explosives,at,the,british,embassy,in,tehran,","
+pos,RB,NNS,IN,NNP,NNP,VBD,NNS,CC,NNS,IN,DT,NNP,NNP,IN,NNP,","
+true,O,O,O,B-geo,B-tim,O,O,O,O,O,O,B-org,I-org,O,B-geo,O
+pred,O,O,O,B-geo,B-tim,O,O,O,O,O,O,B-org,I-org,O,B-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,the,program,",",available,to,upjohn,employees,55,years,old,or,older,",",could,increase,an
+pos,DT,NN,",",JJ,TO,NNP,NNS,CD,NNS,JJ,CC,JJR,",",MD,VB,DT
+true,O,O,O,O,O,B-org,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,B-org,O,B-tim,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,mining,company,also,owes,the,chilean,government,between,$,10,and,$,20,million,for
+pos,DT,NN,NN,RB,VBZ,DT,JJ,NN,IN,$,CD,CC,$,CD,CD,IN
+true,O,O,O,O,O,O,B-gpe,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,B-gpe,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,u.n.-congolese,force,attacked,the,rebels,saturday,south,of,beni,in,north,kivu,province,,
+pos,DT,JJ,NN,VBD,DT,NNS,NNP,NN,IN,NNP,IN,NNP,NNP,NN,,
+true,O,O,O,O,O,O,B-tim,O,O,B-geo,O,B-geo,I-geo,O,,
+pred,O,O,O,O,O,O,B-tim,O,O,B-geo,O,B-geo,I-geo,O,,
+skip, , , , , , , , , , , , , , ,,
+word,the,red,cross,says,that,while,it,understands,israel,'s,security,concerns,",",it,strongly,believes
+pos,DT,NNP,NNP,VBZ,IN,IN,PRP,VBZ,NNP,POS,NN,NNS,",",PRP,RB,VBZ
+true,O,B-org,I-org,O,O,O,O,O,B-geo,O,O,O,O,O,O,O
+pred,O,B-org,I-org,O,O,O,O,O,B-geo,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,turkish,weightlifting,federation,has,been,fined,$,"1,00,000",and,suspended,from,all,international,competitions,until
+pos,DT,JJ,NNP,NNP,VBZ,VBN,VBN,$,CD,CC,VBN,IN,DT,JJ,NNS,IN
+true,O,B-gpe,B-org,I-org,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-gpe,B-org,I-org,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,angry,crowds,in,several,indian,cities,burned,pictures,of,hollywood,actor,richard,gere,and,indian,actress
+pos,NNP,NNS,IN,JJ,JJ,NNS,VBD,NNS,IN,NNP,NN,NNP,NNP,CC,JJ,NN
+true,O,O,O,O,B-gpe,O,O,O,O,B-geo,O,B-per,I-per,O,B-gpe,O
+pred,O,O,O,O,B-gpe,O,O,O,O,B-geo,O,B-per,I-per,O,B-gpe,O
+skip, , , , , , , , , , , , , , , , 
+word,the,meetings,focused,on,u.s.,limits,on,chinese,imports,intended,to,protect,american,clothing,manufacturers,from
+pos,DT,NNS,VBD,IN,NNP,NNS,IN,JJ,NNS,VBN,TO,VB,JJ,NN,NNS,IN
+true,O,O,O,O,B-geo,O,O,B-gpe,O,O,O,O,B-gpe,O,O,O
+pred,O,O,O,O,B-geo,O,O,B-gpe,O,O,O,O,B-gpe,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,election,is,set,for,september,6,,,,,,,,,
+pos,DT,NN,VBZ,VBN,IN,NNP,CD,,,,,,,,,
+true,O,O,O,O,O,B-tim,I-tim,,,,,,,,,
+pred,O,O,O,O,O,B-tim,I-tim,,,,,,,,,
+skip, , , , , , , ,,,,,,,,,
+word,the,u.n.,says,many,have,fled,into,neighboring,afghanistan,to,escape,the,violence,,,
+pos,DT,NNP,VBZ,NN,VBP,VBN,IN,VBG,NNP,TO,VB,DT,NN,,,
+true,O,B-org,O,O,O,O,O,O,B-geo,O,O,O,O,,,
+pred,O,B-org,O,O,O,O,O,O,B-geo,O,O,O,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,on,other,issues,",",mr.,latortue,said,there,is,no,doubt,a,presidential,election,will,be
+pos,IN,JJ,NNS,",",NNP,NNP,VBD,EX,VBZ,DT,NN,DT,JJ,NN,MD,VB
+true,O,O,O,O,B-per,I-per,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,B-per,I-per,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,he,was,captured,when,kuwaiti,security,forces,stormed,a,suspected,terrorist,hideout,near,kuwait,city,about
+pos,PRP,VBD,VBN,WRB,JJ,NN,NNS,VBD,DT,JJ,JJ,NN,IN,NNP,NNP,IN
+true,O,O,O,O,B-gpe,O,O,O,O,O,O,O,O,B-geo,I-geo,O
+pred,O,O,O,O,B-gpe,O,O,O,O,O,O,O,O,B-geo,I-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,other,stars,slated,to,appear,include,brazil,'s,ronaldo,",",david,beckham,of,england,and,frenchman
+pos,JJ,NNS,VBN,TO,VB,VBP,NNP,POS,NNP,",",NNP,NNP,IN,NNP,CC,NN
+true,O,O,O,O,O,O,B-geo,O,B-per,O,B-per,I-per,O,B-geo,O,O
+pred,O,O,O,O,O,O,B-geo,O,B-geo,O,B-per,I-per,O,B-geo,O,B-gpe
+skip, , , , , , , , , , , , , , , , 
+word,noel,choong,of,the,international,maritime,bureau,",",imb,",",says,pirates,tried,to,hijack,a
+pos,NNP,NNP,IN,DT,NNP,NNP,NNP,",",NNP,",",VBZ,NNS,VBD,TO,VB,DT
+true,B-per,I-per,O,B-geo,I-geo,I-geo,I-geo,O,B-geo,O,O,O,O,O,O,O
+pred,B-per,I-per,O,O,B-org,I-org,I-org,O,B-per,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,united,states,',director,of,national,intelligence,",",john,negroponte,",",has,created,a,new
+pos,DT,NNP,NNPS,POS,NN,IN,JJ,NN,",",NNP,NNP,",",VBZ,VBN,DT,JJ
+true,O,B-geo,I-geo,O,O,O,O,O,O,B-per,I-per,O,O,O,O,O
+pred,O,B-geo,I-geo,O,O,O,O,O,O,B-per,B-org,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,about,"2,00,000",people,died,in,guatemala,'s,civil,war,from,1960,to,1996,,,
+pos,IN,CD,NNS,VBD,IN,NNP,POS,JJ,NN,IN,CD,TO,CD,,,
+true,O,O,O,O,O,B-geo,O,O,O,O,B-tim,I-tim,I-tim,,,
+pred,O,O,O,O,O,B-geo,O,O,O,O,B-tim,I-tim,I-tim,,,
+skip, , , , , , , , , , , , , ,,,
+word,most,of,the,dead,are,believed,to,be,fishermen,who,were,in,boats,when,huge,waves
+pos,JJS,IN,DT,NN,VBP,VBN,TO,VB,NNS,WP,VBD,IN,NNS,WRB,JJ,NNS
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,a,report,from,quito,by,reuters,says,the,forces,have,also,taken,control,of,government,buildings
+pos,DT,NN,IN,NNP,IN,NNP,VBZ,DT,NNS,VBP,RB,VBN,NN,IN,NN,NNS
+true,O,O,O,B-geo,O,B-org,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,B-per,O,B-org,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,turkish,security,officials,say,one,soldier,and,12,kurdish,rebels,were,killed,in,a,clash,in
+pos,JJ,NN,NNS,VBP,CD,NN,CC,CD,JJ,NNS,VBD,VBN,IN,DT,NN,IN
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,colombia,'s,ambassador,to,venezuela,",",enrique,vargas,ramirez,",",thanked,caracas,for,the,soldiers,'
+pos,NNP,POS,NN,TO,NNP,",",NNP,NNP,NNP,",",VBD,NNP,IN,DT,NNS,POS
+true,B-geo,O,O,O,B-geo,O,B-geo,B-per,I-per,O,O,B-geo,O,O,O,O
+pred,B-geo,O,O,O,B-geo,O,B-per,I-per,I-per,O,O,B-geo,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,he,is,the,16th,person,to,be,arrested,in,connection,with,the,mumbai,blasts,",",and
+pos,PRP,VBZ,DT,JJ,NN,TO,VB,VBN,IN,NN,IN,DT,NNP,NNS,",",CC
+true,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O,O,O
+pred,O,O,O,B-tim,O,O,O,O,O,O,O,O,B-geo,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,since,then,",",israeli,troops,have,killed,several,suspected,militants,and,wounded,several,people,",",including
+pos,IN,RB,",",JJ,NNS,VBP,VBN,JJ,JJ,NNS,CC,VBD,JJ,NNS,",",VBG
+true,O,O,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,a,month,later,",",the,nobel,prize-winning,medical,relief,agency,pulled,out,of,afghanistan,after,24
+pos,DT,NN,RB,",",DT,NNP,JJ,JJ,NN,NN,VBD,IN,IN,NNP,IN,CD
+true,O,O,B-tim,O,O,O,O,O,O,O,O,O,O,B-geo,O,B-tim
+pred,O,O,B-tim,O,O,B-org,O,O,O,O,O,O,O,B-geo,O,O
+skip, , , , , , , , , , , , , , , , 
+word,palestinian,medics,say,three,of,the,wounded,are,in,critical,condition,,,,,
+pos,JJ,NNS,VBP,CD,IN,DT,VBN,VBP,IN,JJ,NN,,,,,
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,,,,,
+pred,B-gpe,O,O,O,O,O,O,O,O,O,O,,,,,
+skip, , , , , , , , , , , ,,,,,
+word,mr.,chirac,told,visiting,croatian,prime,minister,ivo,sander,that,the,schedule,for,membership,talks,should
+pos,NNP,NNP,VBD,VBG,JJ,NNP,NNP,NNP,NNP,IN,DT,NN,IN,NN,NNS,MD
+true,B-per,I-per,O,O,B-gpe,B-per,I-per,I-per,I-per,O,O,O,O,O,O,O
+pred,B-per,I-per,O,O,B-gpe,B-per,I-per,I-per,I-per,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,an,international,donor,'s,conference,has,opened,in,beijing,",",where,world,health,officials,hope,to
+pos,DT,JJ,NN,POS,NN,VBZ,VBN,IN,NNP,",",WRB,NN,NN,NNS,VBP,TO
+true,O,O,O,O,O,O,O,O,B-geo,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,B-geo,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,following,a,briefing,by,the,energy,department,",",the,president,said,hurricanes,rita,and,katrina,exposed
+pos,VBG,DT,NN,IN,DT,NNP,NNP,",",DT,NN,VBD,NNPS,NNP,CC,NNP,VBD
+true,O,O,O,O,O,B-org,I-org,O,O,O,O,B-nat,I-nat,O,B-nat,O
+pred,O,O,O,O,O,B-org,I-org,O,O,O,O,B-nat,I-nat,O,B-nat,O
+skip, , , , , , , , , , , , , , , , 
+word,israel,'s,elder,statesman,",",nobel,laureate,shimon,peres,",",has,been,ousted,as,the,labor
+pos,NNP,POS,NN,NN,",",NNP,NN,NNP,NNP,",",VBZ,VBN,VBN,IN,DT,NNP
+true,B-geo,O,O,O,O,B-per,I-per,I-per,I-per,O,O,O,O,O,O,O
+pred,B-geo,O,O,O,O,O,O,B-per,I-per,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,they,say,the,cars,exploded,at,nearly,the,same,time,outside,two,churches,in,kirkuk,and
+pos,PRP,VBP,DT,NNS,VBD,IN,RB,DT,JJ,NN,IN,CD,NNS,IN,NNP,CC
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,after,the,ruling,junta,in,august,2007,unexpectedly,increased,fuel,prices,",",tens,of,thousands,of
+pos,IN,DT,NN,NN,IN,NNP,CD,RB,VBD,NN,NNS,",",NNS,IN,NNS,IN
+true,O,O,O,O,O,B-tim,I-tim,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,B-tim,I-tim,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,cyprus,vote,comes,less,than,a,month,after,irish,voters,rejected,the,treaty,in,a
+pos,DT,NNP,NN,VBZ,JJR,IN,DT,NN,IN,JJ,NNS,VBD,DT,NN,IN,DT
+true,O,B-org,O,O,O,O,O,O,O,B-gpe,O,O,O,O,O,O
+pred,O,B-org,O,O,O,O,O,O,O,B-gpe,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,local,and,u.s.,activists,have,called,for,the,withdrawal,of,the,stamp,",",which,depicts,a
+pos,JJ,CC,NNP,NNS,VBP,VBN,IN,DT,NN,IN,DT,NN,",",WDT,VBZ,DT
+true,O,O,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,wife,of,one,of,two,foreign,journalists,kidnapped,in,gaza,city,monday,has,appealed,for
+pos,DT,NN,IN,CD,IN,CD,JJ,NNS,VBN,IN,NNP,NNP,NNP,VBZ,VBN,IN
+true,O,O,O,O,O,O,O,O,O,O,B-geo,I-geo,B-tim,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,B-geo,I-geo,B-tim,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,mr.,medvedev,and,u.s.,president,barack,obama,signed,the,treaty,last,month,in,the,czech,capital
+pos,NNP,NNP,CC,NNP,NNP,NNP,NNP,VBD,DT,NN,JJ,NN,IN,DT,JJ,NN
+true,B-per,I-per,O,B-org,B-per,I-per,I-per,O,O,O,O,O,O,O,B-gpe,O
+pred,B-per,I-per,O,B-geo,B-per,I-per,I-per,O,O,O,O,O,O,O,B-gpe,O
+skip, , , , , , , , , , , , , , , , 
+word,it,gives,local,authorities,the,power,to,impose,curfews,for,three,more,months,,,
+pos,PRP,VBZ,JJ,NNS,DT,NN,TO,VB,NNS,IN,CD,JJR,NNS,,,
+true,O,O,O,O,O,O,O,O,O,O,B-tim,I-tim,O,,,
+pred,O,O,O,O,O,O,O,O,O,O,B-tim,I-tim,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,a,purported,spokesman,for,the,taleban,confirmed,the,local-level,commander,",",known,as,tor,mullah,abdul
+pos,DT,JJ,NN,IN,DT,NNP,VBD,DT,JJ,NN,",",VBN,IN,NNP,NNP,NNP
+true,O,O,O,O,O,B-org,O,O,O,O,O,O,O,B-org,I-org,I-org
+pred,O,O,O,O,O,B-org,O,O,O,O,O,O,O,B-org,I-org,I-org
+skip, , , , , , , , , , , , , , , , 
+word,he,said,mr.,blair,did,not,have,a,lawyer,present,and,was,treated,as,a,witness
+pos,PRP,VBD,NNP,NNP,VBD,RB,VB,DT,NN,NN,CC,VBD,VBN,IN,DT,NN
+true,O,O,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,authorities,believe,the,three,entered,the,area,from,iran,,,,,,,
+pos,NNS,VBP,DT,CD,VBD,DT,NN,IN,NNP,,,,,,,
+true,O,O,O,O,O,O,O,O,B-geo,,,,,,,
+pred,O,O,O,O,O,O,O,O,B-geo,,,,,,,
+skip, , , , , , , , , ,,,,,,,
+word,the,british,leader,welcomed,a,call,from,palestinian,president,mahmoud,abbas,to,hold,new,elections,
+pos,DT,JJ,NN,VBD,DT,NN,IN,JJ,NNP,NNP,NNP,TO,VB,JJ,NNS,
+true,O,B-gpe,O,O,O,O,O,B-gpe,B-per,I-per,I-per,O,O,O,O,
+pred,O,B-gpe,O,O,O,O,O,B-gpe,B-per,I-per,I-per,O,O,O,O,
+skip, , , , , , , , , , , , , , , ,
+word,police,say,the,blast,in,the,city,of,dera,ghazi,khan,occurred,as,a,religious,procession
+pos,NNS,VBP,DT,NN,IN,DT,NN,IN,NNP,NNP,NNP,VBD,IN,DT,JJ,NN
+true,O,O,O,O,O,O,O,O,B-geo,I-geo,B-per,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,B-org,I-org,I-org,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,record,company,officials,said,the,rappers,are,"""",disappointed,and,devastated,"""",after,five,concerts,across
+pos,NNP,NN,NNS,VBD,DT,NNS,VBP,``,VBN,CC,VBN,``,IN,CD,NNS,IN
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,also,thursday,",",turkish,authorities,said,suspected,militants,killed,at,least,four,forestry,workers,and,wounded
+pos,RB,NNP,",",JJ,NNS,VBD,JJ,NNS,VBN,IN,JJS,CD,NN,NNS,CC,VBD
+true,O,B-tim,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-tim,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,she,said,she,believes,that,russian,security,officials,framed,the,scientist,,,,,
+pos,PRP,VBD,PRP,VBZ,IN,JJ,NN,NNS,VBD,DT,NN,,,,,
+true,O,O,O,O,O,B-gpe,O,O,O,O,O,,,,,
+pred,O,O,O,O,O,B-gpe,O,O,O,O,O,,,,,
+skip, , , , , , , , , , , ,,,,,
+word,a,tibet,advocacy,group,has,organized,an,international,protest,against,the,internet,search,engine,google,after
+pos,DT,NNP,NN,NN,VBZ,VBN,DT,JJ,NN,IN,DT,NNP,NN,NN,NNP,IN
+true,O,B-org,O,O,O,O,O,O,O,O,O,O,O,O,B-art,O
+pred,O,B-org,O,O,O,O,O,O,O,O,O,O,O,O,B-org,O
+skip, , , , , , , , , , , , , , , , 
+word,the,u.s.,defense,department,says,52,detainees,at,the,u.s.,military,prison,in,guantanamo,bay,","
+pos,DT,NNP,NNP,NNP,VBZ,CD,NNS,IN,DT,NNP,JJ,NN,IN,NNP,NNP,","
+true,O,B-org,I-org,I-org,O,O,O,O,O,B-geo,O,O,O,B-geo,I-geo,O
+pred,O,B-org,I-org,I-org,O,O,O,O,O,B-geo,O,O,O,B-geo,I-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,the,economy,rebounded,in,2010,with,a,big,boost,from,exports,",",especially,to,germany,","
+pos,DT,NN,VBD,IN,CD,IN,DT,JJ,NN,IN,NNS,",",RB,TO,NNP,","
+true,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,B-geo,O
+pred,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,B-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,burma,'s,state,media,are,hailing,the,capture,of,a,rare,",",white,elephant,as,a
+pos,NNP,POS,NN,NNS,VBP,VBG,DT,NN,IN,DT,JJ,",",JJ,NN,IN,DT
+true,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,he,also,said,that,his,government,is,studying,more,than,30,UNK,projects,in,iran,to
+pos,PRP,RB,VBD,IN,PRP$,NN,VBZ,VBG,JJR,IN,CD,NN,NNS,IN,NNP,TO
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,the,united,states,has,103,nuclear,power,plants,in,31,states,,,,,
+pos,DT,NNP,NNPS,VBZ,CD,JJ,NN,NNS,IN,CD,NNS,,,,,
+true,O,B-geo,I-geo,O,O,O,O,O,O,O,O,,,,,
+pred,O,B-geo,I-geo,O,O,O,O,O,O,B-tim,O,,,,,
+skip, , , , , , , , , , , ,,,,,
+word,venezuelan,president,hugo,chavez,has,endorsed,nicaraguan,presidential,candidate,daniel,ortega,to,win,his,country,'s
+pos,JJ,NNP,NNP,NNP,VBZ,VBN,JJ,JJ,NN,NNP,NNP,TO,VB,PRP$,NN,POS
+true,B-gpe,B-per,I-per,I-per,O,O,B-gpe,O,O,B-per,I-per,O,O,O,O,O
+pred,B-gpe,B-per,I-per,I-per,O,O,O,O,O,B-per,I-per,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,authorities,in,south,korea,say,a,person,there,has,contracted,bird,flu,but,has,no,symptoms
+pos,NNS,IN,NNP,NNP,VBP,DT,NN,RB,VBZ,VBN,NN,NN,CC,VBZ,DT,NNS
+true,O,O,B-geo,I-geo,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,B-geo,I-geo,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,he,was,placed,under,house,arrest,in,islamabad,",",but,not,jailed,because,he,is,considered
+pos,PRP,VBD,VBN,IN,NN,NN,IN,NNP,",",CC,RB,VBN,IN,PRP,VBZ,VBN
+true,O,O,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,prime,minister,kevin,rudd,launched,the,government,'s,defense,white,paper,for,the,next,20,years
+pos,NNP,NNP,NNP,NNP,VBD,DT,NN,POS,NN,JJ,NN,IN,DT,JJ,CD,NNS
+true,B-per,O,B-per,I-per,O,O,O,O,O,O,O,O,O,O,B-tim,O
+pred,B-per,I-per,I-per,I-per,O,O,O,O,O,O,O,O,O,O,B-tim,O
+skip, , , , , , , , , , , , , , , , 
+word,but,in,other,parts,of,the,country,it,will,be,observed,on,wednesday,,,
+pos,CC,IN,JJ,NNS,IN,DT,NN,PRP,MD,VB,VBN,IN,NNP,,,
+true,O,O,O,O,O,O,O,O,O,O,O,O,B-tim,,,
+pred,O,O,O,O,O,O,O,O,O,O,O,O,B-tim,,,
+skip, , , , , , , , , , , , , ,,,
+word,the,presidential,primary,is,the,party,first,since,it,was,defeated,by,president,vicente,fox,and
+pos,DT,JJ,NN,VBZ,DT,NN,RB,IN,PRP,VBD,VBN,IN,NNP,NNP,NNP,CC
+true,O,O,O,O,O,O,O,O,O,O,O,O,B-per,I-per,I-per,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,B-per,I-per,I-per,O
+skip, , , , , , , , , , , , , , , , 
+word,afghan,protesters,accuse,officials,in,neighboring,pakistan,of,aiding,suspected,terrorists,behind,such,bombings,,
+pos,JJ,NNS,VBP,NNS,IN,VBG,NNP,IN,VBG,JJ,NNS,IN,JJ,NNS,,
+true,B-gpe,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,,
+pred,B-gpe,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,,
+skip, , , , , , , , , , , , , , ,,
+word,the,pro-western,governing,coalition,and,the,hezbollah-led,opposition,are,at,odds,over,who,will,succeed,pro-syrian
+pos,DT,JJ,NN,NN,CC,DT,JJ,NN,VBP,IN,NNS,IN,WP,MD,VB,JJ
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,mr.,singh,also,announced,plans,for,a,joint,commission,meeting,in,march,2006,to,review,bilateral
+pos,NNP,NNP,RB,VBD,NNS,IN,DT,JJ,NN,NN,IN,NNP,CD,TO,VB,JJ
+true,B-per,I-per,O,O,O,O,O,O,O,O,O,B-tim,I-tim,O,O,O
+pred,B-per,I-per,O,O,O,O,O,O,O,O,O,B-tim,I-tim,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,egypt,has,been,trying,to,get,the,two,groups,to,form,a,unity,government,",",but
+pos,NNP,VBZ,VBN,VBG,TO,VB,DT,CD,NNS,TO,VB,DT,NN,NN,",",CC
+true,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,iraq,'s,oil,minister,says,government,forces,could,be,ready,to,take,over,security,responsibility,from
+pos,NNP,POS,NN,NN,VBZ,NN,NNS,MD,VB,JJ,TO,VB,RP,NN,NN,IN
+true,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,news,agency,reports,quote,senior,georgian,officials,as,saying,georgia,'s,ambassador,to,turkey,",",UNK
+pos,NNP,NN,NNS,VBP,JJ,JJ,NNS,IN,VBG,NNP,POS,NN,TO,NNP,",",NNP
+true,O,O,O,O,O,B-gpe,O,O,O,B-geo,O,O,O,B-geo,O,B-geo
+pred,O,O,O,O,O,B-gpe,O,O,O,B-geo,O,O,O,B-geo,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,a,provincial,official,said,jalal,al-uthmani,",",a,high-ranking,intelligence,officer,",",was,killed,late,saturday
+pos,DT,JJ,NN,VBD,NNP,NNP,",",DT,JJ,NN,NN,",",VBD,VBN,JJ,NNP
+true,O,O,O,O,B-per,I-per,O,O,O,O,O,O,O,O,O,B-tim
+pred,O,O,O,O,B-per,I-per,O,O,O,O,O,O,O,O,O,B-tim
+skip, , , , , , , , , , , , , , , , 
+word,the,measures,follow,pakistan,'s,temporary,ban,imposed,on,the,popular,social,network,website,facebook,in
+pos,DT,NNS,VBP,NNP,POS,JJ,NN,VBN,IN,DT,JJ,JJ,NN,NN,NNP,IN
+true,O,O,O,B-org,O,O,O,O,O,O,O,O,O,O,B-art,O
+pred,O,O,O,B-geo,O,O,O,O,O,O,O,O,O,O,B-art,O
+skip, , , , , , , , , , , , , , , , 
+word,sam,beattie,reports,for,voa,,,,,,,,,,,
+pos,NNP,NNP,VBZ,IN,NNP,,,,,,,,,,,
+true,B-per,I-per,O,O,B-org,,,,,,,,,,,
+pred,B-per,I-per,O,O,B-art,,,,,,,,,,,
+skip, , , , , ,,,,,,,,,,,
+word,the,spokesman,said,the,two,",",based,in,southern,helmand,province,",",were,involved,in,activities
+pos,DT,NN,VBD,DT,CD,",",VBN,IN,JJ,NNP,NN,",",VBD,VBN,IN,NNS
+true,O,O,O,O,O,O,O,O,O,B-geo,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,B-geo,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,u.s.,astronaut,timothy,kopra,is,taking,his,place,,,,,,,,
+pos,NNP,NN,NNP,NNP,VBZ,VBG,PRP$,NN,,,,,,,,
+true,B-geo,O,B-per,I-per,O,O,O,O,,,,,,,,
+pred,B-geo,O,B-per,I-per,O,O,O,O,,,,,,,,
+skip, , , , , , , , ,,,,,,,,
+word,israel,'s,government,is,urging,israelis,visiting,egypt,'s,sinai,peninsula,to,leave,immediately,because,of
+pos,NNP,POS,NN,VBZ,VBG,NNS,VBG,NNP,POS,NNP,NN,TO,VB,RB,IN,IN
+true,B-geo,O,O,O,O,B-gpe,O,B-org,I-org,I-org,I-org,O,O,O,O,O
+pred,B-geo,O,O,O,O,B-gpe,O,B-geo,O,B-geo,I-geo,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,u.s.,justice,department,has,issued,a,new,memo,on,prisoner,interrogation,",",replacing,a,controversial
+pos,DT,NNP,NNP,NNP,VBZ,VBN,DT,JJ,NN,IN,NN,NN,",",VBG,DT,JJ
+true,O,B-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,colombian,authorities,say,they,have,captured,a,wanted,drug,lord,who,allegedly,led,a,major,ring
+pos,JJ,NNS,VBP,PRP,VBP,VBN,DT,JJ,NN,NN,WP,RB,VBD,DT,JJ,NN
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,ethiopian,state-run,television,thursday,reported,that,police,detained,two,foreign,diplomats,in,the,south,",",near
+pos,JJ,JJ,NN,NNP,VBD,IN,NNS,VBD,CD,JJ,NNS,IN,DT,NN,",",IN
+true,B-gpe,O,O,B-tim,O,O,O,O,O,O,O,O,O,B-geo,O,O
+pred,B-gpe,O,O,B-tim,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,a,representative,of,the,ousted,leader,",",ricardo,martinez,",",said,if,no,agreement,is,reached
+pos,DT,NN,IN,DT,JJ,NN,",",NNP,NNP,",",VBD,IN,DT,NN,VBZ,VBN
+true,O,O,O,O,O,O,O,B-per,I-per,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,B-per,I-per,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,parliamentarian,qusai,abdul-wahab,issued,a,statement,on,behalf,of,the,group,friday,,,,
+pos,NN,NNP,NNP,VBD,DT,NN,IN,NN,IN,DT,NN,NNP,,,,
+true,O,B-per,I-per,O,O,O,O,O,O,O,O,B-tim,,,,
+pred,O,B-per,I-per,O,O,O,O,O,O,O,O,B-tim,,,,
+skip, , , , , , , , , , , , ,,,,
+word,russian,officials,and,news,reports,say,mr.,putin,dismissed,the,government,wednesday,after,prime,minister,mikhail
+pos,JJ,NNS,CC,NN,NNS,VBP,NNP,NNP,VBD,DT,NN,NNP,IN,NNP,NNP,NNP
+true,B-gpe,O,O,O,O,O,B-per,B-org,O,O,O,B-tim,O,B-per,I-per,I-per
+pred,B-gpe,O,O,O,O,O,B-per,B-org,O,O,O,B-tim,O,B-per,I-per,I-per
+skip, , , , , , , , , , , , , , , , 
+word,solana,also,called,mr.,obama,'s,attempt,to,reach,out,to,iran,constructive,,,
+pos,NNP,RB,VBD,NNP,NNP,POS,NN,TO,VB,RP,TO,NNP,NN,,,
+true,B-per,O,O,B-per,I-per,O,O,O,O,O,O,B-geo,O,,,
+pred,B-per,O,O,B-per,I-per,O,O,O,O,O,O,B-geo,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,they,marched,from,the,houses,of,parliament,to,a,rally,in,hyde,park,,,
+pos,PRP,VBD,IN,DT,NNS,IN,NN,TO,DT,NN,IN,NNP,NNP,,,
+true,O,O,O,O,O,O,O,O,O,O,O,B-geo,I-geo,,,
+pred,O,O,O,O,O,O,O,O,O,O,O,B-geo,I-geo,,,
+skip, , , , , , , , , , , , , ,,,
+word,iran,severed,ties,with,egypt,in,1980,to,protest,cairo,'s,recognition,of,israel,the,year
+pos,NNP,VBD,NNS,IN,NNP,IN,CD,TO,VB,NNP,POS,NN,IN,NNP,DT,NN
+true,B-geo,O,O,O,B-geo,O,B-tim,O,O,B-per,O,O,O,B-geo,O,O
+pred,B-geo,O,O,O,B-geo,O,B-tim,O,O,B-geo,O,O,O,B-geo,O,O
+skip, , , , , , , , , , , , , , , , 
+word,prosecutors,at,the,hague,tribunal,had,expanded,the,charges,against,jovica,stanisic,and,his,deputy,franco
+pos,NNS,IN,DT,NNP,NN,VBD,VBN,DT,NNS,IN,NNP,NNP,CC,PRP$,NN,NNP
+true,O,O,B-org,I-org,O,O,O,O,O,O,B-geo,I-geo,O,O,O,B-per
+pred,O,O,O,B-geo,O,O,O,O,O,O,B-per,I-per,O,O,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,russia,backed,mr.,yushchenko,'s,opponent,,,,,,,,,,
+pos,NNP,VBD,NNP,NNP,POS,NN,,,,,,,,,,
+true,B-geo,O,B-per,B-geo,O,O,,,,,,,,,,
+pred,B-geo,O,B-per,I-per,I-nat,I-nat,,,,,,,,,,
+skip, , , , , , ,,,,,,,,,,
+word,amy,katz,narrates,,,,,,,,,,,,,
+pos,NNP,NNP,VBZ,,,,,,,,,,,,,
+true,B-per,I-per,O,,,,,,,,,,,,,
+pred,B-nat,I-nat,I-nat,,,,,,,,,,,,,
+skip, , , ,,,,,,,,,,,,,
+word,several,westerners,were,killed,in,may,of,2004,in,an,attack,on,a,petrochemical,plant,in
+pos,JJ,NNS,VBD,VBN,IN,NNP,IN,CD,IN,DT,NN,IN,DT,NN,NN,IN
+true,O,O,O,O,O,B-tim,I-tim,I-tim,O,O,O,O,O,O,O,O
+pred,O,B-org,O,O,O,B-tim,I-tim,I-tim,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,polish,prime,minister,kazimierz,marcinkiewicz,says,he,is,ordering,an,investigation,into,reports,that,the,cia
+pos,JJ,NNP,NNP,NNP,NNP,VBZ,PRP,VBZ,VBG,DT,NN,IN,NNS,IN,DT,NNP
+true,B-gpe,B-per,I-per,I-per,I-per,O,O,O,O,O,O,O,O,O,O,B-org
+pred,B-gpe,B-per,I-per,I-per,I-per,O,O,O,O,O,O,O,O,O,O,B-org
+skip, , , , , , , , , , , , , , , , 
+word,mcdonald,'s,announced,monday,that,its,global,sales,jumped,8.2,percent,in,october,,,
+pos,NNP,POS,VBD,NNP,IN,PRP$,JJ,NNS,VBD,CD,NN,IN,NNP,,,
+true,B-org,O,O,B-tim,O,O,O,O,O,O,O,O,B-tim,,,
+pred,B-org,O,O,B-tim,O,O,O,O,O,O,O,B-tim,I-tim,,,
+skip, , , , , , , , , , , , , ,,,
+word,israel,'s,government,is,set,to,approve,a,plan,that,aims,to,turn,the,country,into
+pos,NNP,POS,NN,VBZ,VBN,TO,VB,DT,NN,WDT,VBZ,TO,VB,DT,NN,IN
+true,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,meteorologists,say,that,if,wilma,comes,ashore,in,the,yucatan,",",it,will,bring,a,storm
+pos,NNS,VBP,IN,IN,NNP,VBZ,RB,IN,DT,NNP,",",PRP,MD,VB,DT,NN
+true,O,O,O,O,B-eve,O,O,O,O,B-geo,O,O,O,O,O,O
+pred,O,O,O,O,B-per,O,O,O,B-geo,I-geo,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,malta,'s,financial,services,industry,has,grown,in,recent,years,and,in,2008,-,9,it
+pos,NNP,POS,JJ,NNS,NN,VBZ,VBN,IN,JJ,NNS,CC,IN,CD,:,CD,PRP
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,B-tim,I-tim,I-tim,O
+pred,B-gpe,O,O,O,O,O,O,O,B-tim,O,O,O,B-tim,I-tim,I-tim,O
+skip, , , , , , , , , , , , , , , , 
+word,a,district,judge,originally,dismissed,the,suit,",",but,an,appeals,court,late,tuesday,allowed,the
+pos,DT,NN,NN,RB,VBD,DT,NN,",",CC,DT,NNS,NN,RB,NNP,VBD,DT
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,B-tim,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,B-tim,O,O
+skip, , , , , , , , , , , , , , , , 
+word,turkey,'s,foreign,ministry,has,denied,that,it,canceled,this,week,'s,international,air,force,exercise
+pos,NNP,POS,NNP,NNP,VBZ,VBN,IN,PRP,VBD,DT,NN,POS,JJ,NN,NN,NN
+true,B-org,I-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-org,I-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,creole,service,chief,ronald,cesar,says,voa,creole,also,has,extended,its,broadcast,hours,and,is
+pos,NNP,NN,NN,NNP,NNP,VBZ,NNP,NNP,RB,VBZ,VBN,PRP$,NN,NNS,CC,VBZ
+true,B-org,O,O,B-per,I-per,O,B-org,I-org,O,O,O,O,O,O,O,O
+pred,O,O,O,B-per,I-per,O,B-org,I-org,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,trips,by,palestinian,leaders,to,lebanon,and,syria,are,aimed,at,improving,relations,that,were
+pos,DT,NNS,IN,JJ,NNS,TO,NNP,CC,NNP,VBP,VBN,IN,VBG,NNS,WDT,VBD
+true,O,O,O,B-gpe,O,O,B-geo,O,B-geo,O,O,O,O,O,O,O
+pred,O,O,O,B-gpe,O,O,B-geo,O,B-geo,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,indonesian,president,susilo,bambang,yudhoyono,says,his,country,plans,to,build,a,hospital,for,palestinians,in
+pos,JJ,NNP,NNP,NNP,NNP,VBZ,PRP$,NN,VBZ,TO,VB,DT,NN,IN,NNS,IN
+true,B-gpe,B-per,O,B-per,I-per,O,O,O,O,O,O,O,O,O,B-gpe,O
+pred,B-gpe,B-per,I-per,I-per,I-per,O,O,O,O,O,O,O,O,O,B-gpe,O
+skip, , , , , , , , , , , , , , , , 
+word,as,presently,written,",",the,bill,would,subject,russian,branches,of,foreign,organizations,to,various,restrictions
+pos,IN,RB,VBN,",",DT,NN,MD,VB,JJ,NNS,IN,JJ,NNS,TO,JJ,NNS
+true,O,O,O,O,O,O,O,O,B-gpe,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,B-gpe,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,mr.,bush,is,expected,to,face,questions,about,his,authorization,of,a,secret,domestic,surveillance,program
+pos,NNP,NNP,VBZ,VBN,TO,VB,NNS,IN,PRP$,NN,IN,DT,JJ,JJ,NN,NN
+true,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,according,to,a,published,tender,",",the,construction,plan,is,to,build,150,units,in,the
+pos,VBG,TO,DT,VBN,NN,",",DT,NN,NN,VBZ,TO,VB,CD,NNS,IN,DT
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,congress,restored,the,death,penalty,in,the,mid-1990s,for,serious,crimes,such,as,murder,,
+pos,NNP,VBD,DT,NN,NN,IN,DT,NNS,IN,JJ,NNS,JJ,IN,NN,,
+true,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O,,
+pred,B-org,O,O,O,O,O,O,B-org,O,O,O,O,O,O,,
+skip, , , , , , , , , , , , , , ,,
+word,australia,then,scored,32,without,loss,in,its,second,innings,,,,,,
+pos,NNP,RB,VBD,CD,IN,NN,IN,PRP$,JJ,NN,,,,,,
+true,B-geo,O,O,O,O,O,O,O,O,O,,,,,,
+pred,B-geo,O,O,O,O,O,O,O,O,O,,,,,,
+skip, , , , , , , , , , ,,,,,,
+word,mr.,chavez,thursday,accused,the,united,states,of,spreading,lies,and,said,he,wants,u.s.,officials
+pos,NNP,NNP,NNP,VBD,DT,NNP,NNPS,IN,VBG,NNS,CC,VBD,PRP,VBZ,NNP,NNS
+true,B-per,I-per,B-tim,O,O,B-geo,I-geo,O,O,O,O,O,O,O,B-geo,O
+pred,B-per,I-per,B-tim,O,O,B-geo,I-geo,O,O,O,O,O,O,O,B-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,the,illness,has,killed,more,than,100,people,in,europe,",",most,of,them,in,britain
+pos,DT,NN,VBZ,VBN,JJR,IN,CD,NNS,IN,NNP,",",JJS,IN,PRP,IN,NNP
+true,O,O,O,O,O,O,O,O,O,B-geo,O,O,O,O,O,B-geo
+pred,O,O,O,O,O,O,O,O,O,B-geo,O,O,O,O,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,further,negotiations,on,power,sharing,issues,are,set,for,this,week,with,elections,to,be,held
+pos,JJ,NNS,IN,NN,NN,NNS,VBP,VBN,IN,DT,NN,IN,NNS,TO,VB,VBN
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,haiti,'s,constitution,requires,that,a,new,government,be,in,place,by,february,7,,
+pos,NNP,POS,NN,VBZ,IN,DT,JJ,NN,VB,IN,NN,IN,NNP,CD,,
+true,B-geo,O,O,O,O,O,O,O,O,O,O,O,B-tim,I-tim,,
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,O,B-tim,I-tim,,
+skip, , , , , , , , , , , , , , ,,
+word,iaea,chief,mohamed,elbaradei,is,due,to,issue,a,formal,report,on,iran,'s,nuclear,activities
+pos,NNP,NN,NNP,NNP,VBZ,JJ,TO,VB,DT,JJ,NN,IN,NNP,POS,JJ,NNS
+true,B-org,O,B-per,I-per,O,O,O,O,O,O,O,O,B-geo,O,O,O
+pred,B-org,O,B-per,I-per,O,O,O,O,O,O,O,O,B-geo,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,officials,say,colonel,samir,shehade,was,wounded,",",but,in,stable,condition,after,a,bomb,exploded
+pos,NNS,VBP,NNP,NNP,NNP,VBD,VBN,",",CC,IN,JJ,NN,IN,DT,NN,VBD
+true,O,O,B-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,B-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,nato,and,afghan,forces,are,increasingly,targeting,taliban,leadership,during,operations,throughout,afghanistan,,,
+pos,NNP,CC,JJ,NNS,VBP,RB,VBG,NNP,NN,IN,NNS,IN,NNP,,,
+true,B-org,O,B-gpe,O,O,O,O,B-org,O,O,O,O,B-geo,,,
+pred,B-org,O,B-gpe,O,O,O,O,B-org,O,O,O,O,B-geo,,,
+skip, , , , , , , , , , , , , ,,,
+word,later,",",italian,prime,minister,silvio,berlusconi,expressed,similar,views,to,journalists,after,speaking,with,italy
+pos,RB,",",JJ,NNP,NNP,NNP,NNP,VBD,JJ,NNS,TO,NNS,IN,VBG,IN,NNP
+true,O,O,B-gpe,B-per,I-per,I-per,I-per,O,O,O,O,O,O,O,O,B-per
+pred,O,O,B-gpe,B-per,O,B-per,I-per,O,O,O,O,O,O,O,O,B-org
+skip, , , , , , , , , , , , , , , , 
+word,and,in,jerusalem,",",israel,'s,defense,minister,",",amir,peretz,",",said,he,hopes,israeli
+pos,CC,IN,NNP,",",NNP,POS,NN,NN,",",NNP,NNP,",",VBD,PRP,VBZ,JJ
+true,O,O,B-geo,O,B-geo,O,O,O,O,B-per,I-per,O,O,O,O,B-gpe
+pred,O,O,B-geo,O,B-geo,O,O,O,O,B-per,I-per,O,O,O,O,B-gpe
+skip, , , , , , , , , , , , , , , , 
+word,the,decision,comes,just,weeks,ahead,of,a,u.s.,supreme,court,hearing,in,the,case,of
+pos,DT,NN,VBZ,RB,NNS,RB,IN,DT,NNP,NNP,NNP,NN,IN,DT,NN,IN
+true,O,O,O,O,O,O,O,O,B-org,I-org,I-org,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,B-org,I-org,I-org,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,afghanistan,remains,one,of,the,most,heavily,mined,countries,in,the,world,,,,
+pos,NNP,VBZ,CD,IN,DT,RBS,RB,VBN,NNS,IN,DT,NN,,,,
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,,,,
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,O,,,,
+skip, , , , , , , , , , , , ,,,,
+word,party,members,held,smaller,protests,in,at,least,three,other,cities,across,the,world,'s,most
+pos,NNP,NNS,VBD,JJR,NNS,IN,IN,JJS,CD,JJ,NNS,IN,DT,NN,POS,RBS
+true,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,money,is,intended,for,various,uses,",",including,assisting,in,training,and,modernizing,guatemala,'s
+pos,DT,NN,VBZ,VBN,IN,JJ,NNS,",",VBG,VBG,IN,NN,CC,VBG,NNP,POS
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,his,appeal,in,a,letter,to,german,chancellor,angela,merkel,was,made,public,thursday,as,the
+pos,PRP$,NN,IN,DT,NN,TO,JJ,NNP,NNP,NNP,VBD,VBN,JJ,NNP,IN,DT
+true,O,O,O,O,O,O,B-gpe,B-per,I-per,I-per,O,O,O,B-tim,O,O
+pred,O,O,O,O,O,O,B-gpe,O,B-per,I-per,O,O,O,B-tim,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,men,",",charged,thursday,",",are,being,held,in,a,military,jail,at,camp,pendleton
+pos,DT,NNS,",",VBN,NNP,",",VBP,VBG,VBN,IN,DT,JJ,NN,IN,NNP,NNP
+true,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,B-geo,I-geo
+pred,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,B-geo,I-geo
+skip, , , , , , , , , , , , , , , , 
+word,cuban,vice,president,carlos,lage,says,he,remains,optimistic,about,the,recovery,of,ailing,president,fidel
+pos,JJ,NNP,NNP,NNP,NNP,VBZ,PRP,VBZ,JJ,IN,DT,NN,IN,JJ,NNP,NNP
+true,B-gpe,O,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O,B-per,I-per
+pred,B-gpe,O,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O,B-per,I-per
+skip, , , , , , , , , , , , , , , , 
+word,the,plan,calls,for,israel,to,free,500,palestinians,after,next,week,'s,israeli-palestinian,summit,","
+pos,DT,NN,VBZ,IN,NNP,TO,VB,CD,NNS,IN,JJ,NN,POS,JJ,NN,","
+true,O,O,O,O,B-geo,O,O,O,B-gpe,O,O,O,O,O,O,O
+pred,O,O,O,O,B-geo,O,O,O,B-gpe,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,german,firm,works,as,a,UNK,for,shell,,,,,,,
+pos,DT,JJ,NN,VBZ,IN,DT,NN,IN,NNP,,,,,,,
+true,O,B-gpe,O,O,O,O,O,O,B-org,,,,,,,
+pred,O,B-gpe,O,O,O,O,O,O,B-per,,,,,,,
+skip, , , , , , , , , ,,,,,,,
+word,the,other,is,an,israeli,citizen,,,,,,,,,,
+pos,DT,NN,VBZ,DT,JJ,NN,,,,,,,,,,
+true,O,O,O,O,B-gpe,O,,,,,,,,,,
+pred,O,O,O,O,B-gpe,O,,,,,,,,,,
+skip, , , , , , ,,,,,,,,,,
+word,parliament,was,due,to,open,monday,",",but,that,session,was,put,off,as,shi'ites,","
+pos,NNP,VBD,JJ,TO,JJ,NNP,",",CC,DT,NN,VBD,VBN,RP,IN,NNS,","
+true,B-org,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O
+pred,B-org,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,dozens,of,heads,of,state,in,the,african,continent,are,meeting,in,abuja,",",nigeria,sunday
+pos,NNS,IN,NNS,IN,NN,IN,DT,JJ,NN,VBP,VBG,IN,NNP,",",NNP,NNP
+true,O,O,O,O,O,O,O,B-gpe,O,O,O,O,B-geo,O,B-geo,B-tim
+pred,O,O,O,O,O,O,O,B-gpe,O,O,O,O,B-geo,O,B-geo,B-tim
+skip, , , , , , , , , , , , , , , , 
+word,haiti,'s,economic,problems,continue,and,living,standards,remain,low,more,than,two,years,after,a
+pos,NNP,POS,JJ,NNS,VBP,CC,VBG,NNS,VBP,JJ,JJR,IN,CD,NNS,IN,DT
+true,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,baiji,",",about,250,kilometers,north,of,baghdad,",",has,the,country,'s,largest,oil,refinery
+pos,NNP,",",IN,CD,NNS,RB,IN,NNP,",",VBZ,DT,NN,POS,JJS,NN,NN
+true,B-geo,O,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,O
+pred,B-geo,O,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,violence,comes,three,days,before,palestinian,parliamentary,elections,,,,,,,
+pos,DT,NN,VBZ,CD,NNS,IN,JJ,JJ,NNS,,,,,,,
+true,O,O,O,O,O,O,B-gpe,O,O,,,,,,,
+pred,O,O,O,O,O,O,B-gpe,O,O,,,,,,,
+skip, , , , , , , , , ,,,,,,,
+word,his,marxist,policies,had,plunged,nicaragua,into,economic,chaos,,,,,,,
+pos,PRP$,JJ,NNS,VBD,VBN,NNP,IN,JJ,NN,,,,,,,
+true,O,O,O,O,O,B-geo,O,O,O,,,,,,,
+pred,O,O,O,O,O,B-org,O,O,O,,,,,,,
+skip, , , , , , , , , ,,,,,,,
+word,on,january,1,",",subcomandante,marcos,emerged,from,his,jungle,hideout,to,begin,a,six-month,nationwide
+pos,IN,NNP,CD,",",NNP,NNP,VBD,IN,PRP$,NN,NN,TO,VB,DT,JJ,JJ
+true,O,B-tim,I-tim,O,B-geo,I-geo,O,O,O,O,O,O,O,O,B-tim,O
+pred,O,B-tim,I-tim,O,B-org,I-org,O,O,O,O,O,O,O,O,B-tim,O
+skip, , , , , , , , , , , , , , , , 
+word,venezuelan,authorities,say,they,have,not,been,able,to,buy,spare,parts,for,the,f-16s,since
+pos,JJ,NNS,VBP,PRP,VBP,RB,VBN,JJ,TO,VB,JJ,NNS,IN,DT,NNS,IN
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,al-shihri,accused,saudi,arabia,and,egypt,of,",",in,his,words,",","""",preserving,the,interests
+pos,NNP,VBD,NNP,NNP,CC,NNP,IN,",",IN,PRP$,NNS,",",``,VBG,DT,NNS
+true,B-per,O,B-per,I-per,O,B-per,O,O,O,O,O,O,O,O,O,O
+pred,B-per,O,B-org,I-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,however,",",the,economic,downturn,of,2008,-,9,eroded,the,tax,base,and,led,to
+pos,RB,",",DT,JJ,NN,IN,CD,:,CD,VBD,DT,NN,NN,CC,VBD,TO
+true,O,O,O,O,O,O,B-tim,I-tim,I-tim,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,B-tim,I-tim,I-tim,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,violence,continued,monday,",",with,two,suicide,attacks,and,a,roadside,bomb,blast,,
+pos,DT,NN,VBD,NNP,",",IN,CD,NN,NNS,CC,DT,NN,NN,NN,,
+true,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O,,
+pred,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O,,
+skip, , , , , , , , , , , , , , ,,
+word,in,the,semifinals,",",hingis,takes,on,fourth-seed,flavia,pennetta,of,italy,",",a,three-set,winner
+pos,IN,DT,NNS,",",NNP,VBZ,IN,JJ,NNP,NNP,IN,NNP,",",DT,JJ,NN
+true,O,O,O,O,B-per,O,O,O,B-per,I-per,O,B-geo,O,O,O,O
+pred,O,O,O,O,B-per,O,O,O,B-per,I-per,O,B-geo,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,gunmen,dressed,in,iraqi,police,commando,uniforms,killed,eight,people,during,a,raid,on,a,baghdad
+pos,NNS,VBN,IN,JJ,NN,NN,NNS,VBD,CD,NNS,IN,DT,NN,IN,DT,NNP
+true,O,O,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,B-geo
+pred,O,O,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,the,vice,president,repeated,the,administration,'s,assertion,that,democrats,do,not,have,a,concrete,plan
+pos,DT,NN,NN,VBD,DT,NN,POS,NN,IN,NNPS,VBP,RB,VB,DT,JJ,NN
+true,O,B-per,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-per,O,O,O,O,O,O,O,B-org,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,israeli,forces,on,thursday,seized,a,hamas,member,of,the,palestinian,parliament,who,had,recently,been
+pos,JJ,NNS,IN,NNP,VBD,DT,NNP,NN,IN,DT,JJ,NN,WP,VBD,RB,VBN
+true,B-gpe,O,O,B-tim,O,O,B-org,O,O,O,B-gpe,O,O,O,O,O
+pred,B-gpe,O,O,B-tim,O,O,B-org,O,O,O,B-gpe,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,united,states,strongly,criticized,the,deal,",",saying,that,agreeing,to,the,demands,of,extremists
+pos,DT,NNP,NNPS,RB,VBD,DT,NN,",",VBG,IN,VBG,TO,DT,NNS,IN,NNS
+true,O,B-geo,I-geo,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-geo,I-geo,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,eighth,seed,blake,needed,three,sets,to,get,by,unseeded,russian,igor,andreev,(,06-feb,","
+pos,JJ,NN,NNP,VBD,CD,NNS,TO,VB,IN,JJ,JJ,NNP,NNP,LRB,CD,","
+true,O,O,B-per,O,O,O,O,O,O,O,O,B-per,I-per,O,O,O
+pred,O,O,B-per,O,O,O,O,O,O,O,B-gpe,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,these,include,the,divided,island,of,cyprus,",",which,joined,the,bloc,last,year,,
+pos,DT,VBP,DT,VBN,NN,IN,NNP,",",WDT,VBD,DT,NN,JJ,NN,,
+true,O,O,O,O,O,O,B-org,O,O,O,O,O,O,O,,
+pred,O,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,,
+skip, , , , , , , , , , , , , , ,,
+word,european,stock,market,indexes,moved,up,two-tenths,of,a,percent,or,more,,,,
+pos,JJ,NN,NN,NNS,VBD,RP,NNS,IN,DT,NN,CC,JJR,,,,
+true,O,O,O,O,O,O,B-tim,I-tim,O,O,O,O,,,,
+pred,O,O,O,O,O,O,O,O,O,O,B-tim,I-tim,,,,
+skip, , , , , , , , , , , , ,,,,
+word,muslim,clerics,have,urged,their,followers,to,protect,mosques,on,the,holy,site,,,
+pos,NNP,NNS,VBP,VBN,PRP$,NNS,TO,VB,NNS,IN,DT,JJ,NN,,,
+true,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,,,
+pred,B-org,O,O,O,O,O,O,O,O,O,O,O,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,israel,repeatedly,warned,earlier,this,week,that,it,would,launch,strikes,against,palestinian,targets,to,avenge
+pos,NNP,RB,VBD,RBR,DT,NN,IN,PRP,MD,VB,NNS,IN,JJ,NNS,TO,VB
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,B-gpe,O,O,O
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,O,B-gpe,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,in,1603,",",after,decades,of,civil,warfare,",",the,tokugawa,shogunate,(,a,military-led,","
+pos,IN,CD,",",IN,NNS,IN,JJ,NN,",",DT,NNP,NN,LRB,DT,JJ,","
+true,O,B-tim,O,O,O,O,O,O,O,O,B-geo,I-geo,O,O,O,O
+pred,O,B-tim,O,O,O,O,O,O,O,O,B-org,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,jawad,UNK,of,the,shi'ite-dominated,united,iraqi,alliance,told,reporters,friday,the,national,assembly,will,likely
+pos,NNP,NNP,IN,DT,JJ,NNP,JJ,NNP,VBD,NNS,NNP,DT,NNP,NNP,MD,RB
+true,B-per,I-per,O,O,O,B-org,B-gpe,O,O,O,B-tim,O,B-org,I-org,O,O
+pred,B-per,I-per,O,O,O,B-org,B-gpe,O,O,O,B-tim,O,B-org,I-org,O,O
+skip, , , , , , , , , , , , , , , , 
+word,tenerife,authorities,say,they,suspect,arsonists,started,the,wildfire,on,the,island,,,,
+pos,NNP,NNS,VBP,PRP,VBP,NNS,VBD,DT,NN,IN,DT,NN,,,,
+true,B-org,O,O,O,O,O,O,O,O,O,O,O,,,,
+pred,B-org,O,O,O,O,O,O,O,O,O,O,O,,,,
+skip, , , , , , , , , , , , ,,,,
+word,the,international,development,association,is,one,of,the,largest,sources,of,assistance,for,the,world,'s
+pos,DT,NNP,NNP,NNP,VBZ,CD,IN,DT,JJS,NNS,IN,NN,IN,DT,NN,POS
+true,O,B-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,eu,regulators,last,year,fined,microsoft,$,650,million,and,demanded,it,change,some,business,practices
+pos,NNP,NNS,JJ,NN,VBD,NNP,$,CD,CD,CC,VBD,PRP,VB,DT,NN,NNS
+true,B-org,O,O,O,O,B-org,O,O,O,O,O,O,O,O,O,O
+pred,B-org,O,O,O,O,B-org,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,bill,won,final,approval,in,the,state,duma,by,a,wide,margin,friday,,
+pos,DT,NN,VBD,JJ,NN,IN,DT,NN,NNP,IN,DT,JJ,NN,NNP,,
+true,O,O,O,O,O,O,O,B-geo,I-geo,O,O,O,O,B-tim,,
+pred,O,O,O,O,O,O,O,O,B-geo,O,O,O,O,B-tim,,
+skip, , , , , , , , , , , , , , ,,
+word,officials,say,hassan,was,involved,with,attacks,against,troops,in,the,northern,part,of,the,province
+pos,NNS,VBP,NNP,VBD,VBN,IN,NNS,IN,NNS,IN,DT,JJ,NN,IN,DT,NN
+true,O,O,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,B-per,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,house,belongs,to,a,muslim,cleric,who,has,been,accused,of,recruiting,fighters,for,a
+pos,DT,NN,VBZ,TO,DT,NNP,NN,WP,VBZ,VBN,VBN,IN,VBG,NNS,IN,DT
+true,O,O,O,O,O,B-org,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,B-org,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,prime,minister,had,been,expected,to,call,the,election,",",with,britain,enjoying,a,strong
+pos,DT,JJ,NN,VBD,VBN,VBN,TO,VB,DT,NN,",",IN,NNP,VBG,DT,JJ
+true,O,B-per,O,O,O,O,O,O,O,O,O,O,B-geo,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,six,american,and,two,afghan,soldiers,were,killed,sunday,when,a,suicide,bomber,drove,an,explosives-laden
+pos,CD,JJ,CC,CD,JJ,NNS,VBD,VBN,NNP,WRB,DT,NN,NN,VBD,DT,JJ
+true,O,B-gpe,O,O,B-gpe,O,O,O,B-tim,O,O,O,O,O,O,O
+pred,O,B-gpe,O,O,B-gpe,O,O,O,B-tim,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,islamist,insurgents,have,staged,a,lengthy,series,of,attacks,in,yala,and,two,other,muslim-majority,provinces
+pos,NNP,NNS,VBP,VBN,DT,JJ,NN,IN,NNS,IN,NNP,CC,CD,JJ,JJ,NNS
+true,O,O,O,O,O,O,O,O,O,O,B-geo,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,B-geo,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,kidnappings,for,ransom,are,frequent,in,nigeria,'s,delta,region,,,,,,
+pos,NNS,IN,NN,VBP,JJ,IN,NNP,POS,JJ,NN,,,,,,
+true,O,O,O,O,O,O,B-geo,O,O,O,,,,,,
+pred,O,O,O,O,O,O,B-geo,O,O,O,,,,,,
+skip, , , , , , , , , , ,,,,,,
+word,eu,leaders,then,put,the,constitution,issue,on,hold,",",and,britain,",",denmark,",",portugal
+pos,NNP,NNS,RB,VBD,DT,NN,NN,IN,NN,",",CC,NNP,",",NNP,",",NNP
+true,B-org,O,O,O,O,O,O,O,O,O,O,B-geo,O,B-geo,O,B-geo
+pred,B-org,O,O,O,O,O,O,O,O,O,O,B-geo,O,B-geo,O,B-gpe
+skip, , , , , , , , , , , , , , , , 
+word,a,new,zealand,conservation,official,said,it,was,UNK,to,try,refloating,the,whales,because,of
+pos,DT,NNP,NNP,NN,NN,VBD,PRP,VBD,JJ,TO,VB,VBG,DT,NNS,IN,IN
+true,O,B-geo,I-geo,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-org,I-org,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,turkish,prime,minister,recep,tayyip,erdogan,says,the,recent,outbreak,of,bird,flu,in,turkey,is
+pos,JJ,JJ,NN,NNP,NNP,NNP,VBZ,DT,JJ,NN,IN,NN,NN,IN,NNP,VBZ
+true,B-gpe,O,O,B-per,I-per,I-per,O,O,O,O,O,O,O,O,B-geo,O
+pred,B-gpe,O,O,B-per,I-per,I-per,O,O,O,O,O,O,O,O,B-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,police,in,the,northeastern,u.s.,state,of,connecticut,say,a,disgruntled,employee,at,a,beer,distribution
+pos,NNS,IN,DT,JJ,NNP,NN,IN,NNP,VBP,DT,JJ,NN,IN,DT,NN,NN
+true,O,O,O,O,B-geo,O,O,B-geo,O,O,O,O,O,O,O,O
+pred,O,O,O,O,B-geo,O,O,B-geo,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,in,the,latest,violence,",",a,roadside,bomb,killed,four,iraqis,in,baghdad,saturday,,
+pos,IN,DT,JJS,NN,",",DT,NN,NN,VBD,CD,NNS,IN,NNP,NNP,,
+true,O,O,O,O,O,O,O,O,O,O,B-gpe,O,B-geo,B-tim,,
+pred,O,O,O,O,O,O,O,O,O,O,B-gpe,O,B-geo,B-tim,,
+skip, , , , , , , , , , , , , , ,,
+word,perez,based,his,campaign,on,pledges,to,fight,crime,and,combat,drug,trafficking,,,
+pos,NNP,VBD,PRP$,NN,IN,NNS,TO,VB,NN,CC,NN,NN,NN,,,
+true,B-per,O,O,O,O,O,O,O,O,O,O,O,O,,,
+pred,B-per,O,O,O,O,O,O,O,O,O,O,O,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,the,insurgents,are,believed,to,be,linked,to,turkey,'s,separatist,kurdistan,workers,party,",",or
+pos,DT,NNS,VBP,VBN,TO,VB,VBN,TO,NNP,POS,JJ,NNP,NNP,NNP,",",CC
+true,O,O,O,O,O,O,O,O,B-geo,O,O,B-org,I-org,I-org,O,O
+pred,O,O,O,O,O,O,O,O,B-geo,O,O,B-org,I-org,I-org,O,O
+skip, , , , , , , , , , , , , , , , 
+word,boroujerdi,has,previously,been,arrested,for,advocating,the,separation,of,religion,and,politics,in,the,islamic
+pos,NNP,VBZ,RB,VBN,VBN,IN,VBG,DT,NN,IN,NN,CC,NNS,IN,DT,JJ
+true,B-per,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,srichaphan,advanced,when,his,opponent,",",second,seed,lleyton,hewitt,of,australia,",",withdrew,with,a
+pos,NNP,VBD,WRB,PRP$,NN,",",JJ,NN,NNP,NNP,IN,NNP,",",VBD,IN,DT
+true,B-per,O,O,O,O,O,O,O,B-per,I-per,O,B-geo,O,O,O,O
+pred,B-per,O,O,O,O,O,O,O,B-per,I-per,O,B-geo,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,director,of,afghanistan,'s,prisons,said,tuesday,",",the,men,broke,out,of,policharki,prison
+pos,DT,NN,IN,NNP,POS,NNS,VBD,NNP,",",DT,NNS,VBD,IN,IN,NNP,NNP
+true,O,O,O,B-geo,O,O,O,B-tim,O,O,O,O,O,O,B-geo,I-geo
+pred,O,O,O,B-geo,O,O,O,B-tim,O,O,O,O,O,O,B-org,I-org
+skip, , , , , , , , , , , , , , , , 
+word,syria,'s,official,news,agency,says,president,bashar,al-assad,has,pardoned,and,released,112,political,prisoners
+pos,NNP,POS,JJ,NN,NN,VBZ,NNP,NNP,NNP,VBZ,VBN,CC,VBN,CD,JJ,NNS
+true,B-geo,O,O,O,O,O,B-per,I-per,I-per,O,O,O,O,O,O,O
+pred,B-geo,O,O,O,O,O,B-per,I-per,I-per,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,americans,agreed,",",stating,they,wanted,an,UNK,general,to,teach,tactics,",",an,armor
+pos,DT,NNS,VBD,",",VBG,PRP,VBD,DT,NNP,NNP,TO,VB,NNS,",",DT,NN
+true,O,B-gpe,O,O,O,O,O,O,B-org,I-org,O,O,O,O,O,O
+pred,O,B-gpe,O,O,O,O,O,O,B-org,I-org,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,reports,say,the,trip,is,aimed,at,reducing,tension,over,china,'s,new,anti-secession,law,","
+pos,NNS,VBP,DT,NN,VBZ,VBN,IN,VBG,NN,IN,NNP,POS,JJ,JJ,NN,","
+true,O,O,O,O,O,O,O,O,O,O,B-geo,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,B-geo,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,and,the,united,nations,world,food,program,warns,that,a,lack,of,donors,means,it,will
+pos,CC,DT,NNP,NNP,NNP,NNP,NNP,VBZ,IN,DT,NN,IN,NNS,VBZ,PRP,MD
+true,O,O,B-org,I-org,I-org,I-org,I-org,O,O,O,O,O,O,O,O,O
+pred,O,O,B-org,I-org,I-org,I-org,I-org,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,at,last,report,",",danielle,was,about,1000,kilometers,northeast,of,the,northern,leeward,islands,and
+pos,IN,JJ,NN,",",NNP,VBD,IN,CD,NNS,NN,IN,DT,NNP,NNP,NNP,CC
+true,O,O,O,O,B-per,O,O,O,O,O,O,O,B-org,I-org,I-org,O
+pred,O,O,O,O,B-per,O,O,O,O,O,O,O,B-org,I-org,I-org,O
+skip, , , , , , , , , , , , , , , , 
+word,but,he,added,that,mr.,sharon,remains,sedated,and,in,serious,condition,,,,
+pos,CC,PRP,VBD,IN,NNP,NNP,VBZ,JJ,CC,IN,JJ,NN,,,,
+true,O,O,O,O,B-per,I-per,O,O,O,O,O,O,,,,
+pred,O,O,O,O,B-per,I-per,O,O,O,O,O,O,,,,
+skip, , , , , , , , , , , , ,,,,
+word,estonia,'s,successive,governments,have,pursued,a,free,market,",",pro-business,economic,agenda,and,have,wavered
+pos,NNP,POS,JJ,NNS,VBP,VBN,DT,JJ,NN,",",JJ,JJ,NN,CC,VBP,VBN
+true,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,on,wednesday,",",a,niger,government,spokesman,",",ben,omar,",",told,voa,UNK,service,that
+pos,IN,NNP,",",DT,NNP,NN,NN,",",NNP,NNP,",",VBD,NNP,NNP,NN,IN
+true,O,B-tim,O,O,B-gpe,O,O,O,B-per,I-per,O,O,B-org,I-org,O,O
+pred,O,B-tim,O,O,B-gpe,O,O,O,B-per,I-per,O,O,B-org,I-org,O,O
+skip, , , , , , , , , , , , , , , , 
+word,ethiopia,follows,the,julian,calendar,",",instead,of,the,more,common,UNK,calendar,,,
+pos,NNP,VBZ,DT,JJ,NN,",",RB,IN,DT,RBR,JJ,JJ,NN,,,
+true,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,,,
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,iraq,'s,electoral,commission,says,partial,results,from,sunday,'s,elections,show,the,main,shi'ite,coalition
+pos,NNP,POS,JJ,NN,VBZ,JJ,NNS,IN,NNP,POS,NNS,VBP,DT,JJ,NNP,NN
+true,B-geo,O,O,O,O,O,O,O,B-tim,O,O,O,O,O,O,O
+pred,B-geo,O,O,O,O,O,O,O,B-tim,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,in,another,development,",",hospital,sources,say,an,israeli,air,strike,early,wednesday,destroyed,a,building
+pos,IN,DT,NN,",",NN,NNS,VBP,DT,JJ,NN,NN,RB,NNP,VBD,DT,NN
+true,O,O,O,O,O,O,O,O,B-gpe,O,O,O,B-tim,O,O,O
+pred,O,O,O,O,O,O,O,O,B-gpe,O,O,O,B-tim,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,chief,justice,john,roberts,and,justices,UNK,scalia,and,clarence,thomas,supported,allowing,the,execution,to
+pos,NNP,NNP,NNP,NNP,CC,NNS,NNP,NNP,CC,NNP,NNP,VBD,VBG,DT,NN,TO
+true,O,B-per,I-per,I-per,O,O,B-per,I-per,O,B-per,I-per,O,O,O,O,O
+pred,O,B-org,B-per,I-per,O,O,B-per,I-per,O,B-per,I-per,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,mr.,basayev,has,taken,responsibility,for,a,number,of,bloody,attacks,",",including,the,siege,of
+pos,NNP,NNP,VBZ,VBN,NN,IN,DT,NN,IN,JJ,NNS,",",VBG,DT,NN,IN
+true,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,officials,identified,the,victims,as,a,local,leader,of,the,al,aqsa,martyrs,brigades,and
+pos,DT,NNS,VBD,DT,NNS,IN,DT,JJ,NN,IN,DT,NNP,NNP,NNP,NNP,CC
+true,O,O,O,O,O,O,O,O,O,O,O,B-org,I-org,I-org,I-org,O
+pred,O,O,O,O,O,O,O,O,O,O,O,B-org,I-org,I-org,I-org,O
+skip, , , , , , , , , , , , , , , , 
+word,china,'s,state,controlled,media,have,been,nearly,silent,about,the,december,6,incident,in,which
+pos,NNP,POS,NN,JJ,NNS,VBP,VBN,RB,JJ,IN,DT,NNP,CD,NN,IN,WDT
+true,B-geo,O,O,O,O,O,O,O,O,O,O,B-tim,I-tim,O,O,O
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,B-tim,I-tim,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,president,chavez,is,on,a,two-day,visit,to,russia,,,,,,,
+pos,NNP,NNP,VBZ,IN,DT,JJ,NN,TO,NNP,,,,,,,
+true,B-per,I-per,O,O,O,B-tim,O,O,B-geo,,,,,,,
+pred,B-per,I-per,O,O,O,B-tim,O,O,B-geo,,,,,,,
+skip, , , , , , , , , ,,,,,,,
+word,however,",",eu,officials,have,been,critical,of,the,government,'s,crackdown,of,opposition,leaders,and
+pos,RB,",",NNP,NNS,VBP,VBN,JJ,IN,DT,NN,POS,NN,IN,NN,NNS,CC
+true,O,O,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,who,cancelled,a,march,13,concert,in,tampa,",",florida,",",after,lead,singer,roger
+pos,DT,NNP,VBD,DT,NNP,CD,NN,IN,NNP,",",NNP,",",IN,NN,NN,NNP
+true,B-org,I-org,O,O,B-tim,I-tim,O,O,B-geo,O,B-geo,O,O,O,O,B-per
+pred,O,B-org,O,O,B-tim,I-tim,O,O,B-geo,O,B-geo,O,O,O,O,B-per
+skip, , , , , , , , , , , , , , , , 
+word,analysts,say,the,federal,reserve,appears,to,have,succeeded,in,easing,investors,',fears,that,a
+pos,NNS,VBP,DT,NNP,NNP,VBZ,TO,VB,VBN,IN,VBG,NNS,POS,NNS,IN,DT
+true,O,O,O,B-org,I-org,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,B-org,I-org,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,resistance,by,native,caribs,prevented,colonization,on,saint,vincent,until,1719,,,,,
+pos,NN,IN,JJ,NNS,VBD,NN,IN,NNP,NNP,IN,CD,,,,,
+true,O,O,O,O,O,O,O,B-per,I-per,O,B-tim,,,,,
+pred,O,O,O,O,O,O,O,B-per,I-per,O,B-tim,,,,,
+skip, , , , , , , , , , , ,,,,,
+word,the,uri,party,vowed,to,push,through,a,bill,repealing,the,law,last,year,",",but
+pos,DT,NNP,NNP,VBD,TO,VB,IN,DT,NN,VBG,DT,NN,JJ,NN,",",CC
+true,O,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,police,say,they,arrested,asif,khan,",",who,used,the,alias,junaid,",",in,the,indian
+pos,NNS,VBP,PRP,VBD,NNP,NNP,",",WP,VBD,DT,NN,NNP,",",IN,DT,JJ
+true,O,O,O,O,B-per,I-per,O,O,O,O,O,B-per,O,O,O,B-gpe
+pred,O,O,O,O,B-per,I-per,O,O,O,O,O,B-geo,O,O,O,B-gpe
+skip, , , , , , , , , , , , , , , , 
+word,spain,is,holding,a,national,day,of,mourning,and,commemoration,friday,",",to,mark,the,one
+pos,NNP,VBZ,VBG,DT,JJ,NN,IN,NN,CC,NN,NNP,",",TO,VB,DT,CD
+true,B-gpe,O,O,O,O,O,O,O,O,O,B-tim,O,O,O,O,B-tim
+pred,B-gpe,O,O,O,O,O,O,O,O,O,B-tim,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,mr.,fox,apologized,for,any,misunderstanding,",",saying,he,was,only,trying,to,highlight,the,important
+pos,NNP,NNP,VBD,IN,DT,NN,",",VBG,PRP,VBD,RB,VBG,TO,VB,DT,JJ
+true,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,deteriorating,economic,conditions,during,the,1970s,led,to,recurrent,violence,as,rival,gangs,affiliated,with,the
+pos,VBG,JJ,NNS,IN,DT,NNS,VBD,TO,JJ,NN,IN,JJ,NNS,VBN,IN,DT
+true,O,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,he,made,the,announcement,after,meeting,monday,with,venezuelan,president,hugo,chavez,,,,
+pos,PRP,VBD,DT,NN,IN,VBG,NNP,IN,JJ,NNP,NNP,NNP,,,,
+true,O,O,O,O,O,O,B-tim,O,B-gpe,B-per,I-per,I-per,,,,
+pred,O,O,O,O,O,O,B-tim,O,B-gpe,B-per,I-per,I-per,,,,
+skip, , , , , , , , , , , , ,,,,
+word,police,say,the,bomb,was,placed,at,the,site,in,the,dikweneh,neighborhood,-,in,an
+pos,NNS,VBP,DT,NN,VBD,VBN,IN,DT,NN,IN,DT,NNP,NN,:,IN,DT
+true,O,O,O,O,O,O,O,O,O,O,B-geo,I-geo,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,B-geo,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,alliot-marie,said,aspiazu,rubina,-,known,by,his,alias,txeroki,-,was,suspected,of,killing,two
+pos,NNP,VBD,NNP,NNP,:,VBN,IN,PRP$,NNS,NNP,:,VBD,VBN,IN,VBG,CD
+true,B-per,O,B-org,I-org,O,O,O,O,O,B-geo,O,O,O,O,O,O
+pred,B-per,O,B-org,I-org,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,burmese,pro-democracy,leader,aung,san,suu,kyi,met,saturday,with,a,top,united,nations,official,
+pos,JJ,JJ,NN,NNP,NNP,NNP,NNP,VBD,NNP,IN,DT,JJ,NNP,NNP,NN,
+true,B-gpe,O,O,B-per,I-per,I-per,I-per,O,B-tim,O,O,O,B-org,I-org,O,
+pred,B-gpe,O,O,B-per,I-per,I-per,I-per,O,B-tim,O,O,O,B-org,I-org,O,
+skip, , , , , , , , , , , , , , , ,
+word,iran,is,warning,that,it,could,quit,the,nuclear,non-proliferation,treaty,and,resume,enriching,uranium,if
+pos,NNP,VBZ,VBG,IN,PRP,MD,VB,DT,NNP,NNP,NNP,CC,VB,VBG,NN,IN
+true,B-geo,O,O,O,O,O,O,O,B-org,I-org,I-org,O,O,O,O,O
+pred,B-geo,O,O,O,O,O,O,O,B-org,I-org,I-org,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,stimulus,package,is,the,first,drafted,under,mr.,aso,",",who,took,over,a,month
+pos,DT,NN,NN,VBZ,DT,RB,VBN,IN,NNP,NNP,",",WP,VBD,RP,DT,NN
+true,O,O,O,O,O,O,O,O,B-per,I-per,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,B-per,I-per,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,u.s.-based,muslim,groups,have,joined,governments,and,organizations,around,the,world,in,condemning,thursday,'s,deadly
+pos,JJ,NN,NNS,VBP,VBN,NNS,CC,NNS,IN,DT,NN,IN,VBG,NNP,POS,JJ
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,B-tim,O,O
+pred,B-org,I-org,O,O,O,O,O,O,O,O,O,O,O,B-tim,O,O
+skip, , , , , , , , , , , , , , , , 
+word,iranian,foreign,ministry,spokesman,hamid,reza,asefi,told,a,weekly,news,conference,in,tehran,sunday,the
+pos,JJ,NNP,NNP,NN,NNP,NNP,NNP,VBD,DT,JJ,NN,NN,IN,NNP,NNP,DT
+true,B-gpe,B-org,I-org,O,B-per,I-per,I-per,O,O,O,O,O,O,B-geo,B-tim,O
+pred,B-gpe,B-org,I-org,O,B-per,I-per,I-per,O,O,O,O,O,O,B-geo,B-tim,O
+skip, , , , , , , , , , , , , , , , 
+word,the,remains,of,at,least,20,people,were,exhumed,saturday,in,the,bekaa,valley,town,of
+pos,DT,NNS,IN,IN,JJS,CD,NNS,VBD,VBN,NNP,IN,DT,NNP,NNP,NN,IN
+true,O,O,O,O,O,O,O,O,O,B-tim,O,O,B-geo,I-geo,O,O
+pred,O,O,O,O,O,O,O,O,O,B-tim,O,O,B-geo,I-geo,O,O
+skip, , , , , , , , , , , , , , , , 
+word,wednesday,'s,decision,reversed,earlier,rulings,that,spain,could,only,investigate,cases,in,which,the,victims
+pos,NNP,POS,NN,VBD,JJR,NNS,IN,NNP,MD,RB,VB,NNS,IN,WDT,DT,NNS
+true,B-tim,O,O,O,O,O,O,B-org,O,O,O,O,O,O,O,O
+pred,B-tim,O,O,O,O,O,O,B-gpe,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,united,states,and,iran,are,at,odds,over,the,middle,east,country,'s,nuclear,program
+pos,DT,NNP,NNPS,CC,NNP,VBP,IN,NNS,IN,DT,NNP,NNP,NN,POS,JJ,NN
+true,O,B-geo,I-geo,O,B-geo,O,O,O,O,O,B-geo,I-geo,O,O,O,O
+pred,O,B-geo,I-geo,O,B-geo,O,O,O,O,O,B-geo,I-geo,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,if,the,trend,continues,",",preval,would,have,a,clear,majority,of,votes,and,avoid,a
+pos,IN,DT,NN,VBZ,",",NNP,MD,VB,DT,JJ,NN,IN,NNS,CC,VB,DT
+true,O,O,O,O,O,B-per,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,B-per,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,spokeswoman,jennifer,pagonis,says,no,one,else,was,hurt,in,the,attack,,,,
+pos,NN,NNP,NNP,VBZ,DT,NN,RB,VBD,VBN,IN,DT,NN,,,,
+true,O,B-per,I-per,O,O,O,O,O,O,O,O,O,,,,
+pred,O,B-per,I-per,O,O,O,O,O,O,O,O,O,,,,
+skip, , , , , , , , , , , , ,,,,
+word,the,taleban,chased,him,out,of,kabul,in,1996,,,,,,,
+pos,DT,NNP,VBD,PRP,IN,IN,NNP,IN,CD,,,,,,,
+true,O,B-org,O,O,O,O,B-geo,O,B-tim,,,,,,,
+pred,O,B-org,O,O,O,O,B-geo,O,B-tim,,,,,,,
+skip, , , , , , , , , ,,,,,,,
+word,cuban,vice,president,carlos,lage,said,in,bolivia,sunday,that,mr.,castro,will,recover,within,a
+pos,JJ,NNP,NNP,NNP,NNP,VBD,IN,NNP,NNP,IN,NNP,NNP,MD,VB,IN,DT
+true,B-gpe,B-per,I-per,I-per,I-per,O,O,B-geo,B-tim,O,B-per,I-per,O,O,O,O
+pred,B-gpe,O,B-per,I-per,I-per,O,O,B-geo,B-tim,O,B-per,I-per,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,kurdistan,workers,',party,rebels,have,carried,out,a,series,of,deadly,attacks,on,turkish,troops
+pos,NNP,NNP,POS,NNP,NNS,VBP,VBN,RP,DT,NN,IN,JJ,NNS,IN,JJ,NNS
+true,B-org,I-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,B-gpe,O
+pred,B-org,I-org,I-org,I-org,O,O,O,O,O,O,O,O,O,O,B-gpe,O
+skip, , , , , , , , , , , , , , , , 
+word,the,report,released,monday,also,says,authorities,have,already,approved,about,15000,of,the,units,
+pos,DT,NN,VBN,NNP,RB,VBZ,NNS,VBP,RB,VBN,IN,CD,IN,DT,NNS,
+true,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O,O,
+pred,O,O,O,B-tim,O,O,O,O,O,O,O,O,O,O,O,
+skip, , , , , , , , , , , , , , , ,
+word,the,governor,of,kandahar,province,blamed,the,blasts,on,taleban,militants,who,have,increased,attacks,in
+pos,DT,NN,IN,NNP,NN,VBD,DT,NNS,IN,NNP,NNS,WP,VBP,VBN,NNS,IN
+true,O,O,O,B-geo,O,O,O,O,O,B-org,O,O,O,O,O,O
+pred,O,O,O,B-geo,O,O,O,O,O,B-org,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,treatment,is,a,combination,of,the,drugs,hycamtin,and,UNK,",",and,is,approved,for
+pos,DT,NN,VBZ,DT,NN,IN,DT,NNS,NNP,CC,NNP,",",CC,VBZ,VBN,IN
+true,O,O,O,O,O,O,O,O,B-org,I-org,I-org,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,B-org,I-org,I-org,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,he,will,begin,a,second,six-year,term,as,president,on,wednesday,,,,,
+pos,PRP,MD,VB,DT,JJ,JJ,NN,IN,NN,IN,NNP,,,,,
+true,O,O,O,O,O,B-tim,O,O,O,O,B-tim,,,,,
+pred,O,O,O,O,O,B-tim,O,O,O,O,B-tim,,,,,
+skip, , , , , , , , , , , ,,,,,
+word,that,summit,will,bring,together,34,democratically,elected,heads,of,state,and,government,from,north,","
+pos,DT,NN,MD,VB,RB,CD,RB,VBN,NNS,IN,NN,CC,NN,IN,NNP,","
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,he,allegedly,provided,bergersen,with,gifts,",",cash,and,trips,,,,,,
+pos,PRP,RB,VBD,NNP,IN,NNS,",",NN,CC,NNS,,,,,,
+true,O,O,O,B-per,O,O,O,O,O,O,,,,,,
+pred,O,O,O,B-per,O,O,O,O,O,O,,,,,,
+skip, , , , , , , , , , ,,,,,,
+word,u.s.,officials,have,promised,an,open,investigation,into,the,allegations,contained,in,the,newsweek,magazine,article
+pos,NNP,NNS,VBP,VBN,DT,JJ,NN,IN,DT,NNS,VBN,IN,DT,NNP,NN,NN
+true,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,B-org,O,O
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,a,spokesman,for,iran,'s,foreign,ministry,said,tehran,could,reject,the,inspectors,on,the,basis
+pos,DT,NN,IN,NNP,POS,NNP,NNP,VBD,NNP,MD,VB,DT,NNS,IN,DT,NN
+true,O,O,O,B-geo,B-org,I-org,I-org,O,B-org,O,O,O,O,O,O,O
+pred,O,O,O,B-geo,O,B-org,I-org,O,B-geo,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,opel,has,been,suffering,through,the,world,economic,crisis,along,with,many,other,global,automakers,
+pos,NNP,VBZ,VBN,VBG,IN,DT,NN,JJ,NN,IN,IN,JJ,JJ,JJ,NNS,
+true,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O,O,
+pred,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O,O,
+skip, , , , , , , , , , , , , , , ,
+word,the,iaea,board,meets,later,this,month,(,november,24,),to,consider,further,action,
+pos,DT,NNP,NN,VBZ,RB,DT,NN,LRB,NNP,CD,RRB,TO,VB,JJ,NN,
+true,O,B-org,O,O,B-tim,O,O,O,B-tim,I-tim,O,O,O,O,O,
+pred,O,B-org,O,O,B-tim,O,O,O,B-tim,I-tim,O,O,O,O,O,
+skip, , , , , , , , , , , , , , , ,
+word,he,says,nato,was,acting,on,reports,that,militants,were,in,the,area,,,
+pos,PRP,VBZ,NNP,VBD,VBG,IN,NNS,IN,NNS,VBD,IN,DT,NN,,,
+true,O,O,B-org,O,O,O,O,O,O,O,O,O,O,,,
+pred,O,O,B-org,O,O,O,O,O,O,O,O,O,O,,,
+skip, , , , , , , , , , , , , ,,,
+word,mr.,schroeder,travels,to,tokyo,wednesday,for,talks,with,japanese,officials,,,,,
+pos,NNP,NNP,VBZ,TO,NNP,NNP,IN,NNS,IN,JJ,NNS,,,,,
+true,B-per,I-per,O,O,B-geo,B-tim,O,O,O,B-gpe,O,,,,,
+pred,B-per,I-per,O,O,B-geo,B-tim,O,O,O,B-gpe,O,,,,,
+skip, , , , , , , , , , , ,,,,,
+word,mr.,bush,has,said,there,will,be,no,timetable,for,withdrawing,the,troops,",",because,that
+pos,NNP,NNP,VBZ,VBN,EX,MD,VB,DT,NN,IN,VBG,DT,NNS,",",IN,DT
+true,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,elsewhere,in,kandahar,province,",",united,nations,and,afghan,officials,say,militants,killed,an,afghan,election
+pos,RB,IN,NNP,NN,",",NNP,NNPS,CC,JJ,NNS,VBP,NNS,VBD,DT,JJ,NN
+true,O,O,B-geo,O,O,B-org,I-org,O,B-gpe,O,O,O,O,O,B-gpe,O
+pred,O,O,B-geo,O,O,B-org,I-org,O,B-gpe,O,O,O,O,O,B-gpe,O
+skip, , , , , , , , , , , , , , , , 
+word,the,united,nations,mission,in,congo,says,it,has,spotted,fresh,camps,and,well-equipped,soldiers,it
+pos,DT,NNP,NNP,NN,IN,NNP,VBZ,PRP,VBZ,VBN,JJ,NNS,CC,JJ,NNS,PRP
+true,O,B-org,I-org,O,O,B-geo,O,O,O,O,O,O,O,O,O,O
+pred,O,B-org,I-org,O,O,B-geo,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,election,commission,says,wakil,ahmed,muttawakil,has,nominated,himself,to,run,for,a,seat,from
+pos,DT,NN,NN,VBZ,NNP,NNP,NNP,VBZ,VBN,PRP,TO,VB,IN,DT,NN,IN
+true,O,O,O,O,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,B-per,I-per,I-per,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,on,sunday,",",the,pope,praised,an,italian,nun,killed,by,gunmen,last,week,in,somalia
+pos,IN,NNP,",",DT,NN,VBD,DT,JJ,NN,VBN,IN,NNS,JJ,NN,IN,NNP
+true,O,B-tim,O,O,O,O,O,B-gpe,O,O,O,O,O,O,B-tim,I-tim
+pred,O,B-tim,O,O,O,O,O,B-gpe,O,O,O,O,O,O,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,recent,opinion,polls,indicate,that,hispanics,have,tended,to,support,obama,'s,democratic,rival,",",senator
+pos,JJ,NN,NNS,VBP,IN,NNS,VBP,VBN,TO,VB,NNP,POS,JJ,NN,",",NNP
+true,O,O,O,O,O,O,O,O,O,O,B-per,O,O,O,O,B-per
+pred,O,O,O,O,O,O,O,O,O,O,B-per,O,O,O,O,B-per
+skip, , , , , , , , , , , , , , , , 
+word,he,said,it,may,be,related,to,may,18,clashes,between,detainees,and,military,guards,
+pos,PRP,VBD,PRP,MD,VB,VBN,TO,NNP,CD,NNS,IN,NNS,CC,JJ,NNS,
+true,O,O,O,O,O,O,O,B-tim,I-tim,O,O,O,O,O,O,
+pred,O,O,O,O,O,O,O,B-tim,I-tim,O,O,O,O,O,O,
+skip, , , , , , , , , , , , , , , ,
+word,yonhap,also,says,mr.,hwang,was,born,in,north,korea,and,defected,to,the,south,with
+pos,NNP,RB,VBZ,NNP,NNP,VBD,VBN,IN,NNP,NNP,CC,VBD,TO,DT,NN,IN
+true,B-org,O,O,B-per,I-per,O,O,O,B-geo,I-geo,O,O,O,O,O,O
+pred,B-org,O,O,B-per,I-per,O,O,O,B-geo,I-geo,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,french,president,jacques,chirac,told,president,bush,by,phone,monday,the,elections,are,an,important,stage
+pos,JJ,NNP,NNP,NNP,VBD,NNP,NNP,IN,NN,NNP,DT,NNS,VBP,DT,JJ,NN
+true,B-gpe,B-per,I-per,I-per,O,B-per,I-per,O,O,B-tim,O,O,O,O,O,O
+pred,B-gpe,B-per,I-per,I-per,O,B-per,I-per,O,O,B-tim,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,tuesday,",",on,greenspan,'s,last,day,as,chairman,",",the,committee,hiked,interest,rates,one
+pos,NNP,",",IN,NNP,POS,JJ,NN,IN,NN,",",DT,NN,VBD,NN,NNS,CD
+true,B-tim,O,O,B-per,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-tim,O,O,B-per,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,belgian,officials,have,tightened,security,in,the,country,after,the,arrest,of,14,suspects,accused,of
+pos,JJ,NNS,VBP,VBN,NN,IN,DT,NN,IN,DT,NN,IN,CD,NNS,VBN,IN
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,united,nations,secretary-general,kofi,annan,is,calling,on,nato,and,the,european,union,to,do,more
+pos,NNP,NNP,NNP,NNP,NNP,VBZ,VBG,IN,NNP,CC,DT,NNP,NNP,TO,VB,JJR
+true,B-org,I-org,B-per,I-per,I-per,O,O,O,B-org,O,O,B-org,I-org,O,O,O
+pred,B-org,I-org,I-org,B-per,I-per,O,O,O,B-org,O,O,B-org,I-org,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,iraq,'s,two,main,political,coalitions,broke,off,talks,monday,aimed,at,ending,a,UNK,political
+pos,NNP,POS,CD,JJ,JJ,NNS,VBD,RP,NNS,NNP,VBN,IN,VBG,DT,JJ,JJ
+true,B-geo,O,O,O,O,O,O,O,O,B-tim,O,O,O,O,O,O
+pred,B-geo,O,O,O,O,O,O,O,O,B-tim,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,he,said,three,of,the,detainees,were,staff,members,of,iran,'s,atomic,energy,organization,
+pos,PRP,VBD,CD,IN,DT,NNS,VBD,NN,NNS,IN,NNP,POS,NNP,NNP,NNP,
+true,O,O,O,O,O,O,O,O,O,O,B-geo,O,B-org,I-org,I-org,
+pred,O,O,O,O,O,O,O,O,O,O,B-geo,O,B-org,I-org,I-org,
+skip, , , , , , , , , , , , , , , ,
+word,finland,'s,foreign,minister,",",erkki,UNK,",",says,the,eu,should,view,the,new,palestinian
+pos,NNP,POS,JJ,NN,",",NNP,NNP,",",VBZ,DT,NNP,MD,VB,DT,JJ,JJ
+true,B-per,O,O,O,O,B-per,I-per,O,O,O,B-org,O,O,O,O,B-gpe
+pred,B-geo,O,O,O,O,B-per,I-per,O,O,O,B-org,O,O,O,O,B-gpe
+skip, , , , , , , , , , , , , , , , 
+word,colombia,'s,peace,commission,says,the,weapons,were,turned,in,at,a,ceremony,thursday,in,UNK
+pos,NNP,POS,NNP,NNP,VBZ,DT,NNS,VBD,VBN,RP,IN,DT,NN,NNP,IN,NNP
+true,B-geo,O,B-org,I-org,O,O,O,O,O,O,O,O,O,B-tim,O,B-geo
+pred,B-geo,O,B-org,I-org,O,O,O,O,O,O,O,O,O,B-tim,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,in,saturday,'s,sermon,",",the,ayatollah,also,blamed,the,united,states,for,the,chaos,in
+pos,IN,NNP,POS,NN,",",DT,NN,RB,VBD,DT,NNP,NNPS,IN,DT,NN,IN
+true,O,B-tim,O,O,O,O,O,O,O,O,B-geo,I-geo,O,O,O,O
+pred,O,B-tim,O,O,O,O,O,O,O,O,B-geo,I-geo,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,grenada,relies,on,tourism,as,its,main,source,of,foreign,exchange,especially,since,the,construction,of
+pos,NNP,VBZ,IN,NN,IN,PRP$,JJ,NN,IN,JJ,NN,RB,IN,DT,NN,IN
+true,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,apparent,target,of,the,attack,",",identified,as,jamal,abu,UNK,",",was,reported,among
+pos,DT,JJ,NN,IN,DT,NN,",",VBN,IN,JJ,NNP,NNP,",",VBD,VBN,IN
+true,O,O,O,O,O,O,O,O,O,O,B-per,I-per,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,B-per,I-per,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,UNK,from,the,congress,for,democratic,change,issued,a,statement,monday,vowing,not,to,take
+pos,DT,NN,IN,DT,NNP,IN,JJ,NNP,VBD,DT,NN,NNP,VBG,RB,TO,VB
+true,O,O,O,O,B-org,I-org,I-org,I-org,O,O,O,B-tim,O,O,O,O
+pred,O,O,O,O,B-org,I-org,I-org,I-org,O,O,O,B-tim,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,elsewhere,",",insurgents,ambushed,an,iraqi,checkpoint,in,adhaim,",",about,70,kilometers,north,of,baghdad
+pos,RB,",",NNS,VBD,DT,JJ,NN,IN,NNP,",",IN,CD,NNS,RB,IN,NNP
+true,O,O,O,O,O,B-gpe,O,O,B-geo,O,O,O,O,O,O,B-geo
+pred,O,O,O,O,O,B-gpe,O,O,B-geo,O,O,O,O,O,O,B-geo
+skip, , , , , , , , , , , , , , , , 
+word,mr.,chinamasa,insisted,that,the,commission,reflects,an,all-inclusive,consultation,process,",",UNK,all,three,parties
+pos,NNP,NNP,VBD,IN,DT,NN,VBZ,DT,JJ,NN,NN,",",VBG,DT,CD,NNS
+true,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-per,I-per,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,oil,has,fallen,as,low,as,$,33,a,barrel,recently,",",and,hit,an,all-time
+pos,NNP,VBZ,VBN,RB,JJ,IN,$,CD,DT,NN,RB,",",CC,VBD,DT,JJ
+true,O,O,O,O,O,O,O,B-tim,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,elsewhere,",",share,prices,were,lower,in,shanghai,",",singapore,and,taipei,,,,
+pos,RB,",",NN,NNS,VBD,JJR,IN,NNP,",",NNP,CC,NNP,,,,
+true,O,O,O,O,O,O,O,B-geo,O,B-org,O,B-geo,,,,
+pred,O,O,O,O,O,O,O,B-geo,O,B-org,O,B-geo,,,,
+skip, , , , , , , , , , , , ,,,,
+word,the,bombing,in,the,town,of,mahabad,came,during,a,military,parade,marking,the,30th,anniversary
+pos,DT,NN,IN,DT,NN,IN,NNP,VBD,IN,DT,JJ,NN,VBG,DT,JJ,NN
+true,O,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,B-tim,O
+pred,O,O,O,O,O,O,B-geo,O,O,O,O,O,O,O,B-tim,I-tim
+skip, , , , , , , , , , , , , , , , 
+word,the,ford,motor,company,announced,multi-billion,dollar,losses,for,the,second,quarter,of,2008,",",as
+pos,DT,NNP,NNP,NNP,VBD,JJ,NN,NNS,IN,DT,JJ,NN,IN,CD,",",RB
+true,O,B-org,I-org,I-org,O,O,O,O,O,O,B-tim,I-tim,I-tim,I-tim,O,O
+pred,O,B-org,I-org,I-org,O,O,O,O,O,O,B-tim,I-tim,I-tim,I-tim,O,O
+skip, , , , , , , , , , , , , , , , 
+word,saint,helena,is,a,british,overseas,territory,consisting,of,saint,helena,and,ascension,islands,",",and
+pos,NNP,NNP,VBZ,DT,JJ,JJ,NN,VBG,IN,NNP,NNP,CC,NNP,NNP,",",CC
+true,B-geo,I-geo,O,O,O,O,O,O,O,B-geo,I-geo,O,B-geo,I-geo,O,O
+pred,B-org,I-org,O,O,B-gpe,O,O,O,O,B-org,I-org,I-org,I-org,I-org,O,O
+skip, , , , , , , , , , , , , , , , 
+word,rescue,teams,are,digging,through,rubble,thursday,to,find,survivors,from,the,blast,that,tore,through
+pos,NN,NNS,VBP,VBG,IN,NN,NNP,TO,VB,NNS,IN,DT,NN,WDT,VBD,IN
+true,O,O,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,B-tim,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,world,vision,australia,chief,tim,costello,says,the,situation,in,iraq,is,too,dangerous,for,its
+pos,NNP,NNP,NNP,NN,NNP,NNP,VBZ,DT,NN,IN,NNP,VBZ,RB,JJ,IN,PRP$
+true,B-org,I-org,I-org,O,B-per,I-per,O,O,O,O,B-geo,O,O,O,O,O
+pred,O,O,B-geo,O,B-per,I-per,O,O,O,O,B-geo,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,although,belize,has,the,second,highest,per,capita,income,in,central,america,",",the,average,income
+pos,IN,NNP,VBZ,DT,JJ,JJS,IN,NN,NN,IN,NNP,NNP,",",DT,JJ,NN
+true,O,B-geo,O,O,O,O,O,O,O,O,B-geo,I-geo,O,O,O,O
+pred,O,B-per,O,O,O,O,O,O,O,O,B-geo,I-geo,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,in,western,baghdad,",",u.s.,and,iraqi,troops,found,and,freed,23,kidnapped,iraqis,and,arrested
+pos,IN,JJ,NNP,",",NNP,CC,JJ,NNS,VBD,CC,VBD,CD,VBN,NNS,CC,VBN
+true,O,B-geo,I-geo,O,B-geo,O,B-gpe,O,O,O,O,O,O,B-gpe,O,O
+pred,O,O,B-geo,O,B-geo,O,B-gpe,O,O,O,O,O,O,B-gpe,O,O
+skip, , , , , , , , , , , , , , , , 
+word,indonesian,government,UNK,surano,said,wednesday,'s,eruption,was,three,times,more,powerful,than,merapi,'s
+pos,JJ,NN,NN,NNP,VBD,NNP,POS,NN,VBD,CD,NNS,RBR,JJ,IN,NNP,POS
+true,B-gpe,O,O,B-per,O,B-tim,O,O,O,O,O,O,O,O,B-geo,O
+pred,B-gpe,O,O,B-per,O,B-tim,O,O,O,O,O,O,O,O,B-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,in,contrast,to,the,strikes,and,violent,street,rallies,that,had,marked,bangladeshi,politics,in,previous
+pos,IN,NN,TO,DT,NNS,CC,JJ,NN,NNS,WDT,VBD,VBN,JJ,NNS,IN,JJ
+true,O,O,O,O,O,O,O,O,O,O,O,O,B-gpe,O,O,B-tim
+pred,O,O,O,O,O,O,O,O,O,O,O,O,B-gpe,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,authorities,said,friday,the,members,of,the,al-aqsa,martyrs,brigades,were,detained,for,questioning,,
+pos,NNS,VBD,NNP,DT,NNS,IN,DT,JJ,NNPS,NNPS,VBD,VBN,IN,VBG,,
+true,O,O,B-tim,O,O,O,O,B-org,I-org,I-org,O,O,O,O,,
+pred,O,O,B-tim,O,O,O,O,B-org,I-org,I-org,O,O,O,O,,
+skip, , , , , , , , , , , , , , ,,
+word,thailand,'s,parliament,has,elected,prime,minister,thaksin,shinawatra,to,a,second,four-year,term,,
+pos,NNP,POS,NN,VBZ,VBN,NNP,NNP,NNP,NNP,TO,DT,JJ,JJ,NN,,
+true,B-geo,O,O,O,O,B-per,I-per,I-per,I-per,O,O,O,O,O,,
+pred,B-geo,O,O,O,O,B-per,I-per,I-per,I-per,O,O,O,O,O,,
+skip, , , , , , , , , , , , , , ,,
+word,the,storm,",",with,maximum,sustained,winds,of,105,kilometers,per,hour,",",moved,slowly,(
+pos,DT,NN,",",IN,JJ,JJ,NNS,IN,CD,NNS,IN,NN,",",VBD,RB,LRB
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,in,accepting,the,prize,for,himself,and,his,organization,",",mr.,elbaradei,noted,that,15,years
+pos,IN,VBG,DT,NN,IN,PRP,CC,PRP$,NN,",",NNP,NNP,VBD,IN,CD,NNS
+true,O,O,O,O,O,O,O,O,O,O,B-per,I-per,O,O,B-tim,O
+pred,O,O,O,O,O,O,O,O,O,O,B-per,I-per,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,british,authorities,arrested,more,than,two,dozen,suspects,earlier,this,month,in,connection,with,the,plot
+pos,JJ,NNS,VBN,JJR,IN,CD,NN,NNS,RBR,DT,NN,IN,NN,IN,DT,NN
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,democratic,senator,called,the,violence,"""",only,a,small,part,"""",of,iraq,'s,reality
+pos,DT,JJ,NN,VBD,DT,NN,``,RB,DT,JJ,NN,``,IN,NNP,POS,NN
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O,O
+skip, , , , , , , , , , , , , , , , 
+word,officials,say,epsilon,is,not,expected,to,directly,affect,bermuda,",",but,they,warn,that,dangerous
+pos,NNS,VBP,NNP,VBZ,RB,VBN,TO,RB,VB,NNP,",",CC,PRP,VBP,IN,JJ
+true,O,O,B-per,O,O,O,O,O,O,B-geo,O,O,O,O,O,O
+pred,O,O,B-per,O,O,O,O,O,O,B-geo,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,a,consortium,that,included,the,son-in-law,of,former,ukrainian,president,leonid,kuchma,purchased,the,complex,in
+pos,DT,NN,WDT,VBD,DT,NN,IN,JJ,JJ,NNP,NNP,NNP,VBD,DT,NN,IN
+true,O,O,O,O,O,O,O,O,B-gpe,B-per,I-per,I-per,O,O,O,O
+pred,O,O,O,O,O,O,O,O,B-gpe,B-per,I-per,I-per,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,kites,large,and,small,;,kite,fliers,professional,and,amateur,;,UNK,as,well,as,visitors
+pos,NNS,JJ,CC,JJ,;,NN,NNS,JJ,CC,JJ,;,NNS,RB,RB,IN,NNS
+true,O,O,O,O,O,O,O,O,O,O,O,B-gpe,O,O,O,O
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,in,recent,days,in,kandahar,province,",",a,judge,and,a,district,administrator,were,killed,in
+pos,IN,JJ,NNS,IN,NNP,NNP,",",DT,NN,CC,DT,NN,NN,VBD,VBN,IN
+true,O,O,O,O,B-geo,I-geo,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,O,B-geo,I-geo,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,a,commercial,airplane,taking,off,from,western,europe,has,landed,in,iraq,for,the,first,time
+pos,DT,JJ,NN,VBG,RP,IN,NNP,NNP,VBZ,VBN,IN,NNP,IN,DT,JJ,NN
+true,O,O,O,O,O,O,B-geo,I-geo,O,O,O,B-geo,O,O,O,O
+pred,O,O,O,O,O,O,B-geo,I-geo,O,O,O,B-geo,O,O,B-tim,I-tim
+skip, , , , , , , , , , , , , , , , 
+word,poland,says,it,will,re-route,plans,for,a,major,highway,away,from,one,of,europe,'s
+pos,NNP,VBZ,PRP,MD,VB,NNS,IN,DT,JJ,NN,RB,IN,CD,IN,NNP,POS
+true,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O
+pred,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,B-geo,O
+skip, , , , , , , , , , , , , , , , 
+word,the,announcement,wednesday,",",from,the,iraqi,peoples,gathering,",",the,iraqi,islamic,party,and,the
+pos,DT,NN,NNP,",",IN,DT,JJ,NNPS,NNP,",",DT,JJ,NNP,NNP,CC,DT
+true,O,O,B-tim,O,O,O,B-gpe,O,O,O,O,B-gpe,O,O,O,O
+pred,O,O,B-tim,O,O,O,B-gpe,O,O,O,O,B-gpe,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,european,union,has,warned,iran,to,stop,uranium,processing,and,enrichment,activities,or,face,referral
+pos,DT,NNP,NNP,VBZ,VBN,NNP,TO,VB,NN,NN,CC,NN,NNS,CC,NN,NN
+true,O,B-org,I-org,O,O,B-geo,O,O,O,O,O,O,O,O,O,O
+pred,O,B-org,I-org,O,O,B-geo,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,international,red,cross,and,red,crescent,societies,joined,with,other,organizations,in,calling,for,improved
+pos,DT,NNP,NNP,NNP,CC,NNP,NNP,NNPS,VBD,IN,JJ,NNS,IN,VBG,IN,JJ
+true,O,B-org,I-org,I-org,O,B-org,I-org,I-org,O,O,O,O,O,O,O,O
+pred,O,B-org,I-org,I-org,I-org,I-org,I-org,I-org,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,a,united,nations,report,released,last,year,said,peru,is,the,world,'s,second,largest,cocaine
+pos,DT,NNP,NNPS,NN,VBN,JJ,NN,VBD,NNP,VBZ,DT,NN,POS,JJ,JJS,NN
+true,O,B-org,I-org,O,O,O,O,O,B-geo,O,O,O,O,O,O,O
+pred,O,B-org,I-org,O,O,O,O,O,B-geo,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,ms.,UNK,said,friday,'s,proceedings,lasted,less,than,one,hour,because,not,all,of,the
+pos,NNP,NNP,VBD,NNP,POS,NNS,VBD,JJR,IN,CD,NN,IN,RB,DT,IN,DT
+true,B-per,I-per,O,B-tim,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-per,B-org,O,B-tim,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,beijing,says,japan,is,to,blame,for,starting,the,dispute,",",which,centers,on,a,new
+pos,NNP,VBZ,NNP,VBZ,TO,VB,IN,VBG,DT,NN,",",WDT,VBZ,IN,DT,JJ
+true,B-geo,O,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,B-geo,O,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,israeli,prime,minister,ariel,sharon,has,arrived,in,the,united,states,",",seeking,president,bush,'s
+pos,JJ,NNP,NNP,NNP,NNP,VBZ,VBN,IN,DT,NNP,NNPS,",",VBG,NNP,NNP,POS
+true,B-gpe,B-per,O,B-per,I-per,O,O,O,O,B-geo,I-geo,O,O,B-per,I-per,O
+pred,B-gpe,B-per,I-per,I-per,I-per,O,O,O,O,B-geo,I-geo,O,O,B-per,I-per,O
+skip, , , , , , , , , , , , , , , , 
+word,last,week,",",mr.,chavez,said,mr.,castro,was,in,a,battle,for,his,life,
+pos,JJ,NN,",",NNP,NNP,VBD,NNP,NNP,VBD,IN,DT,NN,IN,PRP$,NN,
+true,O,O,O,B-per,I-per,O,B-per,I-per,O,O,O,O,O,O,O,
+pred,O,O,O,B-per,I-per,O,B-per,I-per,O,O,O,O,O,O,O,
+skip, , , , , , , , , , , , , , , ,
+word,south,korean,prosecutors,announced,earlier,this,month,that,they,had,found,no,evidence,that,the,conservative
+pos,JJ,JJ,NNS,VBD,RBR,DT,NN,IN,PRP,VBD,VBN,DT,NN,IN,DT,JJ
+true,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,pakistan,'s,former,prime,minister,benazir,bhutto,says,the,participation,of,the,country,'s,two,main
+pos,NNP,POS,JJ,NNP,NNP,NNP,NNP,VBZ,DT,NN,IN,DT,NN,POS,CD,JJ
+true,B-geo,O,O,B-per,I-per,I-per,I-per,O,O,O,O,O,O,O,O,O
+pred,B-geo,O,O,B-per,I-per,I-per,I-per,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,he,added,that,nato,commanders,recently,instructed,troops,to,hold,off,attacking,rebels,in,situations,where
+pos,PRP,VBD,IN,NNP,NNS,RB,VBD,NNS,TO,VB,RP,VBG,NNS,IN,NNS,WRB
+true,O,O,O,B-org,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,O,B-org,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,under,south,korean,law,",",buyers,and,sellers,of,human,eggs,or,sperm,face,up,to
+pos,IN,JJ,JJ,NN,",",NNS,CC,NNS,IN,JJ,NNS,CC,NN,VBP,RP,TO
+true,O,B-geo,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-geo,B-gpe,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,explosion,killed,foy,and,three,pakistanis,",",one,day,before,president,bush,began,an,official
+pos,DT,NN,VBD,NNP,CC,CD,NNS,",",CD,NN,IN,NNP,NNP,VBD,DT,JJ
+true,O,O,O,B-per,O,O,B-gpe,O,O,O,O,B-per,I-per,O,O,O
+pred,O,O,O,B-per,O,O,B-gpe,O,O,O,O,B-per,I-per,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,officials,say,mr.,arafat,has,drifted,in,and,out,of,consciousness,since,wednesday,,
+pos,DT,NNS,VBP,NNP,NNP,VBZ,VBN,IN,CC,IN,IN,NN,IN,NNP,,
+true,O,O,O,B-per,B-org,O,O,O,O,O,O,O,O,B-tim,,
+pred,O,O,O,B-per,B-org,O,O,O,O,O,B-tim,I-tim,I-tim,I-tim,,
+skip, , , , , , , , , , , , , , ,,
+word,an,editorial,in,the,official,rodon,sinmun,newspaper,sunday,says,japan,has,adopted,the,so-called,""""
+pos,DT,NN,IN,DT,JJ,NNP,NNP,NN,NNP,VBZ,NNP,VBZ,VBN,DT,JJ,``
+true,O,O,O,O,O,B-org,I-org,O,B-tim,O,B-geo,O,O,O,O,O
+pred,O,O,O,O,O,B-org,I-org,O,B-tim,O,B-geo,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,invasion,was,carried,out,after,the,fundamentalist,regime,refused,to,hand,over,al-qaida,leader,osama
+pos,DT,NN,VBD,VBN,RP,IN,DT,NN,NN,VBD,TO,VB,RP,NNP,NN,NNP
+true,O,O,O,O,O,O,O,O,O,O,O,O,O,B-org,O,B-per
+pred,O,O,O,O,O,O,O,O,O,O,O,O,O,B-org,O,B-per
+skip, , , , , , , , , , , , , , , , 
+word,alpha,became,the,22nd,named,storm,of,2005,",",which,is,now,the,most,UNK,hurricane
+pos,NNP,VBD,DT,CD,VBN,NN,IN,CD,",",WDT,VBZ,RB,DT,RBS,JJ,NN
+true,B-per,O,O,B-tim,O,O,O,B-tim,O,O,O,O,O,O,O,O
+pred,B-per,O,O,B-tim,O,O,O,B-tim,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,indonesia,is,the,most,affected,nation,from,the,outbreak,of,the,lethal,h5n1,form,of,bird
+pos,NNP,VBZ,DT,RBS,JJ,NN,IN,DT,NN,IN,DT,JJ,NNP,NN,IN,NN
+true,B-geo,O,O,O,O,O,O,O,O,O,O,O,B-nat,O,O,O
+pred,B-geo,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,philippines,is,again,calling,on,its,citizens,to,avoid,traveling,to,iraq,for,work,
+pos,DT,NNPS,VBZ,RB,VBG,IN,PRP$,NNS,TO,VB,VBG,TO,NNP,IN,NN,
+true,O,B-org,O,O,O,O,O,O,O,O,O,O,B-geo,O,O,
+pred,O,B-org,O,O,O,O,O,O,O,O,O,O,B-geo,O,O,
+skip, , , , , , , , , , , , , , , ,
+word,most,of,yemen,'s,oil,facilities,are,located,in,the,south,",",which,lost,a,brief
+pos,JJS,IN,NNP,POS,NN,NNS,VBP,VBN,IN,DT,NN,",",WDT,VBD,DT,JJ
+true,O,O,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,O,B-org,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,on,thursday,",",a,large,cache,of,weapons,and,an,apparent,chemical,weapons,laboratory,was,discovered
+pos,IN,NNP,",",DT,JJ,NN,IN,NNS,CC,DT,JJ,NN,NNS,NN,VBD,VBN
+true,O,B-tim,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+pred,O,B-tim,O,O,O,O,O,O,O,O,O,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,a,delegation,of,spanish,officials,plans,to,fly,to,mauritania,thursday,to,discuss,the,migrant,situation
+pos,DT,NN,IN,JJ,NNS,VBZ,TO,VB,TO,NNP,NNP,TO,VB,DT,JJ,NN
+true,O,O,O,B-gpe,O,O,O,O,O,B-geo,B-tim,O,O,O,O,O
+pred,O,O,O,B-gpe,O,O,O,O,O,B-geo,B-tim,O,O,O,O,O
+skip, , , , , , , , , , , , , , , , 
+word,the,first-ever,presidential,elections,under,a,multi-candidate,",",multi-party,system,were,held,in,october,2008,
+pos,DT,JJ,JJ,NNS,IN,DT,JJ,",",JJ,NN,VBD,VBN,IN,NNP,CD,
+true,O,O,O,O,O,O,B-tim,O,B-tim,O,O,O,O,B-tim,I-tim,
+pred,O,O,O,O,O,O,B-tim,O,B-gpe,O,O,O,O,B-tim,I-tim,
+skip, , , , , , , , , , , , , , , ,
+word,kari,barber,has,more,from,the,town,of,UNK,in,guinea,,,,,
+pos,NNP,NNP,VBZ,RBR,IN,DT,NN,IN,NNP,IN,NNP,,,,,
+true,B-per,I-per,O,O,O,O,O,O,B-geo,O,B-geo,,,,,
+pred,B-per,I-per,O,O,O,O,O,O,B-geo,O,B-geo,,,,,
+skip, , , , , , , , , , , ,,,,,

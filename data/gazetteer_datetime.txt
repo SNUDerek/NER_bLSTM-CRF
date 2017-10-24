@@ -1,0 +1,17 @@
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+January
+February
+April
+June
+July
+August
+September
+October
+November
+December
