@@ -1,6 +1,6 @@
 # CRF, bi-LSTM-CRF for Named Entity Recognition
 
-this is a proof of concept for using various CRF solutions for named entity recognition.
+this is a proof of concept for using various CRF solutions for named entity recognition. the demos here use all-lower-cased text in order to simulate NER on text where case information is not available (e.g. automatic speech recognition output)
 
 ## requirements
 ```
