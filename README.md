@@ -7,6 +7,7 @@ this is a proof of concept for using various CRF solutions for named entity reco
 gensim
 keras
 keras-contrib
+keras-tqdm
 tensorflow
 numpy
 pandas
@@ -21,7 +22,7 @@ python-crfsuite
 ## to run bi-LSTM-CRF
 
 1. run `keras-preprocessing.ipynb` to generate formatted model data
-2. run `keras_training.py` to train and save model
+2. run `keras_training.ipynb` to train and save model
 3. run `keras-decoding.ipynb` to load saved model and decode test sentences
 4. see `results/keras-biLSTM-CRF_sample.csv` for sample output
 
@@ -47,7 +48,7 @@ see: `preprocessing.ipynb`
 
 ## model and training
 
-see: `keras_training.py`
+see: `keras_training.ipynb`
 
 model inputs: text and pos-tag integer-indexed sequences (padded)
 
