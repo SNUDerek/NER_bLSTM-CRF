@@ -1,6 +1,5 @@
 import codecs, re, random
 from collections import Counter
-from mlxtend.preprocessing import one_hot
 import numpy as np
 
 # function to get vocab, maxvocab
@@ -48,18 +47,6 @@ def index_sents(sent_tokens, vocab_dict, reverse=False, unk_name='UNK', verbose=
     return vectors
 
 
-# one-hot vectorizes a list of indexed vectors
-# takes matrix : list of lists (indexed-vectorized sents)
-# takes num : number of total classes (length of one-hot arrays)
-# returns one-hot array matrix
-def onehot_vectorize(matrix, num):
-    result = []
-    for vector in matrix:
-        a = one_hot(vector.tolist(), dtype='int', num_labels=num)
-        result.append(a)
-    return np.array(result)
-
-
 # decode an integer-indexed sequence
 # takes indexed_list : one integer-indexedf sentence (list or array)
 # takes inv_vocab_dict : dict (index to word)
@@ -70,21 +57,3 @@ def decode_sequence(indexed_list, inv_vocab_dict):
         # print(intr)
         str.append(inv_vocab_dict[int(idx)])
     return(str)
-
-
-# todo: fix/comment this shit
-# keras code
-# https://github.com/fchollet/keras/issues/2708
-# https://github.com/fchollet/keras/issues/1627
-def dataGenerator(X, y, vocabsize, batch_size, epochsize):
-
-    i = 0
-
-    while True:
-        y_batch = onehot_vectorize(y[i:i + batch_size], vocabsize)
-        yield (X[i:i + batch_size], y_batch)
-        if i + batch_size >= epochsize:
-            i = 0
-        else:
-            i += batch_size
-

@@ -4,39 +4,23 @@ import numpy as np
 from gensim.models import Word2Vec
 from keras.layers import Embedding
 
-# tokenizing function
-def tokenize(sentence):
-    result = sentence.replace('\n', '').split(' ')
-    return(result)
-
 
 # create embeddings with gensim
-def create_embeddings(file_name,
+def create_embeddings(sentences,
                       embeddings_path='temp_embeddings/embeddings.gensimmodel',
                       vocab_path='temp_embeddings/mapping.json',
                       **params):
-    class SentenceGenerator(object):
-        def __init__(self, filename):
-            self.filename = filename
-
-        def __iter__(self):
-            for line in codecs.open(self.filename, 'rU', encoding='utf-8'):
-                yield tokenize(line)
-
-    sentences = SentenceGenerator(file_name)
 
     model = Word2Vec(sentences, **params)
     model.save(embeddings_path)
     # weights = model.syn0
     # np.save(open(embeddings_path, 'wb'), weights)
-
-    # http://stackoverflow.com/questions/35596031/gensim-word2vec-find-number-of-words-in-vocabulary
+    
     vocab = dict([(k, v.index) for k, v in model.wv.vocab.items()])
     with open(vocab_path, 'w') as f:
         f.write(json.dumps(vocab))
 
     return vocab, model
-
 
 # load vocabulary index from json file
 def load_vocab(vocab_path='temp_embeddings/mapping.json'):
